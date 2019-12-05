@@ -1,0 +1,133 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NOTE: THIS IS A ROUGH TEMPLATE THAT WILL MOST LIKELY NEED CHANGES TO
+% CONFORM TO YOUR INDIVIDUAL SITUATION
+% THERE IS NO GUARANTEE OF ACCURACY OR COMPLETENESS TO THE TEMPLATE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper,twoside,openright,final,titlepage]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{layout}
+\usepackage{lscape}
+\usepackage{xfrac}
+\usepackage{tabularx}
+\usepackage{rotating}
+\usepackage{longtable}
+%\usepackage{todonotes}
+\usepackage[colorlinks=true,
+							citecolor=black,
+							linkcolor=black,
+							urlcolor=red,
+							linktocpage=true,
+							hyperfootnotes=false,
+                            dvipdfmx]{hyperref}
+
+\usepackage[square,sort,numbers,authoryear]{natbib}
+\usepackage{chapterbib}
+\setlength\bibhang{.3in}
+
+
+\usepackage{lineno}
+\usepackage{setspace}
+\onehalfspacing%
+\usepackage{microtype}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[labelfont=bf]{caption}
+% For electronic submission use:
+\usepackage[inner=2cm,outer=2cm,top=2cm=bottom=2cm]{geometry}
+% For printing use:
+%\usepackage[inner=4cm,outer=2cm,top=2cm=bottom=2cm]{geometry}
+\usepackage{tocbibind}
+
+
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\thechapter. #1 }}{}}
+\renewcommand{\sectionmark}[1]{}
+\fancyhf{}
+\fancyhead[RO]{\bfseries\rightmark}
+\fancyhead[LE]{\bfseries\leftmark}
+\fancyfoot[C]{\thepage}
+\pagestyle{fancy}
+
+\newcommand\frontmatter{\pagenumbering{roman}}
+\newcommand\mainmatter{\cleardoublepage\pagenumbering{arabic}}
+
+\newenvironment{chapabstract}{%
+	\begin{center}%
+		\singlespacing%
+		\bfseries ABSTRACT
+	\end{center}}%
+
+\begin{document}
+
+%	\layout
+	\begin{titlepage}
+		\centering
+		\vfill
+		\textit{This thesis is presented for the master's degree of Nagoya University}\\
+        \vspace{5cm}
+		{\bfseries\LARGE
+				Estimation of galaxy SFRs from low radio frequencies \\}
+
+        \vspace{1.5cm}
+
+		%\includegraphics[width=.40\linewidth]{UWA_new}
+        \vspace{6cm}
+        Shunraro YOSHIDA (ID: 261801444)\\
+		%B.Sc. in FieldA; B.Sc. in FieldB; M.Sc in FieldC \\
+		March 2020\\
+        \vspace{0.5cm}
+        The laboratory of Galaxy Evolution ($\Omega$ lab.)\\
+        Division of Particle and Astrophysical Science, Graduate School of Science\\
+        Nagoya University, Japan\\
+        \vspace{1.5cm}
+ 		\textbf{Supervisors:}
+ 		    Prof.\ Dr.\ Tsutomu\ T.\ Takeuchi\\
+ 			Dr.\ Barbara Catinella\\
+ 			Dr.\ Luca Cortese\\
+ 			Dr.\ O.\ Ivy Wong\\
+	\end{titlepage}
+	%\maketitle
+	\frontmatter
+%	\linenumbers
+	\clearpage
+	\thispagestyle{empty}
+	\phantom{a}
+	\vfill
+	\vfill
+
+	\include{Declaration/declaration}
+
+
+	\begin{abstract}
+		This thesis comprises a body of work that investigates lip dicit audiam persequeris ea cum. Scripserit complectitur ne pri, ne nam iudico omnesque. Rebum debet pri ex, pro dictas accusata prodesset te. Aliquid facilis nam at, wisi vocent vidisse ea est. Eam alia modus lobortis an.
+
+		\indent Lorem ipsum dolor sit amet, modo omnis gubergren mea cu, probo voluptua consulatu vim et. Et mei doctus nostrum, mel ad autem dolor. Dissentiet efficiantur his in. Affert fabellas est et, nobis oratio nusquam ut mei. Id vis modus zril invenire, ut vel iisque denique erroribus. An vis populo facilisi.
+
+		\indent Reque posse conclusionemque no vel, ex per wisi habeo ancillae. Probo scriptorem neglegentur eos ex, cu quo latine vivendum dissentiet, mel mutat dicat nonumes ad. Quo hinc atqui voluptatibus ut, ad tota propriae vulputate eum, ea usu equidem veritus democritum. Ius ludus iudico assueverit ne. Vim dico augue primis ea, recteque suavitate quo cu, inermis nonumes adversarium ex sit.
+
+	\end{abstract}
+
+	\include{Acknowledgments/acknowledgements}
+
+    \include{Declaration/author_declaration}
+
+	\setcounter{tocdepth}{2}
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	\mainmatter%
+	\raggedbottom%
+	\include{Chapter_1/Intro}
+    \include{Chapter_2/Theory}
+	%\include{Chapter_3/Methods}
+	%\include{Chapter_4/Numerical}
+	%\include{Chapter_5/Data}
+	%\include{Chapter_6/Results}
+    %\include{Chapter_7/Conclusions}
+\end{document}

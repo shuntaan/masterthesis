@@ -1,0 +1,20 @@
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\gdef \the@ipfilectr {}
+\contentsline {chapter}{Contents}{v}{chapter*.4}% 
+\contentsline {chapter}{List of Figures}{vii}{chapter*.5}% 
+\contentsline {chapter}{List of Tables}{ix}{chapter*.6}% 
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Tables}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Figures}{1}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}This is a subsection}{1}{subsection.1.2.1}% 
+\contentsline {subsubsection}{This is a subsubsection}{1}{section*.9}% 
+\contentsline {chapter}{Bibliography}{3}{chapter*.10}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{\numberline {2}Theory}{5}{chapter.2}% 
+\gdef \the@ipfilectr {}

@@ -1,0 +1,41 @@
+\newcommand{\SortNoop}[1]{}
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abedon(1994)]{Abedon1994}
+S.~T. Abedon.
+\newblock Lysis and the interaction between free phages and infected cells.
+\newblock In J.~D.~K. Karam, J.~W. Drake, K.~N. Kreuzer, G.~Mosig, D.~Hall,
+  F.~A. Eiserling, L.~W. Black, E.~Kutter, K.~Carlson, E.~S. Miller, and
+  E.~Spicer, editors, \emph{Molecular biology of bacteriophage T4}, pages
+  397--405. ASM Press, Washington DC, 1994.
+
+\bibitem[Abedon et~al.(2003)Abedon, Hyman, and Thomas]{AbedonHymanThomas2003}
+S.~T. Abedon, P.~Hyman, and C.~Thomas.
+\newblock Experimental examination of bacteriophage latent-period evolution as
+  a response to bacterial availability.
+\newblock \emph{Applied and Environmental Microbiology}, 69:\penalty0
+  7499--7506, 2003.
+
+\bibitem[{\SortNoop{Cerveny}}\v{C}erven\'{y}(2000)]{Cerveny}
+V.~{\SortNoop{Cerveny}}\v{C}erven\'{y}.
+\newblock \emph{Seismic Ray Method}.
+\newblock Cambridge University Press, 2000.
+
+\bibitem[Forgues(1996)]{forgues96}
+E.~Forgues.
+\newblock \emph{Inversion linearis\'ee multi-param\`etres via la th\'eorie des
+  rais}.
+\newblock PhD thesis, Institut Fran\c{c}ais du P\'etrole - University Paris
+  VII, 1996.
+
+\bibitem[Goossens et~al.(1993)Goossens, Mittelbach, and Samarin]{goossens93}
+M.~Goossens, F.~Mittelbach, and A.~Samarin.
+\newblock \emph{The LaTeX Companion}.
+\newblock Addison-Wesley, Reading, Massachusetts, 1993.
+
+\end{thebibliography}

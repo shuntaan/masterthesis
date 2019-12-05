@@ -1,0 +1,16 @@
+This is TeX, Version 3.14159265 (TeX Live 2019) (preloaded format=tex 2019.10.30)  5 NOV 2019 10:01
+**/Users/syoshida/Documents/Overleaf/MasterThesisTemplate/Declaration/declarati
+on.tex
+
+(/Users/syoshida/Documents/Overleaf/MasterThesisTemplate/Declaration/declaratio
+n.tex
+! Undefined control sequence.
+l.1 \section
+            *{Thesis Declaration}
+? 
+! Emergency stop.
+l.1 \section
+            *{Thesis Declaration}
+End of file on the terminal!
+
+No pages of output.
