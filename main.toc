@@ -16,5 +16,20 @@
 \contentsline {chapter}{Bibliography}{3}{chapter*.10}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {2}Theory}{5}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Theoretical Background}{5}{chapter.2}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\contentsline {chapter}{\numberline {3}Data}{7}{chapter.3}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\contentsline {chapter}{\numberline {4}Methods}{9}{chapter.4}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-8}
+\contentsline {chapter}{\numberline {5}Results}{11}{chapter.5}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\contentsline {chapter}{\numberline {6}Discussions}{13}{chapter.6}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-10}
+\contentsline {chapter}{\numberline {7}Summary}{15}{chapter.7}% 
 \gdef \the@ipfilectr {}

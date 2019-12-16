@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  5 NOV 2019 11:04
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  16 DEC 2019 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -738,7 +738,7 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (./main.aux (./Declaration/declaration.aux) (./Acknowledgments/acknowledgements.aux) (./Declaration/author_declaration.aux) (./Chapter_1/Intro.aux) (./Chapter_2/Theory.aux))
+) (./main.aux (./Declaration/declaration.aux) (./Acknowledgments/acknowledgements.aux) (./Declaration/author_declaration.aux) (./Chapter_1/Intro.aux) (./Chapter_2/Theory.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_5/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -951,13 +951,63 @@ LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
 ]
 Chapter 2.
 ) [5]
+\openout2 = `Chapter_3/Data.aux'.
+
+ (./Chapter_3/Data.tex [6
+
+
+
+
+]
+Chapter 3.
+) [7]
+\openout2 = `Chapter_4/Method.aux'.
+
+ (./Chapter_4/Method.tex [8
+
+
+
+
+]
+Chapter 4.
+) [9]
+\openout2 = `Chapter_5/Result.aux'.
+
+ (./Chapter_5/Result.tex [10
+
+
+
+
+]
+Chapter 5.
+) [11]
+\openout2 = `Chapter_6/Discussion.aux'.
+
+ (./Chapter_6/Discussion.tex [12
+
+
+
+
+]
+Chapter 6.
+) [13]
+\openout2 = `Chapter_7/Conclusion.aux'.
+
+ (./Chapter_7/Conclusion.tex [14
+
+
+
+
+]
+Chapter 7.
+) [15]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
- (./main.aux (./Declaration/declaration.aux) (./Acknowledgments/acknowledgements.aux) (./Declaration/author_declaration.aux) (./Chapter_1/Intro.aux) (./Chapter_2/Theory.aux))
+ (./main.aux (./Declaration/declaration.aux) (./Acknowledgments/acknowledgements.aux) (./Declaration/author_declaration.aux) (./Chapter_1/Intro.aux) (./Chapter_2/Theory.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_5/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 133.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D6CC21F95A1F9F204AC877C2A0CA272A;460.
+(rerunfilecheck)             Checksum: 399BA95BC1DC8C0BBBEFFF6CBF51D208;692.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -965,12 +1015,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
  ) 
 Here is how much of TeX's memory you used:
- 19260 strings out of 493223
- 337210 string characters out of 6144414
- 430247 words of memory out of 5000000
- 23051 multiletter control sequences out of 15000+600000
+ 19310 strings out of 493223
+ 338094 string characters out of 6144414
+ 432989 words of memory out of 5000000
+ 23061 multiletter control sequences out of 15000+600000
  548407 words of font info for 88 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  37i,11n,43p,404b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (19 pages, 23960 bytes).
+Output written on main.dvi (29 pages, 28624 bytes).
