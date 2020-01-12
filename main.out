@@ -3,26 +3,25 @@
 \BOOKMARK [0][-]{chapter*.4}{List of Tables}{}% 3
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
 \BOOKMARK [1][-]{section.1.1}{Background}{chapter.1}% 5
-\BOOKMARK [0][-]{chapter*.5}{Bibliography}{}% 6
-\BOOKMARK [0][-]{chapter.2}{Theoretical Background}{}% 7
-\BOOKMARK [0][-]{chapter.3}{Data}{}% 8
-\BOOKMARK [1][-]{section.3.1}{Herschel Reference Survey \(HRS\)}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.2}{GLEAM survey}{chapter.3}% 10
-\BOOKMARK [0][-]{chapter*.9}{Bibliography}{}% 11
-\BOOKMARK [0][-]{chapter.4}{Methods}{}% 12
-\BOOKMARK [1][-]{section.4.1}{Cross Matching}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.2}{Reduce galaxy samples for the secure analysis}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.3}{Calculating the q parameter}{chapter.4}% 15
-\BOOKMARK [2][-]{subsection.4.3.1}{Total IR luminosity}{section.4.3}% 16
-\BOOKMARK [1][-]{section.4.4}{Fitting to q parameters}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.5}{Calculating the SFR}{chapter.4}% 18
-\BOOKMARK [0][-]{chapter*.12}{Bibliography}{}% 19
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 20
-\BOOKMARK [1][-]{section.5.1}{Distributions of }{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.2}{Star Formation Rate \(SFR\) from the low-frequency emission}{chapter.5}% 22
-\BOOKMARK [0][-]{chapter*.17}{Bibliography}{}% 23
-\BOOKMARK [0][-]{chapter.6}{Discussions}{}% 24
-\BOOKMARK [1][-]{section.6.1}{Comparing the calibration with previous results}{chapter.6}% 25
-\BOOKMARK [1][-]{section.6.2}{Radio SFR uncertainty}{chapter.6}% 26
-\BOOKMARK [0][-]{chapter*.18}{Bibliography}{}% 27
-\BOOKMARK [0][-]{chapter.7}{Summary}{}% 28
+\BOOKMARK [0][-]{chapter.2}{Theoretical Background}{}% 6
+\BOOKMARK [0][-]{chapter.3}{Data}{}% 7
+\BOOKMARK [1][-]{section.3.1}{Herschel Reference Survey \(HRS\)}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.2}{GLEAM survey}{chapter.3}% 9
+\BOOKMARK [0][-]{chapter.4}{Methods}{}% 10
+\BOOKMARK [1][-]{section.4.1}{Cross Matching}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.2}{Reduce galaxy samples for the secure analysis}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.3}{Calculating the q parameter}{chapter.4}% 13
+\BOOKMARK [2][-]{subsection.4.3.1}{Total IR luminosity}{section.4.3}% 14
+\BOOKMARK [1][-]{section.4.4}{Fitting to q parameters}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.5}{Calculating the SFR}{chapter.4}% 16
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 17
+\BOOKMARK [1][-]{section.5.1}{Distributions of }{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.2}{Star Formation Rate \(SFR\) from the low-frequency emission}{chapter.5}% 19
+\BOOKMARK [0][-]{chapter.6}{Discussions}{}% 20
+\BOOKMARK [1][-]{section.6.1}{Comparing the calibration with previous results}{chapter.6}% 21
+\BOOKMARK [1][-]{section.6.2}{Radio SFR uncertainty}{chapter.6}% 22
+\BOOKMARK [0][-]{chapter.7}{Summary}{}% 23
+\BOOKMARK [0][-]{chapter*.14}{Bibliography}{}% 24
+\BOOKMARK [0][-]{appendix.A}{Galaxy images}{}% 25
+\BOOKMARK [1][-]{section.A.1}{Matched samples \(18 samples used for the analysis\)}{appendix.A}% 26
+\BOOKMARK [1][-]{section.A.2}{Matched samples \(not used for the analysis\)}{appendix.A}% 27

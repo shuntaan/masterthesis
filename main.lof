@@ -1,32 +1,20 @@
-\gdef \the@ipfilectr {@-1}
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-2}
 \addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-3}
 \addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Reprint from Boselli et al. 2010 (Figure\nobreakspace {}1)}}{8}{figure.caption.6}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Reprint from Boselli et al. 2010 (Figure\nobreakspace {}2)}}{9}{figure.caption.7}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Reprint from Hurley-Walker et al. 2017 (Figure\nobreakspace {}11)}}{10}{figure.caption.8}% 
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-5}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Reprint from Boselli et al. 2010 (Figure\nobreakspace {}1)}}{6}{figure.caption.5}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Reprint from Boselli et al. 2010 (Figure\nobreakspace {}2)}}{7}{figure.caption.6}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Reprint from Hurley-Walker et al. 2017 (Figure\nobreakspace {}11)}}{8}{figure.caption.7}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Separation from the cross-matching}}{14}{figure.caption.10}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The comparison of total IR luminosities}}{16}{figure.caption.11}% 
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-6}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Separation from the cross-matching}}{10}{figure.caption.8}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The comparison of total IR luminosities}}{12}{figure.caption.9}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Histograms of $\gamma $ from the fitting}}{21}{figure.caption.13}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The comparison of $\gamma $ from different fitting methods}}{22}{figure.caption.14}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The consistency of the radio SFR}}{23}{figure.caption.15}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The consistency of the radio SFR with $\mathrm {SFR}_{\mathrm {IR}}$ and $\mathrm {SFR}_{\mathrm {FUV+24mic}}$}}{24}{figure.caption.16}% 
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-7}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Histograms of $\gamma $ from the fitting}}{15}{figure.caption.10}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The comparison of $\gamma $ from different fitting methods}}{16}{figure.caption.11}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The consistency of the radio SFR}}{17}{figure.caption.12}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The consistency of the radio SFR with $\mathrm {SFR}_{\mathrm {IR}}$ and $\mathrm {SFR}_{\mathrm {FUV+24mic}}$}}{18}{figure.caption.13}% 
 \addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-8}
 \addvspace {10\p@ }
-\gdef \the@ipfilectr {}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Galaxy images (6/18 used for the analysis)}}{27}{figure.caption.15}% 
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Galaxy images (12/18 used for the analysis)}}{28}{figure.caption.16}% 
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Galaxy images (9/15 not used for the analysis)}}{29}{figure.caption.17}% 

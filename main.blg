@@ -1,0 +1,57 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: Acknowledgments/acknowledgements.aux
+A level-1 auxiliary file: Chapter_1/Intro.aux
+A level-1 auxiliary file: Chapter_2/Theory.aux
+A level-1 auxiliary file: Chapter_3/Data.aux
+A level-1 auxiliary file: Chapter_4/Method.aux
+A level-1 auxiliary file: Chapter_5/Result.aux
+A level-1 auxiliary file: Chapter_6/Discussion.aux
+A level-1 auxiliary file: Chapter_7/Conclusion.aux
+The style file: mnras.bst
+Database file #1: masterthesis.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 41 entries,
+            2881 wiz_defined-function locations,
+            1109 strings with 44129 characters,
+and the built_in function-call counts, 17738 in all, are:
+= -- 1578
+> -- 1165
+< -- 42
++ -- 513
+- -- 146
+* -- 2268
+:= -- 2683
+add.period$ -- 0
+call.type$ -- 41
+change.case$ -- 82
+chr.to.int$ -- 41
+cite$ -- 41
+duplicate$ -- 893
+empty$ -- 903
+format.name$ -- 278
+if$ -- 3089
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 41
+newline$ -- 136
+num.names$ -- 232
+pop$ -- 171
+preamble$ -- 1
+purify$ -- 164
+quote$ -- 0
+skip$ -- 522
+stack$ -- 0
+substring$ -- 1142
+swap$ -- 328
+text.length$ -- 164
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 369
+warning$ -- 0
+while$ -- 282
+width$ -- 0
+write$ -- 422
+is.kanji.str$ -- 0

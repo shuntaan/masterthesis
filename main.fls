@@ -122,8 +122,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/cite/chapterbib.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/cite/chapterbib.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lineno/lineno.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lineno/lineno.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
@@ -237,8 +235,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT Chapter_1/Intro.bbl
-INPUT Chapter_1/Intro.bbl
 OUTPUT Chapter_2/Theory.aux
 INPUT Chapter_2/Theory.tex
 INPUT Chapter_2/Theory.tex
@@ -251,8 +247,6 @@ INPUT Chapter_3/Figures/Boselli2010_Figure2.png
 INPUT extractbb -B cropbox -O Chapter_3/Figures/Boselli2010_Figure2.png
 INPUT Chapter_3/Figures/HurleyWalker_Figure11.png
 INPUT extractbb -B cropbox -O Chapter_3/Figures/HurleyWalker_Figure11.png
-INPUT Chapter_3/Data.bbl
-INPUT Chapter_3/Data.bbl
 OUTPUT Chapter_4/Method.aux
 INPUT Chapter_4/Method.tex
 INPUT Chapter_4/Method.tex
@@ -272,8 +266,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT Chapter_4/Figures/Method_TIRcomparison.pdf
 INPUT extractbb -B cropbox -O Chapter_4/Figures/Method_TIRcomparison.pdf
-INPUT Chapter_4/Method.bbl
-INPUT Chapter_4/Method.bbl
 OUTPUT Chapter_5/Result.aux
 INPUT Chapter_5/Result.tex
 INPUT Chapter_5/Result.tex
@@ -285,16 +277,20 @@ INPUT Chapter_5/Figures/Result_sfrratio.pdf
 INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_sfrratio.pdf
 INPUT Chapter_5/Figures/Result_sfrratios.pdf
 INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_sfrratios.pdf
-INPUT Chapter_5/Result.bbl
-INPUT Chapter_5/Result.bbl
 OUTPUT Chapter_6/Discussion.aux
 INPUT Chapter_6/Discussion.tex
 INPUT Chapter_6/Discussion.tex
-INPUT Chapter_6/Discussion.bbl
-INPUT Chapter_6/Discussion.bbl
 OUTPUT Chapter_7/Conclusion.aux
 INPUT Chapter_7/Conclusion.tex
 INPUT Chapter_7/Conclusion.tex
+INPUT main.bbl
+INPUT main.bbl
+INPUT Figures/AppendixB_galaxyimages.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyimages.pdf
+INPUT Figures/AppendixB_galaxyimages2.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyimages2.pdf
+INPUT Figures/AppendixB_galaxyimages_notselected.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyimages_notselected.pdf
 INPUT main.aux
 INPUT Acknowledgments/acknowledgements.aux
 INPUT Acknowledgments/acknowledgements.aux

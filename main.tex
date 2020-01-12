@@ -28,7 +28,7 @@
                             dvipdfmx]{hyperref}
 
 \usepackage[square,sort,numbers,authoryear]{natbib}
-\usepackage{chapterbib}
+%\usepackage{chapterbib}
 \setlength\bibhang{.3in}
 
 
@@ -161,10 +161,45 @@
 
 % The best way to enter references is to use BibTeX:
 
-%\bibliographystyle{mnras}
-%%\bibliography{example} % if your bibtex file is called example.bib
-%\bibliography{masterthesis}
+\bibliographystyle{mnras}
+%\bibliography{example} % if your bibtex file is called example.bib
+\bibliography{masterthesis}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\appendix
+
+\chapter{Galaxy images}
+
+\section{Matched samples (18 samples used for the analysis)}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/AppendixB_galaxyimages.pdf}
+    \caption[Galaxy images (6/18 used for the analysis)]{\label{fig:galaxyimages}
+        These are the SDSS \citep{Abolfathi2018} i-band images with radio contours from the GLEAM survey at $170-231\MHz$ (solid green lines).
+        These galaxies are selected in Section~\ref{sec:crossmatching} and~\ref{sec:reducegalaxysamples}.
+        I draw the green contours started from the 3$\sigma$ local noise and increase by a factor of the square root of $2^n$ (``n'' is an integer).
+        The green star marker shows the location of a radio source referred to as the GLEAM catalog.
+        The size of this marker does not mean any feature of observations.
+        The blue circle shows the isophotal optical size at $25\,\mr{mag}\arcs^{-2}$ from \citet{Boselli2010}.
+        On the bottom left in each plot, we show the beam size of the GLEAM survey.
+    }
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{Figures/AppendixB_galaxyimages2.pdf}
+    \caption[Galaxy images (12/18 used for the analysis)]{\label{fig:galaxyimages2}
+        Continuous.
+    }
+\end{figure}
+
+\section{Matched samples (not used for the analysis)}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{Figures/AppendixB_galaxyimages_notselected.pdf}
+    \caption[Galaxy images (9/15 not used for the analysis)]{\label{fig:galaxyimages_notselected}
+        These galaxies are not used for the analysis labeled in Section~\ref{sec:reducegalaxysamples} although they have a radio counterpart in the GLEAM catalog by the cross-matching.
+    }
+\end{figure}
 \end{document}
