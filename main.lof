@@ -6,13 +6,15 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces TOC Figure Description}}{2}{figure.caption.8}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Reprint from Boselli et al. 2010 (Figure\nobreakspace {}1)}}{6}{figure.caption.7}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Reprint from Boselli et al. 2010 (Figure\nobreakspace {}2)}}{7}{figure.caption.8}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Reprint from Hurley-Walker et al. 2017 (Figure\nobreakspace {}11)}}{8}{figure.caption.9}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }

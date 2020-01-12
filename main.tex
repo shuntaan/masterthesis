@@ -48,6 +48,29 @@
 
 \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\thechapter. #1 }}{}}
 \renewcommand{\sectionmark}[1]{}
+%%%%% AUTHORS - PLACE YOUR OWN COMMANDS HERE %%%%%
+
+% Please keep new commands to a minimum, and use \newcommand not \def to avoid
+% overwriting existing commands. Example:
+%\newcommand{\pcm}{\,cm$^{-2}$}	% per cm-squared
+\newcommand{\mc}[1]{\mathcal{#1}}
+\newcommand{\mr}[1]{\mathrm{#1}}
+\newcommand{\msb}[1]{_{\mathrm{#1}}}
+\newcommand{\msu}[1]{^{\mathrm{#1}}}
+\newcommand{\brp}[1]{\left(#1\right)}
+\newcommand{\brb}[1]{\left[#1\right]}
+\newcommand{\brc}[1]{\left\{#1\right\}}
+\newcommand{\bra}[1]{\left\langle#1\right\rangle}
+\newcommand{\arcs}{\,\mathrm{arcsec}}
+\newcommand{\arcm}{\,\mathrm{arcmin}}
+\newcommand{\GHz}{\,\mathrm{GHz}}
+\newcommand{\MHz}{\,\mathrm{MHz}}
+\newcommand{\nh}{H\textsc{i}}
+\newcommand{\ih}{H\textsc{ii}}
+\newcommand{\qn}{q_{\nu}}
+\newcommand{\q}[1]{q_{\mathrm{#1}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \fancyhf{}
 \fancyhead[RO]{\bfseries\rightmark}
 \fancyhead[LE]{\bfseries\leftmark}
@@ -105,12 +128,14 @@
 
 
 	\begin{abstract}
-		This thesis comprises a body of work that investigates lip dicit audiam persequeris ea cum. Scripserit complectitur ne pri, ne nam iudico omnesque. Rebum debet pri ex, pro dictas accusata prodesset te. Aliquid facilis nam at, wisi vocent vidisse ea est. Eam alia modus lobortis an.
-
-		\indent Lorem ipsum dolor sit amet, modo omnis gubergren mea cu, probo voluptua consulatu vim et. Et mei doctus nostrum, mel ad autem dolor. Dissentiet efficiantur his in. Affert fabellas est et, nobis oratio nusquam ut mei. Id vis modus zril invenire, ut vel iisque denique erroribus. An vis populo facilisi.
-
-		\indent Reque posse conclusionemque no vel, ex per wisi habeo ancillae. Probo scriptorem neglegentur eos ex, cu quo latine vivendum dissentiet, mel mutat dicat nonumes ad. Quo hinc atqui voluptatibus ut, ad tota propriae vulputate eum, ea usu equidem veritus democritum. Ius ludus iudico assueverit ne. Vim dico augue primis ea, recteque suavitate quo cu, inermis nonumes adversarium ex sit.
-
+        We present a global relation between the low-frequency and infrared (IR) emissions in star-forming galaxies compiled by the Herschel Reference Survey.
+        The GaLactic Extragalactic All-sky MWA (GLEAM) survey operated by the Murchison Widefield Array (MWA) allows us to examine the relation and its frequency dependence with their 20 narrow bands at $72-231\MHz$.
+        These examinations are important for ensuring the reliability of the radio SFR\@.
+        In this study, we focus on 18 star-forming galaxies whose radio emission is detected by the GLEAM survey.
+        These galaxies show that a single power-law fitting is valid for understanding how the relation between the radio and IR luminosities varies across MWA frequencies to $1.5\GHz$.
+        We also investigate the consistency of the Star Formation Rate (SFR) calculated from the low-frequency emission with that from other indicators.
+        Although this low-frequency emission has an advantage of the extinction-free indicator, the SFR calibration with averaged spectral parameters has a non-negligible uncertainty due to the variety of the radio to IR relation.
+        We propose to use the individual spectral energy distribution for calculating the radio SFR for each star-forming galaxies with less uncertainty.
 	\end{abstract}
 
 	\include{Acknowledgments/acknowledgements}
@@ -130,4 +155,15 @@
 	\include{Chapter_5/Result}
 	\include{Chapter_6/Discussion}
     \include{Chapter_7/Conclusion}
+
+%%%%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%
+
+% The best way to enter references is to use BibTeX:
+
+%\bibliographystyle{mnras}
+%%\bibliography{example} % if your bibtex file is called example.bib
+%\bibliography{masterthesis}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \end{document}

@@ -246,18 +246,21 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT Chapter_1/Figs/Fig1.pdf
-INPUT extractbb -B cropbox -O Chapter_1/Figs/Fig1.pdf
-INPUT Chapter_1/Intro.bbl
-INPUT Chapter_1/Intro.bbl
 OUTPUT Chapter_2/Theory.aux
 INPUT Chapter_2/Theory.tex
 INPUT Chapter_2/Theory.tex
 OUTPUT Chapter_3/Data.aux
 INPUT Chapter_3/Data.tex
 INPUT Chapter_3/Data.tex
+INPUT Chapter_3/Figures/Boselli2010_Figure1.png
+INPUT extractbb -B cropbox -O Chapter_3/Figures/Boselli2010_Figure1.png
+INPUT Chapter_3/Figures/Boselli2010_Figure2.png
+INPUT extractbb -B cropbox -O Chapter_3/Figures/Boselli2010_Figure2.png
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT Chapter_3/Figures/HurleyWalker_Figure11.png
+INPUT extractbb -B cropbox -O Chapter_3/Figures/HurleyWalker_Figure11.png
+INPUT Chapter_3/Data.bbl
+INPUT Chapter_3/Data.bbl
 OUTPUT Chapter_4/Method.aux
 INPUT Chapter_4/Method.tex
 INPUT Chapter_4/Method.tex

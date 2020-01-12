@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  16 DEC 2019 15:46
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  12 JAN 2020 12:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -741,32 +741,32 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 ) (./main.aux (./Declaration/declaration.aux) (./Acknowledgments/acknowledgements.aux) (./Declaration/author_declaration.aux) (./Chapter_1/Intro.aux) (./Chapter_2/Theory.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_5/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 89.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 66.
+Package hyperref Info: Link coloring ON on input line 89.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -774,9 +774,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count329
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -820,25 +820,25 @@ Package caption Info: End \AtBeginDocument code.
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 72.
+(Font)              using `JT1/mc/m/n' instead on input line 95.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 72.
+(Font)              using `JY1/mc/m/n' instead on input line 95.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 74.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 74.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 74.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 74.
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 97.
+LaTeX Font Info:    Try loading font information for U+msa on input line 108.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 108.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -919,108 +919,110 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 32.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 32.
-File: Chapter_1/Figs/Fig1.pdf Graphic file (type pdf)
-<Chapter_1/Figs/Fig1.pdf>
-(./Chapter_1/Intro.bbl [1
+) [1
 
 
-
-] [2]
-
-LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
-(Font)              using `JT1/gt/m/n' instead on input line 14.
-
-
-LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
-(Font)              using `JY1/gt/m/n' instead on input line 14.
-
-)) [3
 
 ]
 \openout2 = `Chapter_2/Theory.aux'.
 
- (./Chapter_2/Theory.tex [4
+ (./Chapter_2/Theory.tex [2
 
 
 
 
 ]
 Chapter 2.
-) [5]
+) [3]
 \openout2 = `Chapter_3/Data.aux'.
 
- (./Chapter_3/Data.tex [6
+ (./Chapter_3/Data.tex [4
 
 
 
 
 ]
 Chapter 3.
-) [7]
+[5]
+File: Chapter_3/Figures/Boselli2010_Figure1.png Graphic file (type bmp)
+<Chapter_3/Figures/Boselli2010_Figure1.png>
+File: Chapter_3/Figures/Boselli2010_Figure2.png Graphic file (type bmp)
+<Chapter_3/Figures/Boselli2010_Figure2.png>
+
+
+LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 66.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 66.
+
+[6]
+File: Chapter_3/Figures/HurleyWalker_Figure11.png Graphic file (type bmp)
+<Chapter_3/Figures/HurleyWalker_Figure11.png>
+ (./Chapter_3/Data.bbl [7] [8])) [9
+
+]
 \openout2 = `Chapter_4/Method.aux'.
 
- (./Chapter_4/Method.tex [8
+ (./Chapter_4/Method.tex [10
 
 
 
 
 ]
 Chapter 4.
-) [9]
+) [11]
 \openout2 = `Chapter_5/Result.aux'.
 
- (./Chapter_5/Result.tex [10
+ (./Chapter_5/Result.tex [12
 
 
 
 
 ]
 Chapter 5.
-) [11]
+) [13]
 \openout2 = `Chapter_6/Discussion.aux'.
 
- (./Chapter_6/Discussion.tex [12
+ (./Chapter_6/Discussion.tex [14
 
 
 
 
 ]
 Chapter 6.
-) [13]
+) [15]
 \openout2 = `Chapter_7/Conclusion.aux'.
 
- (./Chapter_7/Conclusion.tex [14
+ (./Chapter_7/Conclusion.tex [16
 
 
 
 
 ]
 Chapter 7.
-) [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+) [17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./main.aux (./Declaration/declaration.aux) (./Acknowledgments/acknowledgements.aux) (./Declaration/author_declaration.aux) (./Chapter_1/Intro.aux) (./Chapter_2/Theory.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_5/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 133.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 399BA95BC1DC8C0BBBEFFF6CBF51D208;692.
+(rerunfilecheck)             Checksum: 45C6F780D1A69CB8D4BF5784C5ED55CC;703.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 19310 strings out of 493223
- 338094 string characters out of 6144414
- 432989 words of memory out of 5000000
- 23061 multiletter control sequences out of 15000+600000
- 548407 words of font info for 88 fonts, out of 8000000 for 9000
+ 19353 strings out of 493223
+ 338956 string characters out of 6144414
+ 434867 words of memory out of 5000000
+ 23101 multiletter control sequences out of 15000+600000
+ 548103 words of font info for 87 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 37i,11n,43p,404b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,378b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (29 pages, 28624 bytes).
+Output written on main.dvi (31 pages, 42756 bytes).

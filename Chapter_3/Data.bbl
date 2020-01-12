@@ -1,0 +1,83 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Abazajian et~al.,}{Abazajian
+  et~al.}{2009}]{Abazajian2009}
+Abazajian K.~N.,  et~al., 2009, \mn@doi [The Astrophysical Journal Supplement
+  Series] {10.1088/0067-0049/182/2/543}, 182, 543
+
+\bibitem[\protect\citeauthoryear{Boselli et~al.,}{Boselli
+  et~al.}{2010}]{Boselli2010}
+Boselli A.,  et~al., 2010, \mn@doi [Publications of the Astronomical Society of
+  the Pacific] {10.1086/651535}, 122, 261
+
+\bibitem[\protect\citeauthoryear{Boselli, Cortese, Boquien, Boissier,
+  Catinella, Lagos  \& Saintonge}{Boselli et~al.}{2014}]{Boselli2014}
+Boselli A.,  Cortese L.,  Boquien M.,  Boissier S.,  Catinella B.,  Lagos C.,
+  Saintonge A.,  2014, \mn@doi [Astronomy and Astrophysics]
+  {10.1051/0004-6361/201322312}, 564, 1
+
+\bibitem[\protect\citeauthoryear{Ciesla et~al.,}{Ciesla
+  et~al.}{2014}]{Ciesla2014}
+Ciesla L.,  et~al., 2014, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201323248}, 565, A128
+
+\bibitem[\protect\citeauthoryear{Cortese et~al.,}{Cortese
+  et~al.}{2012}]{Cortese2012}
+Cortese L.,  et~al., 2012, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201219312}, 544, A101
+
+\bibitem[\protect\citeauthoryear{Giovanelli et~al.,}{Giovanelli
+  et~al.}{2005}]{Giovanelli2005}
+Giovanelli R.,  et~al., 2005, \mn@doi [The Astronomical Journal]
+  {10.1086/497431}, 130, 2598
+
+\bibitem[\protect\citeauthoryear{Haynes et~al.,}{Haynes
+  et~al.}{2011}]{Haynes2011}
+Haynes M.~P.,  et~al., 2011, \mn@doi [The Astronomical Journal]
+  {10.1088/0004-6256/142/5/170}, 142, 170
+
+\bibitem[\protect\citeauthoryear{Hurley-Walker et~al.,}{Hurley-Walker
+  et~al.}{2017}]{Hurley-Walker2017a}
+Hurley-Walker N.,  et~al., 2017, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/stw2337}, 464, 1146
+
+\bibitem[\protect\citeauthoryear{Martin et~al.,}{Martin
+  et~al.}{2005}]{Martin2005}
+Martin D.~C.,  et~al., 2005, \mn@doi [The Astrophysical Journal]
+  {10.1086/426387}, 619, L1
+
+\bibitem[\protect\citeauthoryear{Noll, Burgarella, Giovannoli, Buat, Marcillac
+  \& Mu{\~{n}}oz-Mateos}{Noll et~al.}{2009}]{Noll2009}
+Noll S.,  Burgarella D.,  Giovannoli E.,  Buat V.,  Marcillac D.,
+  Mu{\~{n}}oz-Mateos J.~C.,  2009, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/200912497}, 507, 1793
+
+\bibitem[\protect\citeauthoryear{Schlegel, Finkbeiner  \& Davis}{Schlegel
+  et~al.}{1998}]{Schlegel1998}
+Schlegel D.~J.,  Finkbeiner D.~P.,   Davis M.,  1998, \mn@doi [The
+  Astrophysical Journal] {10.1086/305772}, 500, 525
+
+\bibitem[\protect\citeauthoryear{Tingay et~al.,}{Tingay
+  et~al.}{2013}]{Tingay2013a}
+Tingay S.~J.,  et~al., 2013, \mn@doi [Journal of Physics: Conference Series]
+  {10.1088/1742-6596/440/1/012033}, 440, 012033
+
+\makeatother
+\end{thebibliography}
