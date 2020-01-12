@@ -1,41 +1,108 @@
-\newcommand{\SortNoop}[1]{}
-\begin{thebibliography}{5}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
-\bibitem[Abedon(1994)]{Abedon1994}
-S.~T. Abedon.
-\newblock Lysis and the interaction between free phages and infected cells.
-\newblock In J.~D.~K. Karam, J.~W. Drake, K.~N. Kreuzer, G.~Mosig, D.~Hall,
-  F.~A. Eiserling, L.~W. Black, E.~Kutter, K.~Carlson, E.~S. Miller, and
-  E.~Spicer, editors, \emph{Molecular biology of bacteriophage T4}, pages
-  397--405. ASM Press, Washington DC, 1994.
+\bibitem[\protect\citeauthoryear{Bell}{Bell}{2003}]{Bell2003}
+Bell E.~F.,  2003, \mn@doi [The Astrophysical Journal] {10.1086/367829}, 586,
+  794
 
-\bibitem[Abedon et~al.(2003)Abedon, Hyman, and Thomas]{AbedonHymanThomas2003}
-S.~T. Abedon, P.~Hyman, and C.~Thomas.
-\newblock Experimental examination of bacteriophage latent-period evolution as
-  a response to bacterial availability.
-\newblock \emph{Applied and Environmental Microbiology}, 69:\penalty0
-  7499--7506, 2003.
+\bibitem[\protect\citeauthoryear{Boselli et~al.,}{Boselli
+  et~al.}{2010}]{Boselli2010}
+Boselli A.,  et~al., 2010, \mn@doi [Publications of the Astronomical Society of
+  the Pacific] {10.1086/651535}, 122, 261
 
-\bibitem[{\SortNoop{Cerveny}}\v{C}erven\'{y}(2000)]{Cerveny}
-V.~{\SortNoop{Cerveny}}\v{C}erven\'{y}.
-\newblock \emph{Seismic Ray Method}.
-\newblock Cambridge University Press, 2000.
+\bibitem[\protect\citeauthoryear{{Calistro Rivera} et~al.,}{{Calistro Rivera}
+  et~al.}{2017}]{CalistroRivera2017a}
+{Calistro Rivera} G.,  et~al., 2017, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/stx1040}, 469, 3468
 
-\bibitem[Forgues(1996)]{forgues96}
-E.~Forgues.
-\newblock \emph{Inversion linearis\'ee multi-param\`etres via la th\'eorie des
-  rais}.
-\newblock PhD thesis, Institut Fran\c{c}ais du P\'etrole - University Paris
-  VII, 1996.
+\bibitem[\protect\citeauthoryear{Chy{\.{z}}y et~al.,}{Chy{\.{z}}y
+  et~al.}{2018}]{Chyzy2018}
+Chy{\.{z}}y K.~T.,  et~al., 2018, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201833133}, 619, A36
 
-\bibitem[Goossens et~al.(1993)Goossens, Mittelbach, and Samarin]{goossens93}
-M.~Goossens, F.~Mittelbach, and A.~Samarin.
-\newblock \emph{The LaTeX Companion}.
-\newblock Addison-Wesley, Reading, Massachusetts, 1993.
+\bibitem[\protect\citeauthoryear{Condon}{Condon}{1992}]{Condon1992a}
+Condon J.~J.,  1992, \mn@doi [Annual Review of Astronomy and Astrophysics]
+  {10.1146/annurev.aa.30.090192.003043}, 30, 575
 
+\bibitem[\protect\citeauthoryear{Condon, Anderson  \& Helou}{Condon
+  et~al.}{1991}]{Condon1991a}
+Condon J.~J.,  Anderson M.~L.,   Helou G.,  1991, \mn@doi [The Astrophysical
+  Journal] {10.1086/170258}, 376, 95
+
+\bibitem[\protect\citeauthoryear{For et~al.,}{For et~al.}{2018}]{For2018a}
+For B.-Q.,  et~al., 2018, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1093/mnras/sty1960}, 480, 2743
+
+\bibitem[\protect\citeauthoryear{Heesen et~al.,}{Heesen
+  et~al.}{2019}]{Heesen2019}
+Heesen V.,  et~al., 2019, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201833905}, 622, A8
+
+\bibitem[\protect\citeauthoryear{Helou, Soifer  \& Rowan-Robinson}{Helou
+  et~al.}{1985}]{Helou1985}
+Helou G.,  Soifer B.~T.,   Rowan-Robinson M.,  1985, \mn@doi [The Astrophysical
+  Journal] {10.1086/184556}, 298, L7
+
+\bibitem[\protect\citeauthoryear{Hurley-Walker et~al.,}{Hurley-Walker
+  et~al.}{2017}]{Hurley-Walker2017a}
+Hurley-Walker N.,  et~al., 2017, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/stw2337}, 464, 1146
+
+\bibitem[\protect\citeauthoryear{Kapi{\'{n}}ska et~al.,}{Kapi{\'{n}}ska
+  et~al.}{2017}]{Kapinska2017a}
+Kapi{\'{n}}ska A.~D.,  et~al., 2017, \mn@doi [The Astrophysical Journal]
+  {10.3847/1538-4357/aa5f5d}, 838, 68
+
+\bibitem[\protect\citeauthoryear{Murphy et~al.,}{Murphy
+  et~al.}{2011}]{Murphy2011}
+Murphy E.~J.,  et~al., 2011, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637X/737/2/67}, 737, 67
+
+\bibitem[\protect\citeauthoryear{Read et~al.,}{Read et~al.}{2018}]{Read2018}
+Read S.~C.,  et~al., 2018, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1093/mnras/sty2198}, 480, 5625
+
+\bibitem[\protect\citeauthoryear{Schober, Schleicher  \& Klessen}{Schober
+  et~al.}{2017}]{Schober2017}
+Schober J.,  Schleicher D. R.~G.,   Klessen R.~S.,  2017, \mn@doi [Monthly
+  Notices of the Royal Astronomical Society] {10.1093/mnras/stx460}, 468, 946
+
+\bibitem[\protect\citeauthoryear{Tingay et~al.,}{Tingay
+  et~al.}{2013}]{Tingay2013a}
+Tingay S.~J.,  et~al., 2013, \mn@doi [Journal of Physics: Conference Series]
+  {10.1088/1742-6596/440/1/012033}, 440, 012033
+
+\bibitem[\protect\citeauthoryear{Wang, Gao, Duncan, Williams, Rowan-Robinson,
+  Sabater  \& Shimwell}{Wang et~al.}{2019}]{Wang2019}
+Wang L.,  Gao F.,  Duncan K.~J.,  Williams W.,  Rowan-Robinson M.,  Sabater J.,
+    Shimwell T.~W.,  2019, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201935913}, 109, 1
+
+\bibitem[\protect\citeauthoryear{Yun, Reddy  \& Condon}{Yun
+  et~al.}{2001}]{Yun2001a}
+Yun M.~S.,  Reddy N.~A.,   Condon J.~J.,  2001, \mn@doi [The Astrophysical
+  Journal] {10.1086/323145}, 554, 803
+
+\bibitem[\protect\citeauthoryear{van Haarlem et~al.,}{van Haarlem
+  et~al.}{2013}]{VanHaarlem2013}
+van Haarlem M.~P.,  et~al., 2013, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201220873}, 556, A2
+
+\makeatother
 \end{thebibliography}

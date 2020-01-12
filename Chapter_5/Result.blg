@@ -1,0 +1,49 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Result.aux
+The style file: mnras.bst
+Database file #1: masterthesis.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 10 entries,
+            2881 wiz_defined-function locations,
+            824 strings with 10681 characters,
+and the built_in function-call counts, 4723 in all, are:
+= -- 398
+> -- 347
+< -- 14
++ -- 143
+- -- 56
+* -- 591
+:= -- 740
+add.period$ -- 0
+call.type$ -- 10
+change.case$ -- 20
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 222
+empty$ -- 221
+format.name$ -- 88
+if$ -- 817
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 10
+newline$ -- 43
+num.names$ -- 64
+pop$ -- 40
+preamble$ -- 1
+purify$ -- 40
+quote$ -- 0
+skip$ -- 133
+stack$ -- 0
+substring$ -- 290
+swap$ -- 100
+text.length$ -- 40
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 90
+warning$ -- 0
+while$ -- 72
+width$ -- 0
+write$ -- 112
+is.kanji.str$ -- 0

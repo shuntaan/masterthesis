@@ -1,8 +1,10 @@
 \gdef \the@ipfilectr {@-1}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
+\addvspace {10\p@ }
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
+\addvspace {10\p@ }
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
@@ -17,11 +19,5 @@
 \addvspace {10\p@ }
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-9}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-10}
 \addvspace {10\p@ }
 \gdef \the@ipfilectr {}

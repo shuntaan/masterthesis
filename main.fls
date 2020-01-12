@@ -144,12 +144,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 INPUT main.aux
 INPUT main.aux
-INPUT Declaration/declaration.aux
-INPUT Declaration/declaration.aux
 INPUT Acknowledgments/acknowledgements.aux
 INPUT Acknowledgments/acknowledgements.aux
-INPUT Declaration/author_declaration.aux
-INPUT Declaration/author_declaration.aux
 INPUT Chapter_1/Intro.aux
 INPUT Chapter_1/Intro.aux
 INPUT Chapter_2/Theory.aux
@@ -207,15 +203,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT main.dvi
-OUTPUT Declaration/declaration.aux
-INPUT Declaration/declaration.tex
-INPUT Declaration/declaration.tex
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT Acknowledgments/acknowledgements.aux
 INPUT Acknowledgments/acknowledgements.tex
 INPUT Acknowledgments/acknowledgements.tex
@@ -225,9 +212,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT Declaration/author_declaration.aux
-INPUT Declaration/author_declaration.tex
-INPUT Declaration/author_declaration.tex
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT main.toc
 INPUT main.toc
 OUTPUT main.toc
@@ -246,6 +233,12 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT Chapter_1/Intro.bbl
+INPUT Chapter_1/Intro.bbl
 OUTPUT Chapter_2/Theory.aux
 INPUT Chapter_2/Theory.tex
 INPUT Chapter_2/Theory.tex
@@ -256,7 +249,6 @@ INPUT Chapter_3/Figures/Boselli2010_Figure1.png
 INPUT extractbb -B cropbox -O Chapter_3/Figures/Boselli2010_Figure1.png
 INPUT Chapter_3/Figures/Boselli2010_Figure2.png
 INPUT extractbb -B cropbox -O Chapter_3/Figures/Boselli2010_Figure2.png
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT Chapter_3/Figures/HurleyWalker_Figure11.png
 INPUT extractbb -B cropbox -O Chapter_3/Figures/HurleyWalker_Figure11.png
 INPUT Chapter_3/Data.bbl
@@ -264,22 +256,48 @@ INPUT Chapter_3/Data.bbl
 OUTPUT Chapter_4/Method.aux
 INPUT Chapter_4/Method.tex
 INPUT Chapter_4/Method.tex
+INPUT Chapter_4/Figures/Method_separation.pdf
+INPUT extractbb -B cropbox -O Chapter_4/Figures/Method_separation.pdf
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT Chapter_4/Figures/Method_TIRcomparison.pdf
+INPUT extractbb -B cropbox -O Chapter_4/Figures/Method_TIRcomparison.pdf
+INPUT Chapter_4/Method.bbl
+INPUT Chapter_4/Method.bbl
 OUTPUT Chapter_5/Result.aux
 INPUT Chapter_5/Result.tex
 INPUT Chapter_5/Result.tex
+INPUT Chapter_5/Figures/Result_comparehist.pdf
+INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_comparehist.pdf
+INPUT Chapter_5/Figures/Result_comparealpha.pdf
+INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_comparealpha.pdf
+INPUT Chapter_5/Figures/Result_sfrratio.pdf
+INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_sfrratio.pdf
+INPUT Chapter_5/Figures/Result_sfrratios.pdf
+INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_sfrratios.pdf
+INPUT Chapter_5/Result.bbl
+INPUT Chapter_5/Result.bbl
 OUTPUT Chapter_6/Discussion.aux
 INPUT Chapter_6/Discussion.tex
 INPUT Chapter_6/Discussion.tex
+INPUT Chapter_6/Discussion.bbl
+INPUT Chapter_6/Discussion.bbl
 OUTPUT Chapter_7/Conclusion.aux
 INPUT Chapter_7/Conclusion.tex
 INPUT Chapter_7/Conclusion.tex
 INPUT main.aux
-INPUT Declaration/declaration.aux
-INPUT Declaration/declaration.aux
 INPUT Acknowledgments/acknowledgements.aux
 INPUT Acknowledgments/acknowledgements.aux
-INPUT Declaration/author_declaration.aux
-INPUT Declaration/author_declaration.aux
 INPUT Chapter_1/Intro.aux
 INPUT Chapter_1/Intro.aux
 INPUT Chapter_2/Theory.aux

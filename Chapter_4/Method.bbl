@@ -1,0 +1,100 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Bell}{Bell}{2003}]{Bell2003}
+Bell E.~F.,  2003, \mn@doi [The Astrophysical Journal] {10.1086/367829}, 586,
+  794
+
+\bibitem[\protect\citeauthoryear{Bendo, Galliano  \& Madden}{Bendo
+  et~al.}{2012}]{Bendo2012}
+Bendo G.~J.,  Galliano F.,   Madden S.~C.,  2012, \mn@doi [Monthly Notices of
+  the Royal Astronomical Society] {10.1111/j.1365-2966.2012.20784.x}, 423, 197
+
+\bibitem[\protect\citeauthoryear{Boselli, Fossati, Gavazzi, Ciesla, Buat,
+  Boissier  \& Hughes}{Boselli et~al.}{2015}]{Boselli2015}
+Boselli A.,  Fossati M.,  Gavazzi G.,  Ciesla L.,  Buat V.,  Boissier S.,
+  Hughes T.~M.,  2015, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201525712}, 579, A102
+
+\bibitem[\protect\citeauthoryear{{Calistro Rivera} et~al.,}{{Calistro Rivera}
+  et~al.}{2017}]{CalistroRivera2017a}
+{Calistro Rivera} G.,  et~al., 2017, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/stx1040}, 469, 3468
+
+\bibitem[\protect\citeauthoryear{Ciesla et~al.,}{Ciesla
+  et~al.}{2012}]{Ciesla2012a}
+Ciesla L.,  et~al., 2012, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201219216}, 543, A161
+
+\bibitem[\protect\citeauthoryear{Ciesla et~al.,}{Ciesla
+  et~al.}{2014}]{Ciesla2014}
+Ciesla L.,  et~al., 2014, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201323248}, 565, A128
+
+\bibitem[\protect\citeauthoryear{Condon}{Condon}{1992}]{Condon1992a}
+Condon J.~J.,  1992, \mn@doi [Annual Review of Astronomy and Astrophysics]
+  {10.1146/annurev.aa.30.090192.003043}, 30, 575
+
+\bibitem[\protect\citeauthoryear{Cortese et~al.,}{Cortese
+  et~al.}{2012}]{Cortese2012}
+Cortese L.,  et~al., 2012, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201219312}, 544, A101
+
+\bibitem[\protect\citeauthoryear{Cortese et~al.,}{Cortese
+  et~al.}{2014}]{Cortese2014c}
+Cortese L.,  et~al., 2014, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1093/mnras/stu175}, 440, 942
+
+\bibitem[\protect\citeauthoryear{Galametz et~al.,}{Galametz
+  et~al.}{2013}]{Galametz2013}
+Galametz M.,  et~al., 2013, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1093/mnras/stt313}, 431, 1956
+
+\bibitem[\protect\citeauthoryear{Helou, Soifer  \& Rowan-Robinson}{Helou
+  et~al.}{1985}]{Helou1985}
+Helou G.,  Soifer B.~T.,   Rowan-Robinson M.,  1985, \mn@doi [The Astrophysical
+  Journal] {10.1086/184556}, 298, L7
+
+\bibitem[\protect\citeauthoryear{Hurley-Walker et~al.,}{Hurley-Walker
+  et~al.}{2017}]{Hurley-Walker2017a}
+Hurley-Walker N.,  et~al., 2017, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/stw2337}, 464, 1146
+
+\bibitem[\protect\citeauthoryear{Murphy et~al.,}{Murphy
+  et~al.}{2011}]{Murphy2011}
+Murphy E.~J.,  et~al., 2011, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637X/737/2/67}, 737, 67
+
+\bibitem[\protect\citeauthoryear{Rieke et~al.,}{Rieke et~al.}{2004}]{Rieke2004}
+Rieke G.~H.,  et~al., 2004, \mn@doi [The Astrophysical Journal Supplement
+  Series] {10.1086/422717}, 154, 25
+
+\bibitem[\protect\citeauthoryear{Takeuchi, Buat, Iglesias-P{\'{a}}ramo, Boselli
+   \& Burgarella}{Takeuchi et~al.}{2005}]{Takeuchi2005}
+Takeuchi T.~T.,  Buat V.,  Iglesias-P{\'{a}}ramo J.,  Boselli A.,   Burgarella
+  D.,  2005, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361:20042189}, 432, 423
+
+\bibitem[\protect\citeauthoryear{Taylor, Stil  \& Sunstrum}{Taylor
+  et~al.}{2009}]{Taylor2009}
+Taylor A.~R.,  Stil J.~M.,   Sunstrum C.,  2009, \mn@doi [The Astrophysical
+  Journal] {10.1088/0004-637X/702/2/1230}, 702, 1230
+
+\makeatother
+\end{thebibliography}

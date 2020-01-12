@@ -1,0 +1,73 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Baldwin, Phillips  \& Terlevich}{Baldwin
+  et~al.}{1981}]{Baldwin1981}
+Baldwin A.,  Phillips M.~M.,   Terlevich R.,  1981, \mn@doi [Publications of
+  the Astronomical Society of the Pacific] {10.1086/130930}, 93, 817
+
+\bibitem[\protect\citeauthoryear{Boselli, Fossati, Gavazzi, Ciesla, Buat,
+  Boissier  \& Hughes}{Boselli et~al.}{2015}]{Boselli2015}
+Boselli A.,  Fossati M.,  Gavazzi G.,  Ciesla L.,  Buat V.,  Boissier S.,
+  Hughes T.~M.,  2015, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201525712}, 579, A102
+
+\bibitem[\protect\citeauthoryear{{Calistro Rivera} et~al.,}{{Calistro Rivera}
+  et~al.}{2017}]{CalistroRivera2017a}
+{Calistro Rivera} G.,  et~al., 2017, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/stx1040}, 469, 3468
+
+\bibitem[\protect\citeauthoryear{Chy{\.{z}}y et~al.,}{Chy{\.{z}}y
+  et~al.}{2018}]{Chyzy2018}
+Chy{\.{z}}y K.~T.,  et~al., 2018, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201833133}, 619, A36
+
+\bibitem[\protect\citeauthoryear{Kauffmann et~al.,}{Kauffmann
+  et~al.}{2003}]{Kauffmann2003}
+Kauffmann G.,  et~al., 2003, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1111/j.1365-2966.2003.07154.x}, 346, 1055
+
+\bibitem[\protect\citeauthoryear{Kennicutt \& Evans}{Kennicutt \&
+  Evans}{2012}]{Kennicutt2012}
+Kennicutt R.~C.,  Evans N.~J.,  2012, \mn@doi [Annual Review of Astronomy and
+  Astrophysics] {10.1146/annurev-astro-081811-125610}, 50, 531
+
+\bibitem[\protect\citeauthoryear{Kewley, Dopita, Sutherland, Heisler  \&
+  Trevena}{Kewley et~al.}{2001}]{Kewley2001}
+Kewley L.~J.,  Dopita M.~A.,  Sutherland R.~S.,  Heisler C.~A.,   Trevena J.,
+  2001, \mn@doi [The Astrophysical Journal] {10.1086/321545}, 556, 121
+
+\bibitem[\protect\citeauthoryear{Murphy et~al.,}{Murphy
+  et~al.}{2011}]{Murphy2011}
+Murphy E.~J.,  et~al., 2011, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637X/737/2/67}, 737, 67
+
+\bibitem[\protect\citeauthoryear{Schawinski, Thomas, Sarzi, Maraston, Kaviraj,
+  Joo, Yi  \& Silk}{Schawinski et~al.}{2007}]{Schawinski2007}
+Schawinski K.,  Thomas D.,  Sarzi M.,  Maraston C.,  Kaviraj S.,  Joo S.-J.,
+  Yi S.~K.,   Silk J.,  2007, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1111/j.1365-2966.2007.12487.x}, 382, 1415
+
+\bibitem[\protect\citeauthoryear{Schober, Schleicher  \& Klessen}{Schober
+  et~al.}{2017}]{Schober2017}
+Schober J.,  Schleicher D. R.~G.,   Klessen R.~S.,  2017, \mn@doi [Monthly
+  Notices of the Royal Astronomical Society] {10.1093/mnras/stx460}, 468, 946
+
+\makeatother
+\end{thebibliography}
