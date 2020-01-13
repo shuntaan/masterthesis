@@ -43,7 +43,7 @@ In this case, we can measure SFR with the following equation:
 where $C$ is constant.
 
 This method is simple and easy to measure SFR from a certain luminosity, but the assumption of the constant SFR is sometimes problematic.
-Previous research show the required time to reach the steady state and SFR is $\sim\mr{Myr}$ for recombination lines ($\mr{H\alpha}, \mr{H\beta}$), $\sim 100\,\mr{Myr}$ for the ultraviolet emission and $\sim 1000\,\mr{Myr}$ for optical-near IR emissions \citep{Kennicutt1998, Kennicutt2012}.
+Previous research show the required time to reach the steady state and SFR is $\sim\mr{Myr}$ for recombination lines ($\mr{H\alpha}, \mr{H\beta}$), $\sim 100\,\mr{Myr}$ for the Far-ultraviolet (FUV) emission and $\sim 1000\,\mr{Myr}$ for optical-near IR emissions \citep{Kennicutt1998, Kennicutt2012}.
 These result show that the SFR calculated from Equation~\ref{eq:Buat1991sfrproportion} is different from the true value if SFR in a galaxy varies among $\sim 100\,\mr{Myr}$.
 Although this simple calibration has the uncertainty of the assumption and also strongly depends on the IMF, standard calibrations for Equation~\ref{eq:Buat1991sfrproportion} are calculated with a spectral synthesis code and widely used for measuring SFR\@.
 
@@ -57,9 +57,14 @@ In this study, I investigate the calibration using the low-frequency radio emiss
 
 \section{Cosmic Star Formation History}
 
-Dr.\ Beatrice M. Tinsley proposed the galaxy evolution in her PhD thesis, titled ``Evolution of galaxies and its significance for cosmology''.
+%Dr.\ Beatrice M. Tinsley proposed the galaxy evolution in her PhD thesis, titled ``Evolution of galaxies and its significance for cosmology''.
 
-With 
+Tinsley et al. 1980 proposed the cosmic star formation history which shows the SFR density evolution in the universe.
+While no one could observe much more high-z galaxies enough to do the statistics at that time, we can now observe intrinsic FUV and IR luminosities from a large number of galaxies up to $z \sim 4$. 
+Recent studies \citep{Hopkinse2010, Madau2014} make a cosmic star formation history with consistent IMF over all the redshift range.
+Their plots represent that the peak of the star formation happened at $z\sim2$ where $1.6\,\mr{Gyr}$ after the Bigbang (Figure~\ref{fig:Madau2014_figure9}).
+The era when the SFR density was the highest ($z \sim 2$) is called ``Cosmic Noon'' because the star formation in the universe was the most active.
+The era before Cosmic Noon ($z > 2$) is called  ``Cosmic dawn''.
 
 \begin{figure}[htbp]
 	\centering
@@ -69,34 +74,35 @@ With
     }
 \end{figure}
 
+Although now we know the cosmic star formation history up to $z\sim5$, extending it to the ealier universe is quite difficult because we do not have a telescope observing intrinsic infrared luminosity from a high-z galaxy with larger field of view.
+FUV emission from high-z galaxies is also difficult to make a plot because the dust correction for high-z galaxies still have a large uncertainty.
 
-
-
+On the contorary, the low-frequency emission is a extinction-free estimator and we will be able to observe high-z galaxies with high sensitivity and large field of view enough to extend the cosmic star formation history.
 
 \section{Low radio frequencies and SFR}
-%\section{Background}
-%
-%The low-frequency radio emission from star-forming galaxies has been studied for many years.
-%In this paper, we use the term ``Low frequency'' as the frequency less than a few GHz.
-%The importance of this emission increased after the global log-linear correlation with infrared (IR) had been found.
-%This correlation was discovered by \citet{Helou1985} using integrated far-infrared (FIR;\@$60\,\micron$ and $100\,\micron$) and $1.4\GHz$ radio luminosities in star-forming galaxies, and called the IR-Radio Correlation (IRC).
-%\citet{Condon1991a,Yun2001a, Bell2003} have examined this global correlation using a different sample set and found it holds the tightness across more than three orders of magnitude.
-%Recently, the low-frequency survey at around $100\MHz$ was operated by the LOw Frequency Array (LOFAR;~\citealt{VanHaarlem2013}) and the Murchison Widefield Array (MWA;~\citealt{Tingay2013a}).
-%With the advent of these telescopes, \citet{CalistroRivera2017a, Read2018, Wang2019} extend the IRC study to at an order of magnitude lower frequency and find IRC is held at not only $1.4\GHz$ but $\sim 100\MHz$.
-%
-%Thanks to this correlation, we can regard the low frequency emission as a SFR indicator because IR luminosity is emitted by heated dust grains in a galaxy and can measure the SFR\@.
-%Since the low-frequency emission is not affected by the dust extinction \citep{Yun2001a, Murphy2011} and it will be observed from a distant galaxies by the future extended survey, we anticipate its usefulness and need a further investigation of the relation between the radio and IR luminosities, especially its frequency dependence.
-%However, the spatially-resolved studies show that a star-forming galaxy emits the radio emission whose spectral index depends on the galaxy region \citep{Kapinska2017a, For2018a, Heesen2019}.
-%This means that the radio emission is sensitive to the local density environment of the ISM and it is not guaranteed a simple frequency dependence of the global relation between the integrated radio and IR luminosities.
-%
-%The integrated radio emission in star-forming galaxies across $100\MHz$ to $1.4\GHz$ is supposed to compose of a few percent to $10\%$ free-free and the synchrotron radiations \citep{Condon1992a}.
-%Each radiation is emitted by electrons interacted with the electric field of ions in the \ih~region or the magnetic field in a galaxy.
-%For emitting the synchrotron radiation, an electron needs to be accelerated to the light speed by the supernova remnant.
-%While the synchrotron emission is expected to be dominant at these low frequencies, previous studies find the sign of the free-free absorption and flatter or turnover spectral \citep{Schober2017, Chyzy2018}.
-%If the radio emission has a significant turnover among low frequencies, IRC does not have a simple frequency dependence and the radio emission is no longer useful as a SFR indicator.
-%
-%In this study, we investigate nearby star-forming galaxies from the reference sample for ensuring the reliability of measuring the SFR from the low-frequency emission.
-%For examining the general trend, we use star-forming galaxy samples from Herschel Reference Survey (HRS;~\citealt{Boselli2010}) catalog which are supposed to represent the galaxy samples and the low-frequency emission from The GaLactic Extragalactic All-sky MWA (GLEAM;~\citealt{Hurley-Walker2017a}) Survey which observes the mJy scale radio emission from large areas with their 20 narrow bands.
+
+The low-frequency radio emission from star-forming galaxies has been studied for many years.
+In this paper, we use the term ``Low frequency'' as the frequency less than a few GHz.
+The importance of this emission increased after the global log-linear correlation with infrared (IR) had been found.
+This correlation was discovered by \citet{Helou1985} using integrated far-infrared (FIR;\@$60\,\micron$ and $100\,\micron$) and $1.4\GHz$ radio luminosities in star-forming galaxies, and called the IR-Radio Correlation (IRC).
+\citet{Condon1991a,Yun2001a, Bell2003} have examined this global correlation using a different sample set and found it holds the tightness across more than three orders of magnitude.
+Recently, the low-frequency survey at around $100\MHz$ was operated by the LOw Frequency Array (LOFAR;~\citealt{VanHaarlem2013}) and the Murchison Widefield Array (MWA;~\citealt{Tingay2013a}).
+With the advent of these telescopes, \citet{CalistroRivera2017a, Read2018, Wang2019} extend the IRC study to at an order of magnitude lower frequency and find IRC is held at not only $1.4\GHz$ but $\sim 100\MHz$.
+
+Thanks to this correlation, we can regard the low frequency emission as a SFR indicator because IR luminosity is emitted by heated dust grains in a galaxy and can measure the SFR\@.
+Since the low-frequency emission is not affected by the dust extinction \citep{Yun2001a, Murphy2011} and it will be observed from a distant galaxies by the future extended survey, we anticipate its usefulness and need a further investigation of the relation between the radio and IR luminosities, especially its frequency dependence.
+
+However, the spatially-resolved studies show that a star-forming galaxy emits the radio emission whose spectral index depends on the galaxy region \citep{Kapinska2017a, For2018a, Heesen2019}.
+This means that the radio emission is sensitive to the local density environment of the ISM and it is not guaranteed a simple frequency dependence of the global relation between the integrated radio and IR luminosities.
+
+The integrated radio emission in star-forming galaxies across $100\MHz$ to $1.4\GHz$ is supposed to compose of a few percent to $10\%$ free-free and the synchrotron radiations \citep{Condon1992a}.
+Each radiation is emitted by electrons interacted with the electric field of ions in the \ih~region or the magnetic field in a galaxy.
+For emitting the synchrotron radiation, an electron needs to be accelerated to the light speed by the supernova remnant.
+While the synchrotron emission is expected to be dominant at these low frequencies, previous studies find the sign of the free-free absorption and flatter or turnover spectral \citep{Schober2017, Chyzy2018}.
+If the radio emission has a significant turnover among low frequencies, IRC does not have a simple frequency dependence and the radio emission is no longer useful as a SFR indicator.
+
+In this study, we investigate nearby star-forming galaxies from the reference sample for ensuring the reliability of measuring the SFR from the low-frequency emission.
+For examining the general trend, we use star-forming galaxy samples from Herschel Reference Survey (HRS;~\citealt{Boselli2010}) catalog which are supposed to represent the galaxy samples and the low-frequency emission from The GaLactic Extragalactic All-sky MWA (GLEAM;~\citealt{Hurley-Walker2017a}) Survey which observes the mJy scale radio emission from large areas with their 20 narrow bands.
 
 This paper is organized as follows.
 In Chapter~\ref{chap:data}, we introduce our galaxy samples and the low-frequency emissions used in this study.
