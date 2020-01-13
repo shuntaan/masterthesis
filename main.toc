@@ -2,26 +2,28 @@
 \contentsline {chapter}{List of Figures}{vii}{chapter*.3}% 
 \contentsline {chapter}{List of Tables}{ix}{chapter*.4}% 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}% 
-\contentsline {chapter}{\numberline {2}Theoretical Background}{3}{chapter.2}% 
-\contentsline {chapter}{\numberline {3}Data}{5}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Herschel Reference Survey (HRS)}{5}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}GLEAM survey}{7}{section.3.2}% 
-\contentsline {chapter}{\numberline {4}Methods}{9}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Cross Matching}{9}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Reduce galaxy samples for the secure analysis}{10}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Calculating the $q$ parameter}{11}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}Total IR luminosity}{11}{subsection.4.3.1}% 
-\contentsline {section}{\numberline {4.4}Fitting to $q$ parameters}{12}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Calculating the SFR}{13}{section.4.5}% 
-\contentsline {chapter}{\numberline {5}Results}{15}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Distributions of $\gamma $}{15}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Star Formation Rate (SFR) from the low-frequency emission}{16}{section.5.2}% 
-\contentsline {chapter}{\numberline {6}Discussions}{21}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Comparing the calibration with previous results}{21}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Radio SFR uncertainty}{21}{section.6.2}% 
-\contentsline {chapter}{\numberline {7}Summary}{23}{chapter.7}% 
-\contentsline {chapter}{Bibliography}{25}{chapter*.14}% 
-\contentsline {chapter}{\numberline {A}Galaxy images}{27}{appendix.A}% 
-\contentsline {section}{\numberline {A.1}Matched samples (18 samples used for the analysis)}{27}{section.A.1}% 
-\contentsline {section}{\numberline {A.2}Matched samples (not used for the analysis)}{29}{section.A.2}% 
+\contentsline {section}{\numberline {1.1}Star Formation Rate (SFR)}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Cosmic Star Formation History}{2}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Low radio frequencies and SFR}{2}{section.1.3}% 
+\contentsline {chapter}{\numberline {2}Theoretical Background}{5}{chapter.2}% 
+\contentsline {chapter}{\numberline {3}Data}{7}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Herschel Reference Survey (HRS)}{7}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}GLEAM survey}{9}{section.3.2}% 
+\contentsline {chapter}{\numberline {4}Methods}{11}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Cross Matching}{11}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Reduce galaxy samples for the secure analysis}{12}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Calculating the $q$ parameter}{13}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Total IR luminosity}{13}{subsection.4.3.1}% 
+\contentsline {section}{\numberline {4.4}Fitting to $q$ parameters}{14}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Calculating the SFR}{15}{section.4.5}% 
+\contentsline {chapter}{\numberline {5}Results}{17}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Distributions of $\gamma $}{17}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Star Formation Rate (SFR) from the low-frequency emission}{18}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Discussions}{23}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Comparing the calibration with previous results}{23}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Radio SFR uncertainty}{23}{section.6.2}% 
+\contentsline {chapter}{\numberline {7}Summary}{25}{chapter.7}% 
+\contentsline {chapter}{Bibliography}{27}{chapter*.15}% 
+\contentsline {chapter}{\numberline {A}Galaxy images}{29}{appendix.A}% 
+\contentsline {section}{\numberline {A.1}Matched samples (18 samples used for the analysis)}{29}{section.A.1}% 
+\contentsline {section}{\numberline {A.2}Matched samples (not used for the analysis)}{31}{section.A.2}% 
