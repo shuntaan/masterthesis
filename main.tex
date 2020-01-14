@@ -4,7 +4,8 @@
 % THERE IS NO GUARANTEE OF ACCURACY OR COMPLETENESS TO THE TEMPLATE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[11pt,a4paper,twoside,openright,final,titlepage]{report}
+%\documentclass[11pt,a4paper,twoside,openright,final,titlepage]{report}
+\documentclass[11pt,a4paper,oneside,openright,final,titlepage]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -19,6 +20,8 @@
 \usepackage{rotating}
 \usepackage{longtable}
 %\usepackage{todonotes}
+\usepackage{booktabs}   % Showing the table from pandas
+\usepackage{lscape}     % Enable rotating
 \usepackage[colorlinks=true,
 							citecolor=black,
 							linkcolor=black,
@@ -169,7 +172,7 @@
 
 \appendix
 
-\chapter{Galaxy images}
+\chapter{Galaxy images}\label{chap:galaxyimages}
 
 \section{Matched samples (18 samples used for the analysis)}
 \begin{figure}[htbp]
@@ -194,6 +197,8 @@
     }
 \end{figure}
 
+
+
 \section{Matched samples (not used for the analysis)}
 \begin{figure}[htbp]
     \centering
@@ -202,4 +207,79 @@
         These galaxies are not used for the analysis labeled in Section~\ref{sec:reducegalaxysamples} although they have a radio counterpart in the GLEAM catalog by the cross-matching.
     }
 \end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{Figures/AppendixB_galaxyimages_notselected2.pdf}
+    \caption[Galaxy images (6/15 not used for the analysis)]{\label{fig:galaxyimages_notselected}
+        Continuous.
+    }
+\end{figure}
+
+
+
+\section{Suspicious matching samples}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{Figures/AppendixB_galaxyimages_suspicious.pdf}
+    \caption[Galaxy images (suspicious matching)]{\label{fig:galaxyimages_suspicious}
+        These galaxies are flagged as a suspicious matching in Section~\ref{sec:crossmatching}
+    }
+\end{figure}
+
+
+
+\section{Not matching samples}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{Figures/AppendixB_galaxyImages_noMatch.pdf}
+    \caption[Galaxy images (no matching)]{\label{fig:galaxyimages_nomatch}
+        These galaxies do not have a radio counterpart from the GLEAM catalog in Section~\ref{sec:crossmatching}
+    }
+\end{figure}
+
+
+
+\chapter{Galaxy samples for the analysis}\label{chap:galaxysamples}
+
+\begin{landscape}
+    \begin{table}
+	\centering
+    \caption[The overview of 18 samples used for the analysis]{\label{tab:sampletable}
+        This table shows 18 HRS galaxies selected in Section~\ref{sec:sample}.
+        Column (1) NGC (2) R.A. (3) Dec. (5) D25 (6) Dist.\ are from \citet{Cortese2012}, column (4) Type is from \citet{Ciesla2014} (\citealt{Cortese2012} for only HRS 163) and column (7) GLEAM ID refers to GLEAM catalog.
+        $\alpha\msb{MWA}$, $\alpha\msb{MWA+1500\,MHz}$ are the result in Section~\ref{subsec:FrequencyDependenceOfQ}.
+        $\mr{SFR}\msb{IR}$ is calculated with the equation from \citet{Murphy2011} and $\mr{SFR\msb{Radio,\,151\MHz}}$ is calculated in Section~\ref{subsec:sfrfromradioemission} with individual parameters.
+        ``AGN'' is identified BPT diagram \citep[e.g.][]{Baldwin1981, Kewley2001, Kauffmann2003, Schawinski2007} with emission lines \citep{Boselli2015}.
+    \nh~deficient galaxy is identified when the value of \nh-def \citep{Boselli2014} is larger than 0.4.}
+    \scalebox{0.8}{
+
+\begin{tabular}{lllllrrlllllll}
+\toprule
+{} &   NGC &         R.A. &          Dec &      Type &   D25 &  Dist. &        GLEAM ID & $\alpha_{\mathrm{MWA}}$ & $\alpha_{\mathrm{MWA+1500MHz}}$ & $SFR_{\mathrm{IR}}$ & $SFR_{\mathrm{Radio},\,151\mathrm{MHz}}$ &   AGN & HI-def \\
+HRS &      &              &              &           &  [arcmin] &  [Mpc] &             &                         &                                 & $\brb{M_{\odot}\,\mr{yr}^{-1}}$ & $\brb{M_{\odot}\,\mr{yr}^{-1}}$          &       &        \\
+\midrule
+25  &  3437 &  10:52:35.75 &  +22:56:02.9 &        Sc &  2.51 &  18.24 &  J105236+225606 &             0.33+/-0.47 &                   -0.66+/-0.07 &         1.41+/-0.08 &                              0.96+/-0.28 &     - &      - \\
+36  &  3504 &  11:03:11.21 &  +27:58:21.0 &       Sab &  2.69 &  21.94 &  J110311+275812 &             -0.42+/-0.1 &                   -0.53+/-0.05 &         4.09+/-0.16 &                              5.15+/-1.35 &     - &   True \\
+50  &  3655 &  11:22:54.62 &  +16:35:24.5 &        Sc &  1.55 &  21.43 &  J112254+163522 &             -0.38+/-0.2 &                   -0.63+/-0.04 &         1.91+/-0.07 &                              1.45+/-0.41 &     - &      - \\
+77  &  4030 &  12:00:23.64 &  -01:06:00.0 &       Sbc &  4.17 &  20.83 &  J120023-010607 &            -0.57+/-0.07 &                   -0.63+/-0.04 &         4.81+/-0.19 &                              3.55+/-0.94 &     - &      - \\
+102 &  4254 &  12:18:49.63 &  +14:24:59.4 &        Sc &  6.15 &  17.00 &  J121850+142515 &             -0.7+/-0.05 &                    -0.7+/-0.03 &         6.47+/-0.25 &                              8.19+/-2.12 &     - &      - \\
+114 &  4303 &  12:21:54.90 &  +04:28:25.1 &       Sbc &  6.59 &  17.00 &  J122154+042827 &            -0.57+/-0.05 &                   -0.58+/-0.04 &         6.15+/-0.23 &                              5.49+/-1.43 &     - &      - \\
+122 &  4321 &  12:22:54.90 &  +15:49:20.6 &       Sbc &  9.12 &  17.00 &  J122255+154939 &            -0.77+/-0.07 &                              - &         5.45+/-0.22 &                              4.28+/-1.14 &     - &   True \\
+144 &  4388 &  12:25:46.82 &  +12:39:43.5 &        Sb &  5.10 &  17.00 &  J122548+123917 &             0.22+/-0.22 &                   -0.73+/-0.08 &         1.66+/-0.06 &                              3.09+/-0.85 &  Seyfert &   True \\
+163 &  4438 &  12:27:45.59 &  +13:00:31.8 &        Sb &  8.12 &  17.00 &  J122744+130020 &            -0.81+/-0.35 &                              - &         0.69+/-0.03 &                              2.13+/-0.66 &  Seyfert &   True \\
+190 &  4501 &  12:31:59.22 &  +14:25:13.5 &        Sb &  7.23 &  17.00 &  J123159+142503 &            -0.67+/-0.12 &                   -0.72+/-0.05 &         4.37+/-0.18 &                              4.92+/-1.31 &     - &   True \\
+201 &  4527 &  12:34:08.50 &  +02:39:13.7 &       Sbc &  5.86 &  17.00 &  J123408+023909 &            -0.54+/-0.06 &                   -0.56+/-0.04 &         4.55+/-0.24 &                              2.71+/-0.71 &     - &      - \\
+203 &  4532 &  12:34:19.33 &  +06:28:03.7 &  Im(Im/S) &  2.60 &  17.00 &  J123420+062758 &            -0.55+/-0.13 &                    -0.6+/-0.04 &         0.99+/-0.04 &                              1.52+/-0.43 &     - &      - \\
+204 &  4535 &  12:34:20.31 &  +08:11:51.9 &        Sc &  8.33 &  17.00 &  J123418+081157 &             -0.71+/-0.1 &                              - &          2.6+/-0.11 &                              2.69+/-0.75 &     - &      - \\
+205 &  4536 &  12:34:27.13 &  +02:11:16.4 &       Sbc &  7.23 &  17.00 &  J123427+021114 &            -0.61+/-0.04 &                   -0.57+/-0.02 &         3.58+/-0.14 &                              2.63+/-0.69 &     - &      - \\
+220 &  4579 &  12:37:43.52 &  +11:49:05.5 &        Sb &  6.29 &  17.00 &  J123743+114909 &            -0.42+/-0.18 &                   -0.77+/-0.05 &         1.56+/-0.08 &                              2.32+/-0.65 &  LINER &   True \\
+247 &  4654 &  12:43:56.58 &  +13:07:36.0 &       Scd &  4.99 &  17.00 &  J124355+130801 &            -0.27+/-0.29 &                   -0.66+/-0.06 &         2.59+/-0.11 &                              1.65+/-0.49 &     - &      - \\
+251 &  4666 &  12:45:08.59 &  -00:27:42.8 &        Sc &  4.57 &  21.61 &  J124508-002747 &            -0.58+/-0.03 &                   -0.58+/-0.02 &          9.2+/-0.33 &                              9.11+/-2.35 &     - &      - \\
+306 &  5363 &  13:56:07.21 &  +05:15:17.2 &       pec &  4.07 &  16.23 &  J135607+051516 &            -0.61+/-0.08 &                   -0.51+/-0.04 &         0.27+/-0.03 &                              1.75+/-0.46 &     - &   True \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+\end{landscape}
 \end{document}

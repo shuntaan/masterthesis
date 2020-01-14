@@ -97,6 +97,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -234,8 +236,15 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT Chapter_1/Figures/Madau2014_Figure9.png
 INPUT extractbb -B cropbox -O Chapter_1/Figures/Madau2014_Figure9.png
+INPUT Chapter_1/Figures/Helou1985_Figure2.png
+INPUT extractbb -B cropbox -O Chapter_1/Figures/Helou1985_Figure2.png
+INPUT Chapter_1/Figures/Kapinska2017_Figure5.png
+INPUT extractbb -B cropbox -O Chapter_1/Figures/Kapinska2017_Figure5.png
+INPUT Chapter_1/Figures/For2018_Figure6.png
+INPUT extractbb -B cropbox -O Chapter_1/Figures/For2018_Figure6.png
 OUTPUT Chapter_2/Theory.aux
 INPUT Chapter_2/Theory.tex
 INPUT Chapter_2/Theory.tex
@@ -246,7 +255,6 @@ INPUT Chapter_3/Figures/Boselli2010_Figure1.png
 INPUT extractbb -B cropbox -O Chapter_3/Figures/Boselli2010_Figure1.png
 INPUT Chapter_3/Figures/Boselli2010_Figure2.png
 INPUT extractbb -B cropbox -O Chapter_3/Figures/Boselli2010_Figure2.png
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT Chapter_3/Figures/HurleyWalker_Figure11.png
 INPUT extractbb -B cropbox -O Chapter_3/Figures/HurleyWalker_Figure11.png
 OUTPUT Chapter_4/Method.aux
@@ -264,8 +272,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT Chapter_4/Figures/Method_TIRcomparison.pdf
 INPUT extractbb -B cropbox -O Chapter_4/Figures/Method_TIRcomparison.pdf
 OUTPUT Chapter_5/Result.aux
@@ -293,6 +299,12 @@ INPUT Figures/AppendixB_galaxyimages2.pdf
 INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyimages2.pdf
 INPUT Figures/AppendixB_galaxyimages_notselected.pdf
 INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyimages_notselected.pdf
+INPUT Figures/AppendixB_galaxyimages_notselected2.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyimages_notselected2.pdf
+INPUT Figures/AppendixB_galaxyimages_suspicious.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyimages_suspicious.pdf
+INPUT Figures/AppendixB_galaxyImages_noMatch.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyImages_noMatch.pdf
 INPUT main.aux
 INPUT Acknowledgments/acknowledgements.aux
 INPUT Acknowledgments/acknowledgements.aux

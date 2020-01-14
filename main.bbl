@@ -71,6 +71,11 @@ Buat V.,  1991, Astrophysical Journal, 376, 95
 {Calistro Rivera} G.,  et~al., 2017, \mn@doi [Monthly Notices of the Royal
   Astronomical Society] {10.1093/mnras/stx1040}, 469, 3468
 
+\bibitem[\protect\citeauthoryear{Carilli, Holdaway, Ho  \& de Pree}{Carilli
+  et~al.}{1992}]{Carilli1992}
+Carilli C.~L.,  Holdaway M.~A.,  Ho P. T.~P.,   de Pree C.~G.,  1992, \mn@doi
+  [The Astrophysical Journal] {10.1086/186606}, 399, L59
+
 \bibitem[\protect\citeauthoryear{Chabrier}{Chabrier}{2003}]{Chabrier2003}
 Chabrier G.,  2003, \mn@doi [Publications of the Astronomical Society of the
   Pacific] {10.1086/376392}, 115, 763
@@ -94,6 +99,11 @@ Ciesla L.,  et~al., 2014, \mn@doi [Astronomy {\&} Astrophysics]
 Condon J.~J.,  1992, \mn@doi [Annual Review of Astronomy and Astrophysics]
   {10.1146/annurev.aa.30.090192.003043}, 30, 575
 
+\bibitem[\protect\citeauthoryear{Condon, Anderson  \& Helou}{Condon
+  et~al.}{1991}]{Condon1991a}
+Condon J.~J.,  Anderson M.~L.,   Helou G.,  1991, \mn@doi [The Astrophysical
+  Journal] {10.1086/170258}, 376, 95
+
 \bibitem[\protect\citeauthoryear{Cortese et~al.,}{Cortese
   et~al.}{2012}]{Cortese2012}
 Cortese L.,  et~al., 2012, \mn@doi [Astronomy {\&} Astrophysics]
@@ -103,6 +113,10 @@ Cortese L.,  et~al., 2012, \mn@doi [Astronomy {\&} Astrophysics]
   et~al.}{2014}]{Cortese2014c}
 Cortese L.,  et~al., 2014, \mn@doi [Monthly Notices of the Royal Astronomical
   Society] {10.1093/mnras/stu175}, 440, 942
+
+\bibitem[\protect\citeauthoryear{For et~al.,}{For et~al.}{2018}]{For2018a}
+For B.-Q.,  et~al., 2018, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1093/mnras/sty1960}, 480, 2743
 
 \bibitem[\protect\citeauthoryear{Galametz et~al.,}{Galametz
   et~al.}{2013}]{Galametz2013}
@@ -114,20 +128,47 @@ Galametz M.,  et~al., 2013, \mn@doi [Monthly Notices of the Royal Astronomical
 Giovanelli R.,  et~al., 2005, \mn@doi [The Astronomical Journal]
   {10.1086/497431}, 130, 2598
 
+\bibitem[\protect\citeauthoryear{Hao, Kennicutt, Johnson, Calzetti, Dale  \&
+  Moustakas}{Hao et~al.}{2011}]{Hao2011}
+Hao C.-N.,  Kennicutt R.~C.,  Johnson B.~D.,  Calzetti D.,  Dale D.~A.,
+  Moustakas J.,  2011, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637X/741/2/124}, 741, 124
+
 \bibitem[\protect\citeauthoryear{Haynes et~al.,}{Haynes
   et~al.}{2011}]{Haynes2011}
 Haynes M.~P.,  et~al., 2011, \mn@doi [The Astronomical Journal]
   {10.1088/0004-6256/142/5/170}, 142, 170
+
+\bibitem[\protect\citeauthoryear{Heesen et~al.,}{Heesen
+  et~al.}{2019}]{Heesen2019}
+Heesen V.,  et~al., 2019, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201833905}, 622, A8
 
 \bibitem[\protect\citeauthoryear{Helou, Soifer  \& Rowan-Robinson}{Helou
   et~al.}{1985}]{Helou1985}
 Helou G.,  Soifer B.~T.,   Rowan-Robinson M.,  1985, \mn@doi [The Astrophysical
   Journal] {10.1086/184556}, 298, L7
 
+\bibitem[\protect\citeauthoryear{Hopkins \& Beacom}{Hopkins \&
+  Beacom}{2006}]{Hopkins2006}
+Hopkins A.~M.,  Beacom J.~F.,  2006, \mn@doi [The Astrophysical Journal]
+  {10.1086/506610}, 651, 142
+
+\bibitem[\protect\citeauthoryear{Hughes, Staveley-Smith, Kim, Wolleben  \&
+  Filipovic}{Hughes et~al.}{2007}]{Hughes2007}
+Hughes A.,  Staveley-Smith L.,  Kim S.,  Wolleben M.,   Filipovic M.,  2007,
+  \mn@doi [Monthly Notices of the Royal Astronomical Society]
+  {10.1111/j.1365-2966.2007.12466.x}, 382, 543
+
 \bibitem[\protect\citeauthoryear{Hurley-Walker et~al.,}{Hurley-Walker
   et~al.}{2017}]{Hurley-Walker2017a}
 Hurley-Walker N.,  et~al., 2017, \mn@doi [Monthly Notices of the Royal
   Astronomical Society] {10.1093/mnras/stw2337}, 464, 1146
+
+\bibitem[\protect\citeauthoryear{Kapi{\'{n}}ska et~al.,}{Kapi{\'{n}}ska
+  et~al.}{2017}]{Kapinska2017a}
+Kapi{\'{n}}ska A.~D.,  et~al., 2017, \mn@doi [The Astrophysical Journal]
+  {10.3847/1538-4357/aa5f5d}, 838, 68
 
 \bibitem[\protect\citeauthoryear{Kauffmann et~al.,}{Kauffmann
   et~al.}{2003}]{Kauffmann2003}
@@ -143,6 +184,11 @@ Kennicutt R.~C.,  1998, \mn@doi [Annual Review of Astronomy and Astrophysics]
 Kennicutt R.~C.,  Evans N.~J.,  2012, \mn@doi [Annual Review of Astronomy and
   Astrophysics] {10.1146/annurev-astro-081811-125610}, 50, 531
 
+\bibitem[\protect\citeauthoryear{Kennicutt et~al.,}{Kennicutt
+  et~al.}{2009}]{Kennicutt2009}
+Kennicutt R.~C.,  et~al., 2009, \mn@doi [Astrophysical Journal]
+  {10.1088/0004-637X/703/2/1672}, 703, 1672
+
 \bibitem[\protect\citeauthoryear{Kewley, Dopita, Sutherland, Heisler  \&
   Trevena}{Kewley et~al.}{2001}]{Kewley2001}
 Kewley L.~J.,  Dopita M.~A.,  Sutherland R.~S.,  Heisler C.~A.,   Trevena J.,
@@ -151,6 +197,16 @@ Kewley L.~J.,  Dopita M.~A.,  Sutherland R.~S.,  Heisler C.~A.,   Trevena J.,
 \bibitem[\protect\citeauthoryear{Kroupa}{Kroupa}{2001}]{Kroupa2001}
 Kroupa P.,  2001, \mn@doi [Monthly Notices of the Royal Astronomical Society]
   {10.1046/j.1365-8711.2001.04022.x}, 322, 231
+
+\bibitem[\protect\citeauthoryear{Lequeux, Maucherat-Joubert, Deharveng  \&
+  Kunth}{Lequeux et~al.}{1981}]{Lequeux1981}
+Lequeux J.,  Maucherat-Joubert M.,  Deharveng J.~M.,   Kunth D.,  1981,
+  Astronomy and Astrophysics, 103, 305L
+
+\bibitem[\protect\citeauthoryear{Madau \& Dickinson}{Madau \&
+  Dickinson}{2014}]{Madau2014}
+Madau P.,  Dickinson M.,  2014, \mn@doi [Annual Review of Astronomy and
+  Astrophysics] {10.1146/annurev-astro-081811-125615}, 52, 415
 
 \bibitem[\protect\citeauthoryear{Martin et~al.,}{Martin
   et~al.}{2005}]{Martin2005}
@@ -173,9 +229,18 @@ Noll S.,  Burgarella D.,  Giovannoli E.,  Buat V.,  Marcillac D.,
   Mu{\~{n}}oz-Mateos J.~C.,  2009, \mn@doi [Astronomy {\&} Astrophysics]
   {10.1051/0004-6361/200912497}, 507, 1793
 
+\bibitem[\protect\citeauthoryear{Padovani et~al.,}{Padovani
+  et~al.}{2017}]{Padovani2017}
+Padovani P.,  et~al., 2017, \mn@doi [The Astronomy and Astrophysics Review]
+  {10.1007/s00159-017-0102-9}, 25, 2
+
 \bibitem[\protect\citeauthoryear{Peebles}{Peebles}{1982}]{Peebles1982}
 Peebles P. J.~E.,  1982, \mn@doi [The Astrophysical Journal] {10.1086/183911},
   263, L1
+
+\bibitem[\protect\citeauthoryear{Read et~al.,}{Read et~al.}{2018}]{Read2018}
+Read S.~C.,  et~al., 2018, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1093/mnras/sty2198}, 480, 5625
 
 \bibitem[\protect\citeauthoryear{Rieke et~al.,}{Rieke et~al.}{2004}]{Rieke2004}
 Rieke G.~H.,  et~al., 2004, \mn@doi [The Astrophysical Journal Supplement
@@ -217,10 +282,39 @@ Taylor A.~R.,  Stil J.~M.,   Sunstrum C.,  2009, \mn@doi [The Astrophysical
 Tingay S.~J.,  et~al., 2013, \mn@doi [Journal of Physics: Conference Series]
   {10.1088/1742-6596/440/1/012033}, 440, 012033
 
+\bibitem[\protect\citeauthoryear{Tinsley \& Danly}{Tinsley \&
+  Danly}{1980}]{Tinsley1980}
+Tinsley B.~M.,  Danly L.,  1980, \mn@doi [The Astrophysical Journal]
+  {10.1086/158477}, 242, 435
+
+\bibitem[\protect\citeauthoryear{Urry \& Padovani}{Urry \&
+  Padovani}{1995}]{Urry1995}
+Urry C.~M.,  Padovani P.,  1995, \mn@doi [Publications of the Astronomical
+  Society of the Pacific] {10.1086/133630}, 107, 803
+
 \bibitem[\protect\citeauthoryear{Vale \& Ostriker}{Vale \&
   Ostriker}{2004}]{Vale2004}
 Vale A.,  Ostriker J.~P.,  2004, \mn@doi [Monthly Notices of the Royal
   Astronomical Society] {10.1111/j.1365-2966.2004.08059.x}, 353, 189
+
+\bibitem[\protect\citeauthoryear{V{\"{o}}lk}{V{\"{o}}lk}{1989}]{Volk1989}
+V{\"{o}}lk H.,  1989, Astronomy and Astrophysics, 218, 67
+
+\bibitem[\protect\citeauthoryear{Wang, Gao, Duncan, Williams, Rowan-Robinson,
+  Sabater  \& Shimwell}{Wang et~al.}{2019}]{Wang2019}
+Wang L.,  Gao F.,  Duncan K.~J.,  Williams W.,  Rowan-Robinson M.,  Sabater J.,
+    Shimwell T.~W.,  2019, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201935913}, 109, 1
+
+\bibitem[\protect\citeauthoryear{Yun, Reddy  \& Condon}{Yun
+  et~al.}{2001}]{Yun2001a}
+Yun M.~S.,  Reddy N.~A.,   Condon J.~J.,  2001, \mn@doi [The Astrophysical
+  Journal] {10.1086/323145}, 554, 803
+
+\bibitem[\protect\citeauthoryear{van Haarlem et~al.,}{van Haarlem
+  et~al.}{2013}]{VanHaarlem2013}
+van Haarlem M.~P.,  et~al., 2013, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201220873}, 556, A2
 
 \makeatother
 \end{thebibliography}
