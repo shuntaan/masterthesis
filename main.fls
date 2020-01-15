@@ -8,12 +8,10 @@ INPUT main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size11.clo
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -148,8 +146,6 @@ INPUT Acknowledgments/acknowledgements.aux
 INPUT Acknowledgments/acknowledgements.aux
 INPUT Chapter_1/Intro.aux
 INPUT Chapter_1/Intro.aux
-INPUT Chapter_2/Theory.aux
-INPUT Chapter_2/Theory.aux
 INPUT Chapter_3/Data.aux
 INPUT Chapter_3/Data.aux
 INPUT Chapter_4/Method.aux
@@ -174,16 +170,14 @@ INPUT main.out
 INPUT ./main.out
 INPUT ./main.out
 OUTPUT main.out
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -230,12 +224,6 @@ INPUT Chapter_1/Intro.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT Chapter_1/Figures/Madau2014_Figure9.png
 INPUT extractbb -B cropbox -O Chapter_1/Figures/Madau2014_Figure9.png
@@ -245,9 +233,6 @@ INPUT Chapter_1/Figures/Kapinska2017_Figure5.png
 INPUT extractbb -B cropbox -O Chapter_1/Figures/Kapinska2017_Figure5.png
 INPUT Chapter_1/Figures/For2018_Figure6.png
 INPUT extractbb -B cropbox -O Chapter_1/Figures/For2018_Figure6.png
-OUTPUT Chapter_2/Theory.aux
-INPUT Chapter_2/Theory.tex
-INPUT Chapter_2/Theory.tex
 OUTPUT Chapter_3/Data.aux
 INPUT Chapter_3/Data.tex
 INPUT Chapter_3/Data.tex
@@ -265,13 +250,10 @@ INPUT extractbb -B cropbox -O Chapter_4/Figures/Method_separation.pdf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT Chapter_4/Figures/Method_TIRcomparison.pdf
 INPUT extractbb -B cropbox -O Chapter_4/Figures/Method_TIRcomparison.pdf
 OUTPUT Chapter_5/Result.aux
@@ -288,6 +270,10 @@ INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_sfrratios.pdf
 OUTPUT Chapter_6/Discussion.aux
 INPUT Chapter_6/Discussion.tex
 INPUT Chapter_6/Discussion.tex
+INPUT Chapter_6/Figures/Discuss_comparehist.pdf
+INPUT extractbb -B cropbox -O Chapter_6/Figures/Discuss_comparehist.pdf
+INPUT Chapter_6/Figures/Discuss_compareq.pdf
+INPUT extractbb -B cropbox -O Chapter_6/Figures/Discuss_compareq.pdf
 OUTPUT Chapter_7/Conclusion.aux
 INPUT Chapter_7/Conclusion.tex
 INPUT Chapter_7/Conclusion.tex
@@ -305,13 +291,13 @@ INPUT Figures/AppendixB_galaxyimages_suspicious.pdf
 INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyimages_suspicious.pdf
 INPUT Figures/AppendixB_galaxyImages_noMatch.pdf
 INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyImages_noMatch.pdf
+INPUT Figures/AppendixC_qfitting.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixC_qfitting.pdf
 INPUT main.aux
 INPUT Acknowledgments/acknowledgements.aux
 INPUT Acknowledgments/acknowledgements.aux
 INPUT Chapter_1/Intro.aux
 INPUT Chapter_1/Intro.aux
-INPUT Chapter_2/Theory.aux
-INPUT Chapter_2/Theory.aux
 INPUT Chapter_3/Data.aux
 INPUT Chapter_3/Data.aux
 INPUT Chapter_4/Method.aux
