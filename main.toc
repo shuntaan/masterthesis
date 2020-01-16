@@ -1,34 +1,31 @@
-\contentsline {chapter}{Contents}{ii}{chapter*.2}% 
-\contentsline {chapter}{List of Figures}{iv}{chapter*.3}% 
-\contentsline {chapter}{List of Tables}{v}{chapter*.4}% 
+\contentsline {chapter}{Contents}{v}{chapter*.2}% 
+\contentsline {chapter}{List of Figures}{vii}{chapter*.3}% 
+\contentsline {chapter}{List of Tables}{ix}{chapter*.4}% 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Star Formation Rate (SFR)}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Cosmic Star Formation History}{3}{section.1.2}% 
 \contentsline {section}{\numberline {1.3}Low radio frequencies and SFR}{4}{section.1.3}% 
-\contentsline {chapter}{\numberline {2}Data}{8}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Herschel Reference Survey (HRS)}{8}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}GLEAM survey}{10}{section.2.2}% 
-\contentsline {chapter}{\numberline {3}Methods}{12}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Cross Matching}{12}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Reduce galaxy samples for the secure analysis}{13}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Calculating the $q_{\nu }$ parameter}{14}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Total IR luminosity}{15}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Fitting to $q_{\nu }$ parameters}{15}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Calculating the SFR}{17}{section.3.6}% 
-\contentsline {chapter}{\numberline {4}Results}{18}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Distributions of $\gamma $}{18}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Star Formation Rate (SFR) from the low-frequency emission}{20}{section.4.2}% 
-\contentsline {chapter}{\numberline {5}Discussions}{24}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Comparing the calibration with previous results}{24}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Radio SFR uncertainty}{24}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Galaxy properties for the radio SFR}{25}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Non-detected galaxies by the GLEAM survey}{28}{section.5.4}% 
-\contentsline {chapter}{\numberline {6}Summary}{29}{chapter.6}% 
-\contentsline {chapter}{Bibliography}{30}{chapter*.20}% 
-\contentsline {chapter}{\numberline {A}Galaxy images}{34}{appendix.A}% 
-\contentsline {section}{\numberline {A.1}Matched samples (18 samples used for the analysis)}{34}{section.A.1}% 
-\contentsline {section}{\numberline {A.2}Matched samples (not used for the analysis)}{34}{section.A.2}% 
-\contentsline {section}{\numberline {A.3}Suspicious matching samples}{34}{section.A.3}% 
-\contentsline {section}{\numberline {A.4}Not matching samples}{34}{section.A.4}% 
-\contentsline {chapter}{\numberline {B}Galaxy samples for the analysis}{40}{appendix.B}% 
-\contentsline {chapter}{\numberline {C}Fitting results}{42}{appendix.C}% 
+\contentsline {chapter}{\numberline {2}Data}{9}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Herschel Reference Survey (HRS)}{9}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}GLEAM survey}{12}{section.2.2}% 
+\contentsline {chapter}{\numberline {3}Methods}{13}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Cross Matching}{13}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Reduce galaxy samples for the secure analysis}{14}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Calculating the $q_{\nu }$ parameter}{15}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Total IR luminosity}{16}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Fitting to $q_{\nu }$ parameters}{18}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Calculating the SFR}{18}{section.3.6}% 
+\contentsline {chapter}{\numberline {4}Discussions}{21}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Comparing the calibration with previous results}{21}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Radio SFR uncertainty}{23}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Galaxy properties for the radio SFR}{24}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Non-detected galaxies by the GLEAM survey}{25}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}Summary}{29}{chapter.5}% 
+\contentsline {chapter}{Bibliography}{31}{chapter*.18}% 
+\contentsline {chapter}{\numberline {A}Galaxy images}{35}{appendix.A}% 
+\contentsline {section}{\numberline {A.1}Matched samples (18 samples used for the analysis)}{35}{section.A.1}% 
+\contentsline {section}{\numberline {A.2}Matched samples (not used for the analysis)}{35}{section.A.2}% 
+\contentsline {section}{\numberline {A.3}Suspicious matching samples}{35}{section.A.3}% 
+\contentsline {section}{\numberline {A.4}Not matching samples}{35}{section.A.4}% 
+\contentsline {chapter}{\numberline {B}Galaxy samples for the analysis}{41}{appendix.B}% 
+\contentsline {chapter}{\numberline {C}Fitting results}{43}{appendix.C}% 

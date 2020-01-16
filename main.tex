@@ -4,8 +4,8 @@
 % THERE IS NO GUARANTEE OF ACCURACY OR COMPLETENESS TO THE TEMPLATE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\documentclass[12pt,a4paper,twoside,openright,final,titlepage]{report}
-\documentclass[12pt,a4paper,oneside,openright,final,titlepage]{report}
+\documentclass[12pt,a4paper,twoside,openright,final,titlepage]{report}
+%\documentclass[12pt,a4paper,twoside,openright,titlepage,draft]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -43,7 +43,7 @@
 \usepackage{fancyhdr}
 \usepackage[labelfont=bf]{caption}
 % For electronic submission use:
-\usepackage[inner=2cm,outer=2cm,top=2cm=bottom=2cm]{geometry}
+\usepackage[inner=2.5cm,outer=2.5cm,top=2cm=bottom=2cm]{geometry}
 % For printing use:
 %\usepackage[inner=4cm,outer=2cm,top=2cm=bottom=2cm]{geometry}
 \usepackage{tocbibind}
@@ -83,11 +83,17 @@
 
 \newcommand\frontmatter{\pagenumbering{roman}}
 \newcommand\mainmatter{\cleardoublepage\pagenumbering{arabic}}
+\bibpunct{(}{)}{;}{a}{}{,}
 
+%\newenvironment{chapabstract}{%
+%	\begin{center}%
+%		\singlespacing%
+%		\bfseries ABSTRACT
+%	\end{center}}%
 \newenvironment{chapabstract}{%
 	\begin{center}%
 		\singlespacing%
-		\bfseries ABSTRACT
+
 	\end{center}}%
 
 \begin{document}
@@ -132,14 +138,39 @@
 
 
 	\begin{abstract}
-        We present a global relation between the low-frequency and infrared (IR) emissions in star-forming galaxies compiled by the Herschel Reference Survey.
-        The GaLactic Extragalactic All-sky MWA (GLEAM) survey operated by the Murchison Widefield Array (MWA) allows us to examine the relation and its frequency dependence with their 20 narrow bands at $72-231\MHz$.
-        These examinations are important for ensuring the reliability of the radio SFR\@.
-        In this study, we focus on 18 star-forming galaxies whose radio emission is detected by the GLEAM survey.
-        These galaxies show that a single power-law fitting is valid for understanding how the relation between the radio and IR luminosities varies across MWA frequencies to $1.5\GHz$.
-        We also investigate the consistency of the Star Formation Rate (SFR) calculated from the low-frequency emission with that from other indicators.
-        Although this low-frequency emission has an advantage of the extinction-free indicator, the SFR calibration with averaged spectral parameters has a non-negligible uncertainty due to the variety of the radio to IR relation.
-        We propose to use the individual spectral energy distribution for calculating the radio SFR for each star-forming galaxies with less uncertainty.
+        Star Formation Rate (SFR) is one of the most fundamental and important values for understanding galaxy evolution.
+        So far, we measure it with various indicators, such as recombination lines, Far-ultra violet, and IR luminosities \citep{Kennicutt2012}.
+        Recently, the low-frequency emission ($\mr{GHz}$ and less than that) is attracting attention as an SFR indicator.
+        Since the low-frequency emission is insensitive to the dust extinction and will be observed even from distant galaxies by the telescope with higher sensitivity and angular resolution, we anticipate its usefulness.
+        However, we still do not understand the spectral energy distribution at low frequencies, like optical to IR\@.
+        Recent studies about the spatially resolved observation show us that the spectral index at low frequencies differs depends on location in a star-forming galaxy \citep{Kapinska2017a, For2018a}.
+        This result suggests that there is no guarantee for radio emission from star-forming galaxies to have a simple frequency dependence.
+        Now, we need to investigate how the relation between radio emission and star-formation (SF) activity varies across the low frequencies.
+
+        In this study, we investigate the frequency dependence of the global relation between the low-frequency radio and infrared luminosities represented for the SF activity in nearby star-forming galaxies.
+        We select galaxies from the Herschel Reference Survey catalog \citep{Boselli2010}, which is supposed to be well-represented for a local galaxy sample.
+        We confirm 18 star-forming galaxies are appropriate for our study because they have high-quality radio data in the GaLactic Extragalactic All-sky MWA survey catalog \citep{Hurley-Walker2017a}.
+        The radio sources compiled by the catalog have 20 narrow bands at $72 - 231\MHz$, and they are suitable for a more accurate examination of the frequency dependence.
+
+        Our results are as follows:
+        Firstly, we find that a single power-law fitting is valid for grasping how the relation of the radio with IR luminosities varies across MWA frequencies to $1.5\GHz$.
+        This result suggests that the variation of the spectral index on the local scale does not affect the global relation.
+        Secondly, we find that SFR calculated from the low-frequency radio emission is consistent with it from other indicators.
+        In this study, we calculate SFR in two ways.
+        The first one is to use the individual calibration using the fitting result to calculate it for each galaxy.
+        Another one is calculating SFR by applying the same calibration equation using the averaged parameters to all sample galaxies.
+        While the former calibration gives us a consistent result with $\sim$ a $20\%$ scatter, the latter one does with two times more significant scatter than the former one.
+        The more considerable scatter in the latter case would attribute to the intrinsic uncertainty of the calibration.
+        After all, we propose to use the individual spectral energy distribution for calculating the radio SFR with less uncertainty.
+
+%        We present a global relation between the low-frequency and infrared (IR) emissions in star-forming galaxies compiled by the Herschel Reference Survey.
+%        The GaLactic Extragalactic All-sky MWA (GLEAM) survey operated by the Murchison Widefield Array (MWA) allows us to examine the relation and its frequency dependence with their 20 narrow bands at $72-231\MHz$.
+%        These examinations are important for ensuring the reliability of the radio SFR\@.
+%        In this study, we focus on 18 star-forming galaxies whose radio emission is detected by the GLEAM survey.
+%        These galaxies show that a single power-law fitting is valid for understanding how the relation between the radio and IR luminosities varies across MWA frequencies to $1.5\GHz$.
+%        We also investigate the consistency of the Star Formation Rate (SFR) calculated from the low-frequency emission with that from other indicators.
+%        Although this low-frequency emission has an advantage of the extinction-free indicator, the SFR calibration with averaged spectral parameters has a non-negligible uncertainty due to the variety of the radio to IR relation.
+%        We propose to use the individual spectral energy distribution for calculating the radio SFR for each star-forming galaxies with less uncertainty.
 	\end{abstract}
 
 	\include{Acknowledgments/acknowledgements}
@@ -156,7 +187,7 @@
     %\include{Chapter_2/Theory}
 	\include{Chapter_3/Data}
 	\include{Chapter_4/Method}
-	\include{Chapter_5/Result}
+	\include{Chapter_4/Result}
 	\include{Chapter_6/Discussion}
     \include{Chapter_7/Conclusion}
 
@@ -252,7 +283,7 @@
         $\mr{SFR}\msb{IR}$ is calculated with the equation from \citet{Murphy2011} and $\mr{SFR\msb{Radio,\,151\MHz}}$ is calculated in Section~\ref{sec:calculatingsfr} with individual parameters.
         ``AGN'' is identified BPT diagram \citep[e.g.][]{Baldwin1981, Kewley2001, Kauffmann2003, Schawinski2007} with emission lines \citep{Boselli2015}.
     \nh~deficient galaxy is identified when the value of \nh-def \citep{Boselli2014} is larger than 0.4.}
-    \scalebox{0.8}{
+    \scalebox{0.75}{
 
 \begin{tabular}{lllllrrlllllll}
 \toprule

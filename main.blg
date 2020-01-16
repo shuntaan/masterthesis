@@ -5,52 +5,52 @@ A level-1 auxiliary file: Acknowledgments/acknowledgements.aux
 A level-1 auxiliary file: Chapter_1/Intro.aux
 A level-1 auxiliary file: Chapter_3/Data.aux
 A level-1 auxiliary file: Chapter_4/Method.aux
-A level-1 auxiliary file: Chapter_5/Result.aux
+A level-1 auxiliary file: Chapter_4/Result.aux
 A level-1 auxiliary file: Chapter_6/Discussion.aux
 A level-1 auxiliary file: Chapter_7/Conclusion.aux
 The style file: mnras.bst
 Database file #1: masterthesis.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 64 entries,
+You've used 68 entries,
             2881 wiz_defined-function locations,
-            1304 strings with 49784 characters,
-and the built_in function-call counts, 28027 in all, are:
-= -- 2458
-> -- 1867
-< -- 112
-+ -- 821
-- -- 238
-* -- 3485
-:= -- 4312
+            1337 strings with 54012 characters,
+and the built_in function-call counts, 30001 in all, are:
+= -- 2628
+> -- 2020
+< -- 116
++ -- 882
+- -- 266
+* -- 3738
+:= -- 4621
 add.period$ -- 0
-call.type$ -- 64
-change.case$ -- 128
-chr.to.int$ -- 64
-cite$ -- 64
-duplicate$ -- 1402
-empty$ -- 1409
-format.name$ -- 454
-if$ -- 4879
+call.type$ -- 68
+change.case$ -- 136
+chr.to.int$ -- 68
+cite$ -- 68
+duplicate$ -- 1490
+empty$ -- 1497
+format.name$ -- 494
+if$ -- 5225
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 64
-newline$ -- 205
-num.names$ -- 390
-pop$ -- 254
+missing$ -- 68
+newline$ -- 217
+num.names$ -- 414
+pop$ -- 271
 preamble$ -- 1
-purify$ -- 256
+purify$ -- 272
 quote$ -- 0
-skip$ -- 847
+skip$ -- 898
 stack$ -- 0
-substring$ -- 1744
-swap$ -- 564
-text.length$ -- 256
+substring$ -- 1878
+swap$ -- 600
+text.length$ -- 272
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 576
+type$ -- 612
 warning$ -- 0
-while$ -- 460
+while$ -- 488
 width$ -- 0
-write$ -- 652
+write$ -- 692
 is.kanji.str$ -- 0

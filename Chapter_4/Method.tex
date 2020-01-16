@@ -1,7 +1,12 @@
 \chapter{Methods}\label{chap:methods}
 \begin{chapabstract}
 
-Intro intro intro intro.
+In this chapter, I describe procedures of our study from making a subsample of HRS galaxies to calculating the radio SFR\@.
+Section~\ref{sec:crossmatching} and~\ref{sec:reducegalaxysamples} show how to select samples from two catalogs introduced in the previous section for $\qn$ analysis henceforth.
+Section~\ref{sec:calculatingq} gives the definition of $\qn$ and the way to apply it for our samples.
+Section~\ref{sec:tirluminosity} describes the method to estimate total IR luminosity from several IR bands' observations.
+Section~\ref{sec:fittingtoq} shows how to find the frequency dependence of $\qn$ by the fitting.
+Section~\ref{sec:calculatingsfr} describes the process of calculating SFR from the low-frequency radio emission.
 
 \end{chapabstract}
 
@@ -68,7 +73,7 @@ The overview of 18 samples is tabled in Appendix~\ref{chap:galaxysamples}.
 
 
 
-\section{Calculating the $\qn$ parameter}\label{subsec:calculatingq}
+\section{Calculating the $\qn$ parameter}\label{sec:calculatingq}
 In this section, I introduce the method to calculate $\qn$ parameter for each galaxy.
 The definition of this parameter here is given on the following equation \citep[e.g.][]{Helou1985, Bell2003, CalistroRivera2017a}:
 
@@ -157,7 +162,7 @@ Equation~\ref{eq:sfrir} calculates SFR from the total IR emission in \citet{Murp
 Substituting equation~\ref{eq:q_def} and~\ref{eq:q_nuto1500} into equation~\ref{eq:sfrir} yields the following equation to estimate SFR from radio emission at $\nu\MHz$:
 
 \begin{equation}\label{eq:sfrfromradio}
-    SFR_{\mr{Radio},\,\nu} = 1.46\times10^{-31}\times 10^{q\msb{1500\MHz}} {\brp{\frac{\nu\,\MHz}{1500\MHz}}}^{-\gamma} \times L_{\mr{Radio},\,\nu}
+    \mr{SFR}_{\mr{Radio},\,\nu} = 1.46\times10^{-31}\times 10^{q\msb{1500\MHz}} {\brp{\frac{\nu\,\MHz}{1500\MHz}}}^{-\gamma} \times L_{\mr{Radio},\,\nu}
 \end{equation}
 
 In Section~\ref{sec:sfrfromlowradio}, I show the results of calculating SFR from the low-frequency radio using this equation and comparing it with the SFR from other indicator.

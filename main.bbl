@@ -114,6 +114,12 @@ Condon J.~J.,  1992, \mn@doi [Annual Review of Astronomy and Astrophysics]
 Condon J.~J.,  Anderson M.~L.,   Helou G.,  1991, \mn@doi [The Astrophysical
   Journal] {10.1086/170258}, 376, 95
 
+\bibitem[\protect\citeauthoryear{Condon, Cotton, Greisen, Yin, Perley, Taylor
+  \& Broderick}{Condon et~al.}{1998}]{Condon1998}
+Condon J.~J.,  Cotton W.~D.,  Greisen E.~W.,  Yin Q.~F.,  Perley R.~A.,  Taylor
+  G.~B.,   Broderick J.~J.,  1998, \mn@doi [The Astronomical Journal]
+  {10.1086/300337}, 115, 1693
+
 \bibitem[\protect\citeauthoryear{Cortese et~al.,}{Cortese
   et~al.}{2012}]{Cortese2012}
 Cortese L.,  et~al., 2012, \mn@doi [Astronomy {\&} Astrophysics]
@@ -153,6 +159,10 @@ Haynes M.~P.,  Giovanelli R.,  1984, \mn@doi [The Astronomical Journal]
   et~al.}{2011}]{Haynes2011}
 Haynes M.~P.,  et~al., 2011, \mn@doi [The Astronomical Journal]
   {10.1088/0004-6256/142/5/170}, 142, 170
+
+\bibitem[\protect\citeauthoryear{Heald et~al.,}{Heald et~al.}{2015}]{Heald2015}
+Heald G.~H.,  et~al., 2015, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201425210}, 582, A123
 
 \bibitem[\protect\citeauthoryear{Heesen et~al.,}{Heesen
   et~al.}{2019}]{Heesen2019}
@@ -321,10 +331,22 @@ Wang L.,  Gao F.,  Duncan K.~J.,  Williams W.,  Rowan-Robinson M.,  Sabater J.,
     Shimwell T.~W.,  2019, \mn@doi [Astronomy {\&} Astrophysics]
   {10.1051/0004-6361/201935913}, 109, 1
 
+\bibitem[\protect\citeauthoryear{Williams et~al.,}{Williams
+  et~al.}{2016}]{Williams2016}
+Williams W.~L.,  et~al., 2016, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/stw1056}, 460, 2385
+
 \bibitem[\protect\citeauthoryear{Yun, Reddy  \& Condon}{Yun
   et~al.}{2001}]{Yun2001a}
 Yun M.~S.,  Reddy N.~A.,   Condon J.~J.,  2001, \mn@doi [The Astrophysical
   Journal] {10.1086/323145}, 554, 803
+
+\bibitem[\protect\citeauthoryear{de Vries, Morganti, R{\"{o}}ttgering,
+  Vermeulen, van Breugel, Rengelink  \& Jarvis}{de~Vries
+  et~al.}{2002}]{DeVries2002}
+de Vries W.~H.,  Morganti R.,  R{\"{o}}ttgering H. J.~A.,  Vermeulen R.,  van
+  Breugel W.,  Rengelink R.,   Jarvis M.~J.,  2002, \mn@doi [The Astronomical
+  Journal] {10.1086/338906}, 123, 1784
 
 \bibitem[\protect\citeauthoryear{van Haarlem et~al.,}{van Haarlem
   et~al.}{2013}]{VanHaarlem2013}

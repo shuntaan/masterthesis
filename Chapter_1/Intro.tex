@@ -1,9 +1,12 @@
 \chapter{Introduction}\label{chap:introduction}
 \begin{chapabstract}
 
-In this chapter, I introduce basics related to our study.
-In Section~\ref{sec:starformationrate}, I give some ideas about Star Formation Rate (SFR).
-This is one of the most important values in astrophysics.
+In this chapter, I introduce three fundamental topics in astrophysics related to our study.
+In Section~\ref{sec:starformationrate}, I mention the importance of studying star formation activity in galaxies and the basic method to measure it.
+In Section~\ref{sec:cosmicstarformationhistory}, I introduce the idea of the cosmic star formation density and the previous result.
+In Section~\ref{sec:lowradiofrequenciesandsfr}, I explain why the low-frequency emission is important for measuring SFR\@.
+Here, I also mention the IR-Radio correlation which is one of the most critical relations in a galactic radio astronomy.
+
 
 \end{chapabstract}
 
@@ -13,7 +16,7 @@ Star formation in galaxies is one of the most complex processes.
 In modern astronomy, understanding it and its evolution is still a challenging problem.
 To explain these, we need an advanced knowledge of dark matter and baryon physics.
 The evolution of dark matter is now interpreted by the ``$\Lambda$ CDM (Cold Dark Matter) model'' which indicates structures in the universe have been forming hierarchically (bottom-up) \citep[e.g.,][]{Peebles1982}.
-This model explains that a galaxy forms in a small dark halo once and mergea into other halos to form larger systems as time goes on \citep{Blumenthal1984}.
+This model explains that a galaxy forms in a small dark halo once and merges into other halos to form larger systems as time goes on \citep{Blumenthal1984}.
 With the advance of computational methods, a cosmological simulation can model this scenario and reproduce structures in the universe \citep[e.g.,][]{Navarro2000, Vale2004}.
 However, the baryon evolution inside dark halos is much more difficult to understand because its evolution attributes to the composition of different scale of physics.
 Revealing these physics needs as a first step to find constraints by measuring the star formation activity accurately.
@@ -44,16 +47,16 @@ In this case, we can measure SFR with the following equation:
 where $C$ is a constant.
 
 This method is relatively easy to measure SFR from an observation, but the assumption of a constant SFR is sometimes problematic.
-Previous research show the required time to reach the steady state is $\sim\mr{Myr}$ for hydrogen recombination lines (e.g., $\mr{H\alpha};\,\lambda = 6563\,\mr{\AA}, \mr{H\beta};\,\lambda = 6563\,\mr{\AA}$), $\sim 100\,\mr{Myr}$ for the Far-ultraviolet (FUV) to IR emissions \citep{Hao2011, Murphy2011, Kennicutt2012}.
-These result show that the SFR calculated from Equation~\ref{eq:Buat1991sfrproportion} is different from the true value if SFR varies among $\sim 10\,\mr{Myr}$ (e.g., Recent star burst).
+Previous research show the required time to reach the steady state is $\sim\mr{Myr}$ for hydrogen recombination lines (e.g., $\mr{H\alpha};\,\lambda = 6563\,\mr{\AA}, \mr{H\beta};\,\lambda = 4861\,\mr{\AA}$), $\sim 100\,\mr{Myr}$ for the Far-ultraviolet (FUV) to IR emissions \citep{Hao2011, Murphy2011, Kennicutt2012}.
+These result show that the SFR calculated from Equation~\ref{eq:Buat1991sfrproportion} is different from the true value if SFR varies among $\sim 10\,\mr{Myr}$ (e.g., intensive starburst).
 
 Considering this problem, hydrogen recombination lines emitted by the young ($\leq 10^7\,\mr{yr}$) and massive ($M > 10\,M_{\odot}$) OB stars are more reliable SFR indicators.
 However, in these cases, we should correct the dust extinction with the Balmer decrement which is the ratio between $\mr{H\alpha}$ and $\mr{H\beta}$ fluxes \citep{Lequeux1981}, or with IR luminosities \citep{Kennicutt2009}.
 In addition to this, we need to eliminate [N\textsc{ii}] line contamination ($\lambda = 6548\,\mr{\AA}, 6584\,\mr{\AA}$) from $\mr{H}\alpha$ emission, and correct the absorption of $\mr{H\beta}$ by the young stellar atmosphere.
 Although recombination lines are good SFR indicator in terms of the time scale in a constant star formation, the calibration for them gives us non-negligible uncertainty.
 
-FUV emission is emitted by the A (or B) stars and it is reliable as SFR indicator if the star formation timescale can be assumed more than $10^8\,\mr{yr}$.
-Because of its wavelength ({\it GALEX\/} FUV;\@$1516\,\mr{\AA}$), we need to correct the dust extinction also for FUV\@.
+FUV emission is emitted by the AB stars and it is reliable as SFR indicator if the star formation timescale can be assumed more than $10^8\,\mr{yr}$.
+Because of its wavelength ({\it GALEX\/} FUV;~$1516\,\mr{\AA}$), we need to correct the dust extinction also for FUV\@.
 We often use IR luminosities for the dust correction based on the idea that dust grains absorbing FUV light re-emits it at a wavelength range of IR \citep{Kennicutt1998, Murphy2011}.
 The combination of FUV and IR emissions for estimating SFR is one of the most popular SFR indicators (e.g., $\mr{FUV + 24mic}$, $\mr{FUV + total\,IR}$).
 
@@ -122,8 +125,8 @@ Synchrotron emission supposed to be dominant at low frequencies is emitted by th
 To explain IRC physically, \citet{Volk1989} proposed ``the calorimeter model''.
 This model says that all energies from high energy electrons consumed before they escaping from galaxies is linearly correlated with all energies re-radiated as IR emissions by dust absorbing all FUV emission from young stars.
 If this model is valid, IRC has a slope of unity.
-However, recent studies shows that the slope is not unity and calorimeter is not always accurate \citep{CalistroRivera2017a, Read2018}.
-Since the low-frequency emission is not affected by the dust extinction \citep{Yun2001a, Murphy2011} and it will be observed from a distant galaxies by the future extended survey, we anticipate its usefulness and need a further investigation of the relation between the radio and IR luminosities, especially its frequency dependence.
+However, recent studies shows that the slope is not unity and calorimeter model is not always accurate \citep{CalistroRivera2017a, Read2018}.
+Since the low-frequency emission is not affected by the dust extinction \citep{Yun2001a, Murphy2011} and it will be observed from distant galaxies by the future extended survey, we anticipate its usefulness and need a further investigation of the relation between the radio and IR luminosities, especially its frequency dependence.
 
 However, the spatially-resolved studies show that a star-forming galaxy emits the radio emission whose spectral index depends on the galaxy region \citep{Kapinska2017a, For2018a, Heesen2019} (Figure~\ref{fig:Kapinska2017_Figure5} and~\ref{fig:For2018_Figure6}).
 This means that the radio emission is sensitive to the local density environment of the ISM and it is not guaranteed a simple frequency dependence of the global relation between the integrated radio and IR luminosities.
@@ -154,10 +157,10 @@ The integrated radio emission in star-forming galaxies across $100\MHz$ to $1.4\
 Each radiation is emitted by electrons interacted with the electric field of ions in the \ih~region or the magnetic field in a galaxy.
 For emitting the synchrotron radiation, an electron needs to be accelerated to the light speed by the supernova remnant.
 While the synchrotron emission is expected to be dominant at these low frequencies, previous studies find the sign of the free-free absorption and flatter or turnover spectral \citep{Schober2017, Chyzy2018}.
-If the radio emission has a significant turnover among low frequencies, IRC does not have a simple frequency dependence and the radio emission is no longer useful as a SFR indicator.
+If the radio emission has a significant turnover among low frequencies, global IRC does not have a simple frequency dependence and the radio emission is no longer useful as a SFR indicator.
 
 In this study, we investigate nearby star-forming galaxies from the reference sample for ensuring the reliability of measuring the SFR from the low-frequency emission.
-For examining the general trend, we use star-forming galaxy samples from the Herschel Reference Survey (HRS;~\citealt{Boselli2010}) catalog which are supposed to represent the galaxy samples and the low-frequency emission from The GaLactic Extragalactic All-sky MWA (GLEAM;~\citealt{Hurley-Walker2017a}) Survey which observes the mJy scale radio emission from large areas with their 20 narrow bands.
+For examining the general trend, we use star-forming galaxy samples from the Herschel Reference Survey (HRS;~\citealt{Boselli2010}) catalog which are supposed to represent the galaxy samples and the low-frequency emission from The GaLactic Extragalactic All-sky MWA (GLEAM;~\citealt{Hurley-Walker2017a}) survey which observes the mJy scale radio emission from large areas with their 20 narrow bands.
 
 This paper is organized as follows.
 In Chapter~\ref{chap:data}, I introduce our galaxy samples and the low-frequency emissions used in this study.

@@ -1,15 +1,47 @@
 \chapter{Discussions}\label{chap:discussions}
 \begin{chapabstract}
 
-Intro intro intro intro.
+In this chapter, we show further discussion on our results in Chapter~\ref{chap:results}.
+Section~\ref{sec:comparingthecalibration} compares our fitting results mainly the frequency dependence of $\qn$ with previous studies.
+Section~\ref{sec:radiosfruncertainty} shows the comparison of the radio SFR calibration with \citet{CalistroRivera2017a}.
+Section~\ref{sec:galaxypropertiesfortheradiosfr} describes how galaxy properties affect the SFR estimation.
+Here, we focus on the \nh~deficient and the active galactic nuclei in a galaxy.
+Section~\ref{sec:nondetectedgalaxiesbythegleamsurvey} describes HRS galaxies whose radio counterpart are not detected by the GLEAM survey.
+In this section, I also mention the possibility of their radio source detection by the updated GLEAM survey.
 
 \end{chapabstract}
 
-\section{Comparing the calibration with previous results}
+\section{Comparing the calibration with previous results}\label{sec:comparingthecalibration}
 
 Here, we compare our results in Section~\ref{sec:GammaDistribution} with previous research.
 From our samples, we obtain the mean $\gamma=-0.63 \pm 0.07$ with MWA frequencies and $1500\MHz$.
 \citet{CalistroRivera2017a} and \citet{Chyzy2018} obtained $-0.78 \pm 0.24$ and $-0.56 \pm 0.11$, respectively.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=.6\linewidth]{Chapter_6/Figures/CalistroRivera2017_Figure7.png}
+    \caption[Adapted from \citet{CalistroRivera2017a}]{\label{fig:CalistroRivera2017_figure7}
+        This figure shows the spectral index corresponding to $\gamma$ in this paper.
+        They calculate it between $150\MHz$ (LOFAR;~\citealt{Williams2016}) and $1.4\GHz$ (Westerbork Synthesis Radio Telescope, WSRT;~\citealt{DeVries2002}).
+        Red and orange histograms show the samples detected and non-detected by WSRT\@.
+        To estimate the flux of non-detected samples, they extract aperture fluxes from the source location known by LOFAR on the radio map (forced photometry technique).
+        The black solid line displays the Gaussian fitting function.
+        They put the average $mu$ and standard deviation $\sigma$ from the fitting on the upper right in the figure.
+    }
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=.6\linewidth]{Chapter_6/Figures/Chyzy2018_Figure4.png}
+    \caption[Adapted from \citet{Chyzy2018}]{\label{fig:Chyzy2018_figure4}
+        This figure shows the spectral index corresponding to $\gamma$ in this paper.
+        Red and blue histograms show the spectral index corresponding to $gamma$ in this paper calculated fluxes from $1.3\GHz$ to $5\GHz$ and $150\MHz$ to $1.4\GHz$, respectively.
+        They show histogram in violet where they are overlapping.
+        From the definition, we should compare our result with the blue one.
+        They calculate it between $150\MHz$ (The Multifrequency Snapshot Sky Survey, MSSS;~\citealt{Heald2015}) and $1.4\GHz$ (the NRAO VLA Sky Survey, NVSS;~\citealt{Condon1998}).
+    }
+\end{figure}
+
 The difference of these might result from the selection of galaxy samples.
 While we use nearby galaxies within $25\,\mr{Mpc}$, \citet{CalistroRivera2017a} do 758 galaxies up to $z\sim2$, and \citet{Chyzy2018} do 118 galaxies up to $z=0.04$.
 
@@ -19,7 +51,7 @@ Indeed, the frequency dependence of the low-frequency emission and its relation 
 
 
 
-\section{Radio SFR uncertainty}
+\section{Radio SFR uncertainty}\label{sec:radiosfruncertainty}
 
 In Section~\ref{sec:sfrfromlowradio}, we show the consistency of our SFR calibrations using the low-frequency emission.
 For calculating the more accurate radio SFR, we need its spectral energy distribution for each galaxy, as we have already shown in Section~\ref{sec:sfrfromlowradio}.
@@ -100,7 +132,7 @@ We cannot conclude how much $\qn$ value is safe for the SFR estimation from the 
 In future studies, we should clarify the distribution of this plot and find the borderline for safer SFR estimation.
 
 
-\section{Non-detected galaxies by the GLEAM survey}
+\section{Non-detected galaxies by the GLEAM survey}\label{sec:nondetectedgalaxiesbythegleamsurvey}
 
 Here, I mention galaxies that have not been observed by the GLEAM survey.
 In this study, we have found 39 HRS galaxies have a potential radio counterpart in the GLEAM survey in Section~\ref{sec:crossmatching}.

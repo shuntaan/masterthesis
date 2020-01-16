@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  15 JAN 2020 10:32
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  16 JAN 2020 14:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -754,43 +754,39 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 80.
-
-(./main.aux (./Acknowledgments/acknowledgements.aux) (./Chapter_1/Intro.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_5/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux)
+) (./main.aux (./Acknowledgments/acknowledgements.aux) (./Chapter_1/Intro.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_4/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux)
 
 LaTeX Warning: Label `fig:galaxyimages_notselected' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 93.
+Package hyperref Info: Link coloring ON on input line 99.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -798,9 +794,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count332
 )
-LaTeX Info: Redefining \ref on input line 93.
-LaTeX Info: Redefining \pageref on input line 93.
-LaTeX Info: Redefining \nameref on input line 93.
+LaTeX Info: Redefining \ref on input line 99.
+LaTeX Info: Redefining \pageref on input line 99.
+LaTeX Info: Redefining \nameref on input line 99.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -815,21 +811,21 @@ Package caption Info: End \AtBeginDocument code.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
 * v-part:(T,H,B)=(56.9055pt, 686.7347pt, 101.40665pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=455.24411pt
 * \textheight=686.7347pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=85.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -837,32 +833,32 @@ Package caption Info: End \AtBeginDocument code.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 99.
+(Font)              using `JT1/mc/m/n' instead on input line 105.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 99.
+(Font)              using `JY1/mc/m/n' instead on input line 105.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 101.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 101.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 101.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 101.
-LaTeX Font Info:    Try loading font information for U+msa on input line 112.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 107.
+LaTeX Font Info:    Try loading font information for U+msa on input line 118.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 112.
+LaTeX Font Info:    Try loading font information for U+msb on input line 118.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -870,6 +866,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [1
 
 ] [1]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2]
 \openout2 = `Acknowledgments/acknowledgements.aux'.
 
  (./Acknowledgments/acknowledgements.tex
@@ -881,34 +884,29 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-) [1
+) [3
 
 
-] (./main.toc [2
+] [4
 
 
-])
+] (./main.toc [5])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[3] (./main.lof)
+ [6] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [4
+ [7
+
+] [8
 
 ] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [5
+ [9] [10
 
 ]
 \openout2 = `Chapter_1/Intro.aux'.
@@ -918,39 +916,34 @@ Chapter 1.
 [1
 
 
-
 ]
-Overfull \hbox (13.33142pt too wide) in paragraph at lines 29--31
-\OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 F[] []$ \OT1/cmr/m/n/12 is the evo-lu-tion-ary stel-lar tracks, $\OML/cmm/m/it/12   []$ \OT1/cmr/m/n/12 is the Ini-tial Mass Func-tion (IMF; [][]Chabrier[][]
- []
+
+LaTeX Warning: Command \r invalid in math mode on input line 50.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 47.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 47.
+LaTeX Warning: Command \r invalid in math mode on input line 50.
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 52.
+(Font)              using `JT1/mc/m/n' instead on input line 55.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 52.
+(Font)              using `JY1/mc/m/n' instead on input line 55.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 52.
+LaTeX Warning: Command \r invalid in math mode on input line 55.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 52.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 56.
+LaTeX Warning: Command \r invalid in math mode on input line 55.
 
 [2]
+
+LaTeX Warning: Command \r invalid in math mode on input line 59.
+
 File: Chapter_1/Figures/Madau2014_Figure9.png Graphic file (type bmp)
 <Chapter_1/Figures/Madau2014_Figure9.png>
- [3]
+[3]
 File: Chapter_1/Figures/Helou1985_Figure2.png Graphic file (type bmp)
 <Chapter_1/Figures/Helou1985_Figure2.png>
  [4]
@@ -958,136 +951,151 @@ File: Chapter_1/Figures/Kapinska2017_Figure5.png Graphic file (type bmp)
 <Chapter_1/Figures/Kapinska2017_Figure5.png>
 File: Chapter_1/Figures/For2018_Figure6.png Graphic file (type bmp)
 <Chapter_1/Figures/For2018_Figure6.png>
- [5]) [6] [7]
+ [5] [6]
+
+LaTeX Warning: Reference `chap:results' on page 7 undefined on input line 168.
+
+) [7]
 \openout2 = `Chapter_3/Data.aux'.
 
- (./Chapter_3/Data.tex
-Chapter 2.
-[8
+ (./Chapter_3/Data.tex [8
 
 
 
 ]
+Chapter 2.
+[9]
 File: Chapter_3/Figures/Boselli2010_Figure1.png Graphic file (type bmp)
 <Chapter_3/Figures/Boselli2010_Figure1.png>
 File: Chapter_3/Figures/Boselli2010_Figure2.png Graphic file (type bmp)
 <Chapter_3/Figures/Boselli2010_Figure2.png>
- [9] [10]
+ [10] [11]
 File: Chapter_3/Figures/HurleyWalker_Figure11.png Graphic file (type bmp)
 <Chapter_3/Figures/HurleyWalker_Figure11.png>
-) [11]
+) [12]
 \openout2 = `Chapter_4/Method.aux'.
 
  (./Chapter_4/Method.tex
 Chapter 3.
-[12
+[13
 
 
 
 ]
 File: Chapter_4/Figures/Method_separation.pdf Graphic file (type pdf)
 <Chapter_4/Figures/Method_separation.pdf>
- [13]
+ [14]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 71.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 71.
+(hyperref)                removing `math shift' on input line 76.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 71.
+(hyperref)                removing `subscript' on input line 76.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 71.
+(hyperref)                removing `\nu' on input line 76.
 
-[14]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 76.
+
+[15]
 File: Chapter_4/Figures/Method_TIRcomparison.pdf Graphic file (type pdf)
 <Chapter_4/Figures/Method_TIRcomparison.pdf>
+ [16] [17]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 122.
+(hyperref)                removing `subscript' on input line 127.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 122.
+(hyperref)                removing `\nu' on input line 127.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 122.
+(hyperref)                removing `math shift' on input line 127.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 122.
-
-[15] [16]) [17]
-\openout2 = `Chapter_5/Result.aux'.
-
- (./Chapter_5/Result.tex
-Chapter 4.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 15.
+LaTeX Warning: Reference `sec:GammaDistribution' on page 18 undefined on input line 147.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 15.
+LaTeX Warning: Reference `sec:sfrfromlowradio' on page 18 undefined on input line 168.
+
+[18]) [19]
+\openout2 = `Chapter_4/Result.aux'.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 15.
-
-File: Chapter_5/Figures/Result_comparehist.pdf Graphic file (type pdf)
-<Chapter_5/Figures/Result_comparehist.pdf>
-File: Chapter_5/Figures/Result_comparealpha.pdf Graphic file (type pdf)
-<Chapter_5/Figures/Result_comparealpha.pdf>
-[18
-
-
-
-] [19]
-File: Chapter_5/Figures/Result_sfrratio.pdf Graphic file (type pdf)
-<Chapter_5/Figures/Result_sfrratio.pdf>
-File: Chapter_5/Figures/Result_sfrratios.pdf Graphic file (type pdf)
-<Chapter_5/Figures/Result_sfrratios.pdf>
-
-
-Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
-Make it at least 27.85004pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[20] [21] [22]) [23]
+No file Chapter_4/Result.tex.
 \openout2 = `Chapter_6/Discussion.aux'.
 
- (./Chapter_6/Discussion.tex
-Chapter 5.
-[24
+(./Chapter_6/Discussion.tex [20
 
 
 
-] [25]
+
+
+]
+Chapter 4.
+
+LaTeX Warning: Reference `chap:results' on page 21 undefined on input line 4.
+
+
+LaTeX Warning: Reference `sec:GammaDistribution' on page 21 undefined on input line 16.
+
+File: Chapter_6/Figures/CalistroRivera2017_Figure7.png Graphic file (type bmp)
+<Chapter_6/Figures/CalistroRivera2017_Figure7.png>
+File: Chapter_6/Figures/Chyzy2018_Figure4.png Graphic file (type bmp)
+<Chapter_6/Figures/Chyzy2018_Figure4.png>
+
+LaTeX Warning: Reference `sec:sfrfromlowradio' on page 21 undefined on input line 56.
+
+
+LaTeX Warning: Reference `sec:sfrfromlowradio' on page 21 undefined on input line 57.
+
+[21] [22]
+
+LaTeX Warning: Reference `sec:GammaDistribution' on page 23 undefined on input line 80.
+
+[23]
+
+LaTeX Warning: Reference `fig:comparehist' on page 24 undefined on input line 93.
+
 File: Chapter_6/Figures/Discuss_comparehist.pdf Graphic file (type pdf)
 <Chapter_6/Figures/Discuss_comparehist.pdf>
+
+LaTeX Warning: Reference `fig:comparehist' on page 24 undefined on input line 104.
+
+
+LaTeX Warning: Reference `fig:comparehist' on page 24 undefined on input line 104.
+
+
+LaTeX Warning: Reference `fig:sfrratio' on page 24 undefined on input line 113.
+
+
+LaTeX Warning: Reference `sec:sfrfromlowradio' on page 24 undefined on input line 114.
+
+[24]
 File: Chapter_6/Figures/Discuss_compareq.pdf Graphic file (type pdf)
 <Chapter_6/Figures/Discuss_compareq.pdf>
- [26] [27]) [28]
+ [25] [26]) [27]
 \openout2 = `Chapter_7/Conclusion.aux'.
 
- (./Chapter_7/Conclusion.tex
-Chapter 6.
-) [29
+ (./Chapter_7/Conclusion.tex [28
 
 
 
-] (./main.bbl [30
+]
+Chapter 5.
+) [29] (./main.bbl [30
 
 
-] [31] [32]) [33]
+] [31] [32] [33]) [34]
 Appendix A.
 File: Figures/AppendixB_galaxyimages.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyimages.pdf>
@@ -1101,49 +1109,47 @@ File: Figures/AppendixB_galaxyimages_suspicious.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyimages_suspicious.pdf>
 File: Figures/AppendixB_galaxyImages_noMatch.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyImages_noMatch.pdf>
-[34
+[35
 
-] [35] [36] [37] [38] [39]
+] [36] [37] [38] [39] [40]
 Appendix B.
-[40
+[41
 
-]
-Overfull \hbox (29.57709pt too wide) in paragraph at lines 282--283
- [][] 
- []
-
-[41]
+] [42]
 Appendix C.
 File: Figures/AppendixC_qfitting.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting.pdf>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
-[42
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
+[43
 
 
 
-] [43]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
- (./main.aux (./Acknowledgments/acknowledgements.aux) (./Chapter_1/Intro.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_5/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 307.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+] [44]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
+ (./main.aux (./Acknowledgments/acknowledgements.aux) (./Chapter_1/Intro.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_4/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 338.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 32DED6598E0BB8E629A5074AADCDF367;2255.
+(rerunfilecheck)             Checksum: C1135796B247166E7ADCE14062025105;2042.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
  ) 
 Here is how much of TeX's memory you used:
- 19605 strings out of 493223
- 344653 string characters out of 6144414
- 459972 words of memory out of 5000000
- 23346 multiletter control sequences out of 15000+600000
+ 19608 strings out of 493223
+ 344666 string characters out of 6144414
+ 459868 words of memory out of 5000000
+ 23356 multiletter control sequences out of 15000+600000
  547298 words of font info for 84 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 36i,13n,48p,458b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,48p,458b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (51 pages, 198068 bytes).
+Output written on main.dvi (56 pages, 191760 bytes).
