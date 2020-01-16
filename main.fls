@@ -285,8 +285,20 @@ INPUT Figures/AppendixB_galaxyimages_suspicious.pdf
 INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyimages_suspicious.pdf
 INPUT Figures/AppendixB_galaxyImages_noMatch.pdf
 INPUT extractbb -B cropbox -O Figures/AppendixB_galaxyImages_noMatch.pdf
-INPUT Figures/AppendixC_qfitting.pdf
-INPUT extractbb -B cropbox -O Figures/AppendixC_qfitting.pdf
+INPUT Figures/AppendixC_qfitting1.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixC_qfitting1.pdf
+INPUT Figures/AppendixC_qfitting2.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixC_qfitting2.pdf
+INPUT Figures/AppendixC_qfitting3.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixC_qfitting3.pdf
+INPUT Figures/AppendixC_qfitting4.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixC_qfitting4.pdf
+INPUT Figures/AppendixC_qfitting5.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixC_qfitting5.pdf
+INPUT Figures/AppendixC_qfitting6.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixC_qfitting6.pdf
+INPUT Figures/AppendixC_qfitting7.pdf
+INPUT extractbb -B cropbox -O Figures/AppendixC_qfitting7.pdf
 INPUT main.aux
 INPUT Acknowledgments/acknowledgements.aux
 INPUT Acknowledgments/acknowledgements.aux

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  16 JAN 2020 14:49
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  16 JAN 2020 15:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1117,18 +1117,30 @@ Appendix B.
 
 ] [42]
 Appendix C.
-File: Figures/AppendixC_qfitting.pdf Graphic file (type pdf)
-<Figures/AppendixC_qfitting.pdf>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
+File: Figures/AppendixC_qfitting1.pdf Graphic file (type pdf)
+<Figures/AppendixC_qfitting1.pdf>
+File: Figures/AppendixC_qfitting2.pdf Graphic file (type pdf)
+<Figures/AppendixC_qfitting2.pdf>
+File: Figures/AppendixC_qfitting3.pdf Graphic file (type pdf)
+<Figures/AppendixC_qfitting3.pdf>
+File: Figures/AppendixC_qfitting4.pdf Graphic file (type pdf)
+<Figures/AppendixC_qfitting4.pdf>
+File: Figures/AppendixC_qfitting5.pdf Graphic file (type pdf)
+<Figures/AppendixC_qfitting5.pdf>
+File: Figures/AppendixC_qfitting6.pdf Graphic file (type pdf)
+<Figures/AppendixC_qfitting6.pdf>
+File: Figures/AppendixC_qfitting7.pdf Graphic file (type pdf)
+<Figures/AppendixC_qfitting7.pdf>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
 [43
 
 
 
-] [44]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
+] [44] [45] [46] [47] [48] [49] [50]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
  (./main.aux (./Acknowledgments/acknowledgements.aux) (./Chapter_1/Intro.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_4/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 338.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 382.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 382.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C1135796B247166E7ADCE14062025105;2042.
 
@@ -1141,15 +1153,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 382.
  ) 
 Here is how much of TeX's memory you used:
- 19608 strings out of 493223
- 344666 string characters out of 6144414
- 459868 words of memory out of 5000000
- 23356 multiletter control sequences out of 15000+600000
+ 19632 strings out of 493223
+ 345384 string characters out of 6144414
+ 460280 words of memory out of 5000000
+ 23374 multiletter control sequences out of 15000+600000
  547298 words of font info for 84 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  36i,14n,48p,458b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (56 pages, 191760 bytes).
+Output written on main.dvi (62 pages, 198208 bytes).
