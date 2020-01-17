@@ -1,0 +1,14 @@
+# Fdb version 3
+["dvipdf"] 0 "Theory.dvi" "Theory.pdf" "Theory" 0
+  "Theory.dvi" 0 -1 0 "latex"
+  (generated)
+  "Theory.pdf"
+["latex"] 1579231220 "Theory.tex" "Theory.dvi" "Theory" 1579231220
+  "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
+  "/usr/local/texlive/2019/texmf-var/web2c/eptex/platex.fmt" 1572406031 4524396 8fb6d63879f7ac4ba8be55427f2804f2 ""
+  "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
+  "Theory.aux" 1579045541 1123 a995ae1d6b4fcc3fbed1ea773db46a37 ""
+  "Theory.tex" 1579231193 333 8eafcefea1b2039f9c26c7977f16482e ""
+  (generated)
+  "Theory.dvi"
+  "Theory.log"

@@ -146,12 +146,14 @@ INPUT Acknowledgments/acknowledgements.aux
 INPUT Acknowledgments/acknowledgements.aux
 INPUT Chapter_1/Intro.aux
 INPUT Chapter_1/Intro.aux
+INPUT Chapter_2/Theory.aux
+INPUT Chapter_2/Theory.aux
 INPUT Chapter_3/Data.aux
 INPUT Chapter_3/Data.aux
 INPUT Chapter_4/Method.aux
 INPUT Chapter_4/Method.aux
-INPUT Chapter_4/Result.aux
-INPUT Chapter_4/Result.aux
+INPUT Chapter_5/Result.aux
+INPUT Chapter_5/Result.aux
 INPUT Chapter_6/Discussion.aux
 INPUT Chapter_6/Discussion.aux
 INPUT Chapter_7/Conclusion.aux
@@ -233,6 +235,11 @@ INPUT Chapter_1/Figures/Kapinska2017_Figure5.png
 INPUT extractbb -B cropbox -O Chapter_1/Figures/Kapinska2017_Figure5.png
 INPUT Chapter_1/Figures/For2018_Figure6.png
 INPUT extractbb -B cropbox -O Chapter_1/Figures/For2018_Figure6.png
+OUTPUT Chapter_2/Theory.aux
+INPUT Chapter_2/Theory.tex
+INPUT Chapter_2/Theory.tex
+INPUT Chapter_2/Figures/Condon1992_Figure1.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/Condon1992_Figure1.png
 OUTPUT Chapter_3/Data.aux
 INPUT Chapter_3/Data.tex
 INPUT Chapter_3/Data.tex
@@ -256,7 +263,17 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT Chapter_4/Figures/Method_TIRcomparison.pdf
 INPUT extractbb -B cropbox -O Chapter_4/Figures/Method_TIRcomparison.pdf
-OUTPUT Chapter_4/Result.aux
+OUTPUT Chapter_5/Result.aux
+INPUT Chapter_5/Result.tex
+INPUT Chapter_5/Result.tex
+INPUT Chapter_5/Figures/Result_comparehist.pdf
+INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_comparehist.pdf
+INPUT Chapter_5/Figures/Result_comparealpha.pdf
+INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_comparealpha.pdf
+INPUT Chapter_5/Figures/Result_sfrratio.pdf
+INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_sfrratio.pdf
+INPUT Chapter_5/Figures/Result_sfrratios.pdf
+INPUT extractbb -B cropbox -O Chapter_5/Figures/Result_sfrratios.pdf
 OUTPUT Chapter_6/Discussion.aux
 INPUT Chapter_6/Discussion.tex
 INPUT Chapter_6/Discussion.tex
@@ -304,12 +321,14 @@ INPUT Acknowledgments/acknowledgements.aux
 INPUT Acknowledgments/acknowledgements.aux
 INPUT Chapter_1/Intro.aux
 INPUT Chapter_1/Intro.aux
+INPUT Chapter_2/Theory.aux
+INPUT Chapter_2/Theory.aux
 INPUT Chapter_3/Data.aux
 INPUT Chapter_3/Data.aux
 INPUT Chapter_4/Method.aux
 INPUT Chapter_4/Method.aux
-INPUT Chapter_4/Result.aux
-INPUT Chapter_4/Result.aux
+INPUT Chapter_5/Result.aux
+INPUT Chapter_5/Result.aux
 INPUT Chapter_6/Discussion.aux
 INPUT Chapter_6/Discussion.aux
 INPUT Chapter_7/Conclusion.aux

@@ -3,9 +3,10 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: Acknowledgments/acknowledgements.aux
 A level-1 auxiliary file: Chapter_1/Intro.aux
+A level-1 auxiliary file: Chapter_2/Theory.aux
 A level-1 auxiliary file: Chapter_3/Data.aux
 A level-1 auxiliary file: Chapter_4/Method.aux
-A level-1 auxiliary file: Chapter_4/Result.aux
+A level-1 auxiliary file: Chapter_5/Result.aux
 A level-1 auxiliary file: Chapter_6/Discussion.aux
 A level-1 auxiliary file: Chapter_7/Conclusion.aux
 The style file: mnras.bst
@@ -14,7 +15,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 68 entries,
             2881 wiz_defined-function locations,
-            1337 strings with 54012 characters,
+            1338 strings with 54032 characters,
 and the built_in function-call counts, 30001 in all, are:
 = -- 2628
 > -- 2020

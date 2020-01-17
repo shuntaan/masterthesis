@@ -1,0 +1,8 @@
+PWD /Users/syoshida/Documents/MasterThesis/Chapter_2
+INPUT /usr/local/texlive/2019/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-var/web2c/eptex/platex.fmt
+INPUT Theory.tex
+OUTPUT Theory.log
