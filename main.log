@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  17 JAN 2020 14:06
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  18 JAN 2020 20:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -761,32 +761,32 @@ LaTeX Warning: Label `fig:galaxyimages_notselected' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 99.
+Package hyperref Info: Link coloring ON on input line 100.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -794,9 +794,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count332
 )
-LaTeX Info: Redefining \ref on input line 99.
-LaTeX Info: Redefining \pageref on input line 99.
-LaTeX Info: Redefining \nameref on input line 99.
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -840,25 +840,25 @@ Package caption Info: End \AtBeginDocument code.
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 105.
+(Font)              using `JT1/mc/m/n' instead on input line 106.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 105.
+(Font)              using `JY1/mc/m/n' instead on input line 106.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 107.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 108.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 107.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 108.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 107.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 108.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 107.
-LaTeX Font Info:    Try loading font information for U+msa on input line 118.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 108.
+LaTeX Font Info:    Try loading font information for U+msa on input line 119.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 118.
+LaTeX Font Info:    Try loading font information for U+msb on input line 119.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -962,12 +962,17 @@ File: Chapter_1/Figures/For2018_Figure6.png Graphic file (type bmp)
 Chapter 2.
 File: Chapter_2/Figures/Condon1992_Figure1.png Graphic file (type bmp)
 <Chapter_2/Figures/Condon1992_Figure1.png>
-) [9] [10]
+File: Chapter_2/Figures/NRAO_radio4n2.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio4n2.png>
+[9] [10]
+File: Chapter_2/Figures/NRAO_radio4n3.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio4n3.png>
+ [11]) [12]
 \openout2 = `Chapter_3/Data.aux'.
 
  (./Chapter_3/Data.tex
 Chapter 3.
-[11
+[13
 
 
 
@@ -976,22 +981,22 @@ File: Chapter_3/Figures/Boselli2010_Figure1.png Graphic file (type bmp)
 <Chapter_3/Figures/Boselli2010_Figure1.png>
 File: Chapter_3/Figures/Boselli2010_Figure2.png Graphic file (type bmp)
 <Chapter_3/Figures/Boselli2010_Figure2.png>
- [12] [13]
+ [14] [15]
 File: Chapter_3/Figures/HurleyWalker_Figure11.png Graphic file (type bmp)
 <Chapter_3/Figures/HurleyWalker_Figure11.png>
-) [14]
+) [16]
 \openout2 = `Chapter_4/Method.aux'.
 
  (./Chapter_4/Method.tex
 Chapter 4.
-[15
+[17
 
 
 
 ]
 File: Chapter_4/Figures/Method_separation.pdf Graphic file (type pdf)
 <Chapter_4/Figures/Method_separation.pdf>
- [16]
+ [18]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 76.
@@ -1008,10 +1013,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 76.
 
-[17]
+[19]
 File: Chapter_4/Figures/Method_TIRcomparison.pdf Graphic file (type pdf)
 <Chapter_4/Figures/Method_TIRcomparison.pdf>
- [18] [19]
+ [20] [21]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 127.
@@ -1028,10 +1033,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 127.
 
-[20]) [21]
+[22]) [23]
 \openout2 = `Chapter_5/Result.aux'.
 
- (./Chapter_5/Result.tex [22
+ (./Chapter_5/Result.tex [24
 
 
 
@@ -1053,15 +1058,15 @@ File: Chapter_5/Figures/Result_comparehist.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_comparehist.pdf>
 File: Chapter_5/Figures/Result_comparealpha.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_comparealpha.pdf>
-[23] [24]
+[25] [26]
 File: Chapter_5/Figures/Result_sfrratio.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_sfrratio.pdf>
 File: Chapter_5/Figures/Result_sfrratios.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_sfrratios.pdf>
-) [25] [26] [27]
+) [27] [28] [29]
 \openout2 = `Chapter_6/Discussion.aux'.
 
- (./Chapter_6/Discussion.tex [28
+ (./Chapter_6/Discussion.tex [30
 
 
 
@@ -1071,25 +1076,25 @@ File: Chapter_6/Figures/CalistroRivera2017_Figure7.png Graphic file (type bmp)
 <Chapter_6/Figures/CalistroRivera2017_Figure7.png>
 File: Chapter_6/Figures/Chyzy2018_Figure4.png Graphic file (type bmp)
 <Chapter_6/Figures/Chyzy2018_Figure4.png>
-[29] [30] [31]
+[31] [32] [33]
 File: Chapter_6/Figures/Discuss_comparehist.pdf Graphic file (type pdf)
 <Chapter_6/Figures/Discuss_comparehist.pdf>
- [32]
+ [34]
 File: Chapter_6/Figures/Discuss_compareq.pdf Graphic file (type pdf)
 <Chapter_6/Figures/Discuss_compareq.pdf>
- [33] [34]) [35]
+ [35] [36]) [37]
 \openout2 = `Chapter_7/Conclusion.aux'.
 
- (./Chapter_7/Conclusion.tex [36
+ (./Chapter_7/Conclusion.tex [38
 
 
 
 ]
 Chapter 7.
-) [37] (./main.bbl [38
+) [39] (./main.bbl [40
 
 
-] [39] [40] [41]) [42]
+] [41] [42] [43]) [44]
 Appendix A.
 File: Figures/AppendixB_galaxyimages.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyimages.pdf>
@@ -1103,13 +1108,13 @@ File: Figures/AppendixB_galaxyimages_suspicious.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyimages_suspicious.pdf>
 File: Figures/AppendixB_galaxyImages_noMatch.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyImages_noMatch.pdf>
-[43
+[45
 
-] [44] [45] [46] [47] [48]
+] [46] [47] [48] [49] [50]
 Appendix B.
-[49
+[51
 
-] [50]
+] [52]
 Appendix C.
 File: Figures/AppendixC_qfitting1.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting1.pdf>
@@ -1125,18 +1130,18 @@ File: Figures/AppendixC_qfitting6.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting6.pdf>
 File: Figures/AppendixC_qfitting7.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting7.pdf>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
-[51
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
+[53
 
 
 
-] [52] [53] [54] [55] [56] [57] [58]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
+] [54] [55] [56] [57] [58] [59] [60]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
  (./main.aux (./Acknowledgments/acknowledgements.aux) (./Chapter_1/Intro.aux) (./Chapter_2/Theory.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_5/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 373.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 372.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5AA70006EA2C5F37EC2EE82D7509623D;2433.
+(rerunfilecheck)             Checksum: 6952D8A19A83685AF05D58450E994FCA;2433.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1144,15 +1149,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
  ) 
 Here is how much of TeX's memory you used:
- 19669 strings out of 493223
- 346378 string characters out of 6144414
- 461824 words of memory out of 5000000
- 23391 multiletter control sequences out of 15000+600000
+ 19687 strings out of 493223
+ 346834 string characters out of 6144414
+ 462454 words of memory out of 5000000
+ 23407 multiletter control sequences out of 15000+600000
  547298 words of font info for 84 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  36i,14n,48p,458b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (70 pages, 229588 bytes).
+Output written on main.dvi (72 pages, 240304 bytes).

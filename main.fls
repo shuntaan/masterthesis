@@ -240,6 +240,10 @@ INPUT Chapter_2/Theory.tex
 INPUT Chapter_2/Theory.tex
 INPUT Chapter_2/Figures/Condon1992_Figure1.png
 INPUT extractbb -B cropbox -O Chapter_2/Figures/Condon1992_Figure1.png
+INPUT Chapter_2/Figures/NRAO_radio4n2.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio4n2.png
+INPUT Chapter_2/Figures/NRAO_radio4n3.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio4n3.png
 OUTPUT Chapter_3/Data.aux
 INPUT Chapter_3/Data.tex
 INPUT Chapter_3/Data.tex
