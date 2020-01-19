@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  18 JAN 2020 20:57
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  19 JAN 2020 22:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -894,7 +894,16 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [6] (./main.lof [7
+ [6] (./main.lof
+
+LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 11.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 11.
+
+[7
 
 ])
 \tf@lof=\write5
@@ -922,14 +931,6 @@ LaTeX Warning: Command \r invalid in math mode on input line 50.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 50.
-
-
-LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 55.
-
-
-LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 55.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 55.
@@ -962,41 +963,86 @@ File: Chapter_1/Figures/For2018_Figure6.png Graphic file (type bmp)
 Chapter 2.
 File: Chapter_2/Figures/Condon1992_Figure1.png Graphic file (type bmp)
 <Chapter_2/Figures/Condon1992_Figure1.png>
+[9] [10]
 File: Chapter_2/Figures/NRAO_radio4n2.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio4n2.png>
-[9] [10]
 File: Chapter_2/Figures/NRAO_radio4n3.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio4n3.png>
- [11]) [12]
+ [11]
+File: Chapter_2/Figures/NRAO_radio4n5.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio4n5.png>
+ [12]
+Overfull \hbox (7.57193pt too wide) in paragraph at lines 124--126
+\OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 f []$ \OT1/cmr/m/n/12 is the nor-mal-ized speed dis-tri-bu-tion of elec-trons (In LTE, $\OML/cmm/m/it/12 f []$ \OT1/cmr/m/n/12 is the Maxwellian
+ []
+
+[13]
+File: Chapter_2/Figures/NRAO_radio4n7.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio4n7.png>
+ [14]
+File: Chapter_2/Figures/NRAO_radio4n8.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio4n8.png>
+ [15] [16] [17] [18] [19]
+File: Chapter_2/Figures/NRAO_radio5n3.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio5n3.png>
+File: Chapter_2/Figures/NRAO_radio5n4.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio5n4.png>
+File: Chapter_2/Figures/NRAO_radio5n5.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio5n5.png>
+ [20] [21]
+File: Chapter_2/Figures/NRAO_radio5n6.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio5n6.png>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 513.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 513.
+
+
+LaTeX Warning: Reference `eq:essential_radio5n42' on page 22 undefined on input line 525.
+
+[22] [23]
+
+LaTeX Warning: Reference `eq:essential_radio5n85' on page 24 undefined on input line 617.
+
+
+Overfull \hbox (13.92545pt too wide) in paragraph at lines 624--625
+[]\OT1/cmr/m/n/12 Therefore, the self-absorbed syn-chrotron source has a spec-tral in-dex $\OML/cmm/m/it/12 ^^K \OMS/cmsy/m/n/12 ^^X []$ $[]$\OT1/cmr/m/n/12 ,
+ []
+
+File: Chapter_2/Figures/NRAO_radio5n7.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio5n7.png>
+File: Chapter_2/Figures/NRAO_radio5n8.png Graphic file (type bmp)
+<Chapter_2/Figures/NRAO_radio5n8.png>
+) [24] [25]
 \openout2 = `Chapter_3/Data.aux'.
 
- (./Chapter_3/Data.tex
-Chapter 3.
-[13
+ (./Chapter_3/Data.tex [26
 
 
 
 ]
+Chapter 3.
+[27]
 File: Chapter_3/Figures/Boselli2010_Figure1.png Graphic file (type bmp)
 <Chapter_3/Figures/Boselli2010_Figure1.png>
 File: Chapter_3/Figures/Boselli2010_Figure2.png Graphic file (type bmp)
 <Chapter_3/Figures/Boselli2010_Figure2.png>
- [14] [15]
+ [28] [29]
 File: Chapter_3/Figures/HurleyWalker_Figure11.png Graphic file (type bmp)
 <Chapter_3/Figures/HurleyWalker_Figure11.png>
-) [16]
+) [30]
 \openout2 = `Chapter_4/Method.aux'.
 
  (./Chapter_4/Method.tex
 Chapter 4.
-[17
+[31
 
 
 
 ]
 File: Chapter_4/Figures/Method_separation.pdf Graphic file (type pdf)
 <Chapter_4/Figures/Method_separation.pdf>
- [18]
+ [32]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 76.
@@ -1013,10 +1059,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 76.
 
-[19]
+[33]
 File: Chapter_4/Figures/Method_TIRcomparison.pdf Graphic file (type pdf)
 <Chapter_4/Figures/Method_TIRcomparison.pdf>
- [20] [21]
+ [34] [35]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 127.
@@ -1033,10 +1079,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 127.
 
-[22]) [23]
+[36]) [37]
 \openout2 = `Chapter_5/Result.aux'.
 
- (./Chapter_5/Result.tex [24
+ (./Chapter_5/Result.tex [38
 
 
 
@@ -1058,15 +1104,15 @@ File: Chapter_5/Figures/Result_comparehist.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_comparehist.pdf>
 File: Chapter_5/Figures/Result_comparealpha.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_comparealpha.pdf>
-[25] [26]
+[39] [40]
 File: Chapter_5/Figures/Result_sfrratio.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_sfrratio.pdf>
 File: Chapter_5/Figures/Result_sfrratios.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_sfrratios.pdf>
-) [27] [28] [29]
+) [41] [42] [43]
 \openout2 = `Chapter_6/Discussion.aux'.
 
- (./Chapter_6/Discussion.tex [30
+ (./Chapter_6/Discussion.tex [44
 
 
 
@@ -1076,25 +1122,25 @@ File: Chapter_6/Figures/CalistroRivera2017_Figure7.png Graphic file (type bmp)
 <Chapter_6/Figures/CalistroRivera2017_Figure7.png>
 File: Chapter_6/Figures/Chyzy2018_Figure4.png Graphic file (type bmp)
 <Chapter_6/Figures/Chyzy2018_Figure4.png>
-[31] [32] [33]
+[45] [46] [47]
 File: Chapter_6/Figures/Discuss_comparehist.pdf Graphic file (type pdf)
 <Chapter_6/Figures/Discuss_comparehist.pdf>
- [34]
+ [48]
 File: Chapter_6/Figures/Discuss_compareq.pdf Graphic file (type pdf)
 <Chapter_6/Figures/Discuss_compareq.pdf>
- [35] [36]) [37]
+ [49] [50]) [51]
 \openout2 = `Chapter_7/Conclusion.aux'.
 
- (./Chapter_7/Conclusion.tex [38
+ (./Chapter_7/Conclusion.tex [52
 
 
 
 ]
 Chapter 7.
-) [39] (./main.bbl [40
+) [53] (./main.bbl [54
 
 
-] [41] [42] [43]) [44]
+] [55] [56] [57]) [58]
 Appendix A.
 File: Figures/AppendixB_galaxyimages.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyimages.pdf>
@@ -1108,13 +1154,13 @@ File: Figures/AppendixB_galaxyimages_suspicious.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyimages_suspicious.pdf>
 File: Figures/AppendixB_galaxyImages_noMatch.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyImages_noMatch.pdf>
-[45
+[59
 
-] [46] [47] [48] [49] [50]
+] [60] [61] [62] [63] [64]
 Appendix B.
-[51
+[65
 
-] [52]
+] [66]
 Appendix C.
 File: Figures/AppendixC_qfitting1.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting1.pdf>
@@ -1131,20 +1177,23 @@ File: Figures/AppendixC_qfitting6.pdf Graphic file (type pdf)
 File: Figures/AppendixC_qfitting7.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting7.pdf>
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
-[53
+[67
 
 
 
-] [54] [55] [56] [57] [58] [59] [60]
+] [68] [69] [70] [71] [72] [73] [74]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
  (./main.aux (./Acknowledgments/acknowledgements.aux) (./Chapter_1/Intro.aux) (./Chapter_2/Theory.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_5/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 372.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6952D8A19A83685AF05D58450E994FCA;2433.
+(rerunfilecheck)             Checksum: DFDE09C8F6BDAC13FA06A93697B99A9D;2619.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1152,12 +1201,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
  ) 
 Here is how much of TeX's memory you used:
- 19687 strings out of 493223
- 346834 string characters out of 6144414
- 462454 words of memory out of 5000000
- 23407 multiletter control sequences out of 15000+600000
- 547298 words of font info for 84 fonts, out of 8000000 for 9000
+ 19809 strings out of 493223
+ 349631 string characters out of 6144414
+ 466557 words of memory out of 5000000
+ 23513 multiletter control sequences out of 15000+600000
+ 551214 words of font info for 101 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  36i,14n,48p,458b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (72 pages, 240304 bytes).
+Output written on main.dvi (86 pages, 297492 bytes).

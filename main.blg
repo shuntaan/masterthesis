@@ -13,45 +13,45 @@ The style file: mnras.bst
 Database file #1: masterthesis.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 68 entries,
+You've used 69 entries,
             2881 wiz_defined-function locations,
-            1338 strings with 54032 characters,
-and the built_in function-call counts, 30001 in all, are:
-= -- 2628
-> -- 2020
-< -- 116
-+ -- 882
-- -- 266
-* -- 3738
-:= -- 4621
+            1347 strings with 54246 characters,
+and the built_in function-call counts, 30466 in all, are:
+= -- 2668
+> -- 2051
+< -- 120
++ -- 895
+- -- 270
+* -- 3792
+:= -- 4693
 add.period$ -- 0
-call.type$ -- 68
-change.case$ -- 136
-chr.to.int$ -- 68
-cite$ -- 68
-duplicate$ -- 1490
-empty$ -- 1497
-format.name$ -- 494
-if$ -- 5225
+call.type$ -- 69
+change.case$ -- 138
+chr.to.int$ -- 69
+cite$ -- 69
+duplicate$ -- 1513
+empty$ -- 1519
+format.name$ -- 504
+if$ -- 5307
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 68
-newline$ -- 217
-num.names$ -- 414
-pop$ -- 271
+missing$ -- 69
+newline$ -- 220
+num.names$ -- 422
+pop$ -- 273
 preamble$ -- 1
-purify$ -- 272
+purify$ -- 276
 quote$ -- 0
-skip$ -- 898
+skip$ -- 914
 stack$ -- 0
-substring$ -- 1878
-swap$ -- 600
-text.length$ -- 272
+substring$ -- 1904
+swap$ -- 614
+text.length$ -- 276
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 612
+type$ -- 621
 warning$ -- 0
-while$ -- 488
+while$ -- 496
 width$ -- 0
-write$ -- 692
+write$ -- 702
 is.kanji.str$ -- 0

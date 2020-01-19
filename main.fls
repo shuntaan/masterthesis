@@ -216,6 +216,7 @@ INPUT main.toc
 OUTPUT main.toc
 INPUT main.lof
 INPUT main.lof
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 OUTPUT main.lof
 INPUT main.lot
 INPUT main.lot
@@ -226,7 +227,6 @@ INPUT Chapter_1/Intro.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT Chapter_1/Figures/Madau2014_Figure9.png
 INPUT extractbb -B cropbox -O Chapter_1/Figures/Madau2014_Figure9.png
 INPUT Chapter_1/Figures/Helou1985_Figure2.png
@@ -238,12 +238,49 @@ INPUT extractbb -B cropbox -O Chapter_1/Figures/For2018_Figure6.png
 OUTPUT Chapter_2/Theory.aux
 INPUT Chapter_2/Theory.tex
 INPUT Chapter_2/Theory.tex
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT Chapter_2/Figures/Condon1992_Figure1.png
 INPUT extractbb -B cropbox -O Chapter_2/Figures/Condon1992_Figure1.png
 INPUT Chapter_2/Figures/NRAO_radio4n2.png
 INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio4n2.png
 INPUT Chapter_2/Figures/NRAO_radio4n3.png
 INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio4n3.png
+INPUT Chapter_2/Figures/NRAO_radio4n5.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio4n5.png
+INPUT Chapter_2/Figures/NRAO_radio4n7.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio4n7.png
+INPUT Chapter_2/Figures/NRAO_radio4n8.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio4n8.png
+INPUT Chapter_2/Figures/NRAO_radio5n3.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio5n3.png
+INPUT Chapter_2/Figures/NRAO_radio5n4.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio5n4.png
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin6.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min6.tfm
+INPUT Chapter_2/Figures/NRAO_radio5n5.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio5n5.png
+INPUT Chapter_2/Figures/NRAO_radio5n6.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio5n6.png
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT Chapter_2/Figures/NRAO_radio5n7.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio5n7.png
+INPUT Chapter_2/Figures/NRAO_radio5n8.png
+INPUT extractbb -B cropbox -O Chapter_2/Figures/NRAO_radio5n8.png
 OUTPUT Chapter_3/Data.aux
 INPUT Chapter_3/Data.tex
 INPUT Chapter_3/Data.tex
@@ -262,8 +299,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT Chapter_4/Figures/Method_TIRcomparison.pdf
 INPUT extractbb -B cropbox -O Chapter_4/Figures/Method_TIRcomparison.pdf
