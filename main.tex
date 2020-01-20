@@ -47,6 +47,7 @@
 % For printing use:
 %\usepackage[inner=4cm,outer=2cm,top=2cm=bottom=2cm]{geometry}
 \usepackage{tocbibind}
+\usepackage[titletoc]{appendix}
 
 
 \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\thechapter. #1 }}{}}
@@ -107,7 +108,7 @@
 		\textit{This thesis is presented for the master's degree of Nagoya University}\\
         \vspace{5cm}
 		{\bfseries\LARGE
-				Estimation of galaxy SFRs from low radio frequencies \\}
+				Estimation of galaxy star formation rate from low radio frequency observations \\}
 
         \vspace{1.5cm}
 
@@ -195,7 +196,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\appendix
+%\appendix
+\begin{appendices}
 
 \chapter{Galaxy images}\label{chap:galaxyimages}
 
@@ -373,4 +375,5 @@ HRS &      &              &              &           &  [arcmin] &  [Mpc] &     
     }
 \end{figure}
 
+\end{appendices}
 \end{document}

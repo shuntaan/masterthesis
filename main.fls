@@ -140,6 +140,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/appendix/appendix.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT main.aux
 INPUT main.aux
 INPUT Acknowledgments/acknowledgements.aux

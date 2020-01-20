@@ -30,10 +30,10 @@
 \contentsline {section}{\numberline {6.4}Non-detected galaxies by the GLEAM survey}{53}{section.6.4}% 
 \contentsline {chapter}{\numberline {7}Summary and Future prospects}{55}{chapter.7}% 
 \contentsline {chapter}{Bibliography}{57}{chapter*.34}% 
-\contentsline {chapter}{\numberline {A}Galaxy images}{61}{appendix.A}% 
-\contentsline {section}{\numberline {A.1}Matched samples (18 samples used for the analysis)}{61}{section.A.1}% 
-\contentsline {section}{\numberline {A.2}Matched samples (not used for the analysis)}{61}{section.A.2}% 
-\contentsline {section}{\numberline {A.3}Suspicious matching samples}{61}{section.A.3}% 
-\contentsline {section}{\numberline {A.4}Not matching samples}{61}{section.A.4}% 
-\contentsline {chapter}{\numberline {B}Galaxy samples for the analysis}{69}{appendix.B}% 
-\contentsline {chapter}{\numberline {C}Fitting results}{71}{appendix.C}% 
+\contentsline {chapter}{Appendix \numberline {A}Galaxy images}{61}{Appendix.1.A}% 
+\contentsline {section}{\numberline {A.1}Matched samples (18 samples used for the analysis)}{61}{section.1.A.1}% 
+\contentsline {section}{\numberline {A.2}Matched samples (not used for the analysis)}{61}{section.1.A.2}% 
+\contentsline {section}{\numberline {A.3}Suspicious matching samples}{61}{section.1.A.3}% 
+\contentsline {section}{\numberline {A.4}Not matching samples}{61}{section.1.A.4}% 
+\contentsline {chapter}{Appendix \numberline {B}Galaxy samples for the analysis}{69}{Appendix.1.B}% 
+\contentsline {chapter}{Appendix \numberline {C}Fitting results}{71}{Appendix.1.C}% 
