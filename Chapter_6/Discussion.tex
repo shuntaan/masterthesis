@@ -2,11 +2,11 @@
 \begin{chapabstract}
 
 In this chapter, we show further discussion on our results in Chapter~\ref{chap:results}.
-Section~\ref{sec:comparingthecalibration} compares our fitting results mainly the frequency dependence of $\qn$ with previous studies.
+Section~\ref{sec:comparingthecalibration} compares our fitting results, mainly the frequency dependence of $\qn$ with previous studies.
 Section~\ref{sec:radiosfruncertainty} shows the comparison of the radio SFR calibration with \citet{CalistroRivera2017a}.
 Section~\ref{sec:galaxypropertiesfortheradiosfr} describes how galaxy properties affect the SFR estimation.
 Here, we focus on the \nh~deficient and the active galactic nuclei in a galaxy.
-Section~\ref{sec:nondetectedgalaxiesbythegleamsurvey} describes HRS galaxies whose radio counterpart are not detected by the GLEAM survey.
+Section~\ref{sec:nondetectedgalaxiesbythegleamsurvey} describes HRS galaxies whose radio counterparts are not detected by the GLEAM survey.
 In this section, I also mention the possibility of their radio source detection by the updated GLEAM survey.
 
 \end{chapabstract}
@@ -19,7 +19,7 @@ From our samples, we obtain the mean $\gamma=-0.63 \pm 0.07$ with MWA frequencie
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=.6\linewidth]{Chapter_6/Figures/CalistroRivera2017_Figure7.png}
+	\includegraphics[width=.7\linewidth]{Chapter_6/Figures/CalistroRivera2017_Figure7.png}
     \caption[Adapted from \citet{CalistroRivera2017a}]{\label{fig:CalistroRivera2017_figure7}
         This figure shows the spectral index corresponding to $\gamma$ in this paper.
         They calculate it between $150\MHz$ (LOFAR;~\citealt{Williams2016}) and $1.4\GHz$ (Westerbork Synthesis Radio Telescope, WSRT;~\citealt{DeVries2002}).
@@ -76,17 +76,29 @@ In this section, I discuss how the galaxy property affect the results mentioned 
 Here, I focus on the central engine and the environment of a galaxy.
 The central engine of a galaxy driven by the supermassive black hole and the accretion is located at the center of a galaxy, and it is known to emit strong radio emission.
 Although we have eliminated galaxies which have strong radio emission without star formation activity in Section~\ref{sec:reducegalaxysamples}, there are still some galaxies in our sample, which might have strong radio emissions compared to the radiation arisen from the star formation.
-These kinds of galaxies that have a strong radio emission in spite of the star forming are called Seyfert or LINER galaxies based on the strength of optical emission lines, and it is possible to affect our results due to their strong emissions.
-In this study, we investigate this property using the BPT diagram mentioned in Section~\ref{sec:GammaDistribution} and find four galaxies (HRS 144, 163, 173 and 220) in our sample that have sharp optical emission lines.
-In the BPT diagram, HRS 144 and 163 are found to be Seyfert galaxies, and HRS 173 and 220 are LINER galaxies.
+These kinds of galaxies that have a strong radio emission in spite of the star-forming are called Seyfert or LINER galaxies based on the strength of optical emission lines, and it is possible to affect our results due to their strong emissions.
+In this study, we investigate this property using the BPT diagram mentioned in Section~\ref{sec:GammaDistribution} and find four galaxies (HRS 144, 163 and 220) in our sample that have sharp optical emission lines.
+In the BPT diagram, HRS 144 and 163 are found to be Seyfert galaxies, and HRS and 220 are LINER galaxies.
 
 After that, we also examine the galaxy environment of each galaxy.
-\citet{Boselli2014} have already calculated the HI-deficiency for all HRS galaxies based on the calculation in \citet{Boselli2009}.
+\citet{Boselli2014} have already calculated the \nh-deficiency for all HRS galaxies based on the calculation in \citet{Boselli2009}.
 \nh~deficient galaxy is defined as a galaxy whose the \nh~mass is much smaller than the expected one based on the morphology and the size of a galaxy \citep{Haynes1984}.
+The definition of \nh~deficiency is as follows:
+
+\begin{equation}\label{eq:definitionofHIdeficiency}
+    \text{\nh-def} = \log\brp{M\msb{\nh,\,expected}} - \log\brp{M\msb{\nh,\,observed}}
+\end{equation}
+where $\log\brp{M\msb{\nh,\,expected}}$ is defined in \citet{Haynes1984}:
+
+\begin{equation}\label{eq:definitionofexpectedHIdef}
+    \log\brp{h^2 M\msb{\nh,\,expected}} = c + d\log\brp{h\times\mr{diam}}^2
+\end{equation}
+where $c$ and $d$ are weak functions of the galaxy morphology, $\mr{diam}$ is the linear diameter of the galaxy and $h=H_0 / 100$.
+
 Here, we regard a galaxy whose \nh~deficiency is more than 0.4 as a \nh~deficient galaxy and the other case as a normal galaxy, which is the same criteria in \citet{Ciesla2016}.
 \nh~deficiency is known to represent not only the amount of the \nh~mass but also a galaxy environment.
-This is because \nh~deficient is caused by the tidal stripping or ram pressure, which happens in the dense region (e.g., the center of a cluster).
-Therefore, we can roughly assume that \nh~deficient galaxies are located in the dense areas, and not \nh~deficient galaxies are the field galaxies.
+This is because \nh~deficiency is caused by the tidal stripping or ram pressure, which happens in the dense region (e.g., the center of a cluster).
+Therefore, we can roughly assume that \nh~deficient galaxies are located in the dense areas, and normal galaxies are the field galaxies.
 The relation between a galaxy environment and low-frequency emissions are still not fully understood.
 Still, it is a possible scenario to distort the magnetic field and affect the strength of the synchrotron radiation due to the frozen-in of the magnetic field with the stripped \nh~gas.
 
@@ -98,7 +110,7 @@ Firstly, we show the result of a spectral index distribution (Figure~\ref{fig:co
     \caption[Histograms of $\gamma$ from the fitting (labeled)]{\label{fig:comparehist_h1def}
         This figure shows the spectral index distribution obtained from the two kinds of fitting as same as in Figure~\ref{fig:comparehist}.
         Here, we make a histogram with color labeling based on the galaxy properties mentioned in Section~\ref{sec:galaxypropertiesfortheradiosfr}.
-        The blue histogram shows the normal galaxies; red one shows the HI deficient galaxies (\nh-def > 0.4), and the pink shows the Seyfert or LINER galaxies with \nh-deficient.
+        The blue histogram shows the normal galaxies; red one shows the HI deficient galaxies (\nh-def $> 0.4$), and the pink shows the Seyfert or LINER galaxies with \nh-deficient.
         Our sample does not have the galaxy, which is Seyfert or LINER without \nh~deficient.
         Although the left figure does not show the significant difference between normal galaxies and the others, the right figure shows the \nh~deficient galaxies tend to have a scatter spectral index compared to the normal galaxies.
     }

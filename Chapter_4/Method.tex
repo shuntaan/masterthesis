@@ -13,19 +13,19 @@ Section~\ref{sec:calculatingsfr} describes the process of calculating SFR from t
 \section{Cross Matching}\label{sec:crossmatching}
 Although HRS galaxies have been studied in multi-wavelength observations, their spectral energy distribution around $100\MHz$ is not well-understood \citep{Ciesla2014}, where the contribution from synchrotron radiation is much more significant than from free-free emission \citep{Condon1992a}.
 Here, I provide a procedure to cross-matching with two different catalogs I have mentioned in the previous chapter.
-Cross-matching is the method widely used in astronomy to obtain additional information from other surveys or catalogs by matching coordinates of each galaxy or blob source within a specific error (e.g., $\sim 1\,\mr{arcsec}$).
+Cross-matching is the method widely used in astronomy to obtain additional information from other surveys or catalogs by matching coordinates of each galaxy or blob source within a specific error (e.g., $\sim 1.0\,\mr{arcsec}$).
 For executing this method for the HRS and the GLEAM survey catalog, we use Tool for OPerations on Catalogues And Tables (TOPCAT\@; \citealt{Taylor2009}).
-TOPCAT is popular and an useful tool for dealing with catalogs and tables, and it allows us to do the cross-matching easily, even more than two catalogs.
+TOPCAT is a popular and useful tool for dealing with catalogs and tables, and it allows us to do the cross-matching easily, even more than two catalogs.
 
 Initially, we assume a $10\,\mr{arcsec}$ error radius for the cross-matching since it is equivalent to the value of $95\%$ error for the astrometry in the GLEAM survey (Section 4.5.5 in \citealt{Hurley-Walker2017a}).
-This matching results in a total of 18 galaxies which are identified to have a radio counterpart.
+This matching results in a total of 18 galaxies, which are identified to have a radio counterpart.
 To assess the matching, we compare a separation of counterparts from the center of galaxies with coordinate uncertainties in the GLEAM catalog.
 For these galaxies, we find 15 of them have a separation within a 95\% error radius, and others do not.
-Although three of them have a larger separation compared to the error radius, we conclude that the matching for all 18 galaxies is correct by the checking of galaxy images (Appendix~\ref{chap:galaxyimages}).
+Although three of them have a more significant separation compared to the error radius, we conclude that the matching for all 18 galaxies is correct by the checking of galaxy images (Appendix~\ref{chap:galaxyimages}).
 In this paper, we regard a radio blob as a counterpart if the brightest part of each blob where the inside of the contour nearest to the center, is surrounded by the D25 radius (the isophotal optical size at $25\,\mr{mag}\arcs^{-2}$; \citealt{Boselli2010}).
 
 Next, we extend the error radius up to $120\arcs$, which is corresponding to the angular resolution of the GLEAM survey at $200\MHz$.
-This is because the radio sources are blurred due to the angular resolution of the GLEAM survey and the location of them might be shifted.
+This operation is because the radio sources are blurred due to the angular resolution of the GLEAM survey, and the location of them might be shifted.
 We know $120\arcs$ error radius is quite big for the matching, but this trial gives us the inspiration for the cross-matching with blurred radio sources in the future study.
 The cross-matching with the error of $120\arcs$ suggests that there are 25 new galaxies have a potential counterpart.
 To assess these matching, we look at galaxy images one by one (All galaxy images are in Appendix~\ref{chap:galaxyimages}).
@@ -50,12 +50,13 @@ We put all galaxy images cross-matched within $120\,\mr{arcsec}$ in Appendix~\re
 
 
 
-\section{Reduce galaxy samples for the secure analysis}\label{sec:reducegalaxysamples}
+\section{Reduce galaxy samples for the reliable analysis}\label{sec:reducegalaxysamples}
 
 In this section, we show some steps for selecting galaxies to do a secure analysis.
 Since we focus on the relation of galaxy radio emission with star formation activities, we should clarify the radio source and be sure that they are not originally from other sources rather than the star formation.
 The radio emission arisen from the star formation activities should be proportional to the SFR in a galaxy \citep{Condon1992a, Murphy2011}.
-However, elliptical galaxies have a stronger radio emission against their star formation, in this case their radio emission would be emitted by non star-forming sources.
+However, elliptical galaxies have a stronger radio emission against their star formation.
+In this case their radio emission would be emitted by not star-forming sources.
 These radio sources are considered as Active Galactic Nuclei (AGN), which emits strong radio emission due to the baryon accretion into the supermassive black hole at the center of galaxies irrelevant to the star formation \citep[e.g.,][]{Urry1995, Padovani2017}.
 According to the morphology of galaxies \citep{Cortese2012}, we identify four elliptical galaxies (HRS49, 138, 178, 241) and not use for further calculation and discussion.
 %With these operations, we finally find that there are 37 HRS galaxies are available for further analysis.
@@ -74,17 +75,18 @@ The overview of 18 samples is tabled in Appendix~\ref{chap:galaxysamples}.
 
 
 \section{Calculating the $\qn$ parameter}\label{sec:calculatingq}
-In this section, I introduce the method to calculate $\qn$ parameter, which shows the ratio between integrated IR and radio luminosities in a galaxy.
-The definition of this parameter here is given on the following equation \citep[e.g.][]{Helou1985, Bell2003, CalistroRivera2017a}:
+In this section, I introduce the method to calculate the $\qn$ parameter, which shows the ratio between integrated IR and radio luminosities in a galaxy.
+The definition of this parameter here is given on the following equation \citep[e.g.,][]{Helou1985, Bell2003, CalistroRivera2017a}:
 
 \begin{equation}\label{eq:q_def}
     \qn \equiv \log\brp{\frac{L\msb{8-1000\,\mu m}\ /\ 3.75 \times 10^{12}}{{\rm erg\,s^{-1}\,Hz^{-1}}}} - \log\brp{\frac{L_{\mr{Radio},\,\nu}}{{\rm erg\,s^{-1}\,Hz^{-1}}}}
 \end{equation}
-where $L\msb{8-1000\,\mu m}$ is the total rest-frame infrared luminosity among $8 - 1000\,\mr{\mu m}$, which reflects the total dust luminosity, and $3.75\times10^{12}$ is equivalent to the frequency of $80\,\mr{\mu m}$ for correcting the dimension.
+where $L\msb{8-1000\,\mu m}$ is the total rest-frame infrared luminosity among $8 - 1000\,\mr{\mu m}$ and $3.75\times10^{12}\,\mr{Hz}$ is equivalent to the frequency of $80\,\mr{\mu m}$ for correcting the dimension.
 
-Although \citet{Ciesla2014} have already derived the total IR luminosity for most HRS galaxies using the SED fitting, one of our galaxy samples (HRS163) does not have the value because of the lack of the reliable mid IR flux from {\it Spitzer\/} telescope.
+Although \citet{Ciesla2014} have already derived the total IR luminosity for most HRS galaxies using the SED fitting, one of our galaxy samples (HRS163) does not have the value because of the lack of the reliable mid-IR flux from {\it Spitzer\/} telescope.
 For consistency, we adopt the total IR luminosity calculated from the same method for all galaxy samples.
-To calculate the total IR luminosity, we refer to \citet{Galametz2013}, which derive the calibration relation between combining monochromatic IR luminosities and the total IR luminosity.
+%To calculate the total IR luminosity, we refer to \citet{Galametz2013}, which derive the calibration relation between combining monochromatic IR luminosities and the total IR luminosity.
+To calculate the total IR luminosity, we refer to \citet{Galametz2013}, which derives the calibration relation of the total IR luminosity with monochromatic IR luminosities.
 We show the procedure to calculate total IR luminosity in the next section.
 
 
@@ -133,7 +135,7 @@ In this paper, we assume radio emission has a single power-law on the frequency 
 \begin{equation}\label{eq:q_fitting}
     q_{\nu} = -\gamma\log{\nu} + \beta
 \end{equation}
-where $q_{\nu}$ is defined by Equation~\ref{eq:q_def} at $\nu\MHz$, $\gamma$ is the power-law index showing the frequency dependence of $\qn$ and $\beta$ is the second fitting parameter.
+where $q_{\nu}$ is defined by Equation~\ref{eq:q_def} at $\nu\MHz$, $\gamma$ is the power-law index showing the frequency dependence of $\qn$, and $\beta$ is the second fitting parameter.
 
 In this study, we execute two types of fitting:
 
@@ -165,7 +167,7 @@ Substituting equation~\ref{eq:q_def} and~\ref{eq:q_nuto1500} into equation~\ref{
     \mr{SFR}_{\mr{Radio},\,\nu} = 1.46\times10^{-31}\times 10^{q\msb{1500\MHz}} {\brp{\frac{\nu\,\MHz}{1500\MHz}}}^{-\gamma} \times L_{\mr{Radio},\,\nu}
 \end{equation}
 
-In Section~\ref{sec:sfrfromlowradio}, I show the results of calculating SFR from the low-frequency radio using this equation and comparing it with the SFR from other indicator.
+In Section~\ref{sec:sfrfromlowradio}, I show the results of calculating SFR from the low-frequency radio using this equation and comparing it with the SFR from other indicators.
 
 
 

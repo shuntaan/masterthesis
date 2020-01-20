@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  19 JAN 2020 22:41
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  20 JAN 2020 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -813,6 +813,38 @@ Package caption Info: End \AtBeginDocument code.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
 * h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(99.58464pt, 644.05556pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=644.05556pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-9.68535pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: dvips
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
 * v-part:(T,H,B)=(56.9055pt, 686.7347pt, 101.40665pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
@@ -840,42 +872,76 @@ Package caption Info: End \AtBeginDocument code.
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 106.
+(Font)              using `JT1/mc/m/n' instead on input line 107.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 106.
+(Font)              using `JY1/mc/m/n' instead on input line 107.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 108.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 108.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 108.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 108.
-LaTeX Font Info:    Try loading font information for U+msa on input line 119.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 109.
+LaTeX Font Info:    Try loading font information for U+msa on input line 120.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 119.
+LaTeX Font Info:    Try loading font information for U+msb on input line 120.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
+
 ] [1
 
-] [1]
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: dvips
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(42.67912pt, 700.96107pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=700.96107pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
+ [1
 
-[2]
+
+]
 \openout2 = `Acknowledgments/acknowledgements.aux'.
 
- (./Acknowledgments/acknowledgements.tex
+ (./Acknowledgments/acknowledgements.tex [2
+
+
+
+]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
@@ -884,17 +950,21 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-) [3
-
-
-] [4
+) [3] [4
 
 
 ] (./main.toc [5])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [6] (./main.lof
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[6] (./main.lof
 
 LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
 (Font)              using `JT1/mc/m/n' instead on input line 11.
@@ -947,64 +1017,57 @@ File: Chapter_1/Figures/Madau2014_Figure9.png Graphic file (type bmp)
 [3]
 File: Chapter_1/Figures/Helou1985_Figure2.png Graphic file (type bmp)
 <Chapter_1/Figures/Helou1985_Figure2.png>
- [4]
+ [4] [5]
 File: Chapter_1/Figures/Kapinska2017_Figure5.png Graphic file (type bmp)
 <Chapter_1/Figures/Kapinska2017_Figure5.png>
 File: Chapter_1/Figures/For2018_Figure6.png Graphic file (type bmp)
 <Chapter_1/Figures/For2018_Figure6.png>
- [5] [6]) [7]
+ [6]) [7] [8]
 \openout2 = `Chapter_2/Theory.aux'.
 
- (./Chapter_2/Theory.tex [8
-
-
-
-]
+ (./Chapter_2/Theory.tex
 Chapter 2.
 File: Chapter_2/Figures/Condon1992_Figure1.png Graphic file (type bmp)
 <Chapter_2/Figures/Condon1992_Figure1.png>
-[9] [10]
+[9
+
+
+
+] [10]
 File: Chapter_2/Figures/NRAO_radio4n2.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio4n2.png>
 File: Chapter_2/Figures/NRAO_radio4n3.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio4n3.png>
- [11]
+ [11] [12]
 File: Chapter_2/Figures/NRAO_radio4n5.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio4n5.png>
- [12]
+
 Overfull \hbox (7.57193pt too wide) in paragraph at lines 124--126
 \OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 f []$ \OT1/cmr/m/n/12 is the nor-mal-ized speed dis-tri-bu-tion of elec-trons (In LTE, $\OML/cmm/m/it/12 f []$ \OT1/cmr/m/n/12 is the Maxwellian
  []
 
-[13]
+[13] [14]
 File: Chapter_2/Figures/NRAO_radio4n7.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio4n7.png>
- [14]
+ [15]
 File: Chapter_2/Figures/NRAO_radio4n8.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio4n8.png>
- [15] [16] [17] [18] [19]
+ [16] [17] [18] [19]
 File: Chapter_2/Figures/NRAO_radio5n3.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n3.png>
 File: Chapter_2/Figures/NRAO_radio5n4.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n4.png>
+ [20]
 File: Chapter_2/Figures/NRAO_radio5n5.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n5.png>
- [20] [21]
+ [21]
 File: Chapter_2/Figures/NRAO_radio5n6.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n6.png>
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 513.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 513.
-
-
-LaTeX Warning: Reference `eq:essential_radio5n42' on page 22 undefined on input line 525.
-
-[22] [23]
-
-LaTeX Warning: Reference `eq:essential_radio5n85' on page 24 undefined on input line 617.
-
-
+ [22] [23] [24]
 Overfull \hbox (13.92545pt too wide) in paragraph at lines 624--625
 []\OT1/cmr/m/n/12 Therefore, the self-absorbed syn-chrotron source has a spec-tral in-dex $\OML/cmm/m/it/12 ^^K \OMS/cmsy/m/n/12 ^^X []$ $[]$\OT1/cmr/m/n/12 ,
  []
@@ -1013,80 +1076,76 @@ File: Chapter_2/Figures/NRAO_radio5n7.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n7.png>
 File: Chapter_2/Figures/NRAO_radio5n8.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n8.png>
-) [24] [25]
+) [25] [26] [27]
 \openout2 = `Chapter_3/Data.aux'.
 
- (./Chapter_3/Data.tex [26
+ (./Chapter_3/Data.tex [28
 
 
 
 ]
 Chapter 3.
-[27]
+[29]
 File: Chapter_3/Figures/Boselli2010_Figure1.png Graphic file (type bmp)
 <Chapter_3/Figures/Boselli2010_Figure1.png>
 File: Chapter_3/Figures/Boselli2010_Figure2.png Graphic file (type bmp)
 <Chapter_3/Figures/Boselli2010_Figure2.png>
- [28] [29]
+ [30] [31]
 File: Chapter_3/Figures/HurleyWalker_Figure11.png Graphic file (type bmp)
 <Chapter_3/Figures/HurleyWalker_Figure11.png>
-) [30]
+) [32] [33]
 \openout2 = `Chapter_4/Method.aux'.
 
- (./Chapter_4/Method.tex
-Chapter 4.
-[31
+ (./Chapter_4/Method.tex [34
 
 
 
 ]
+Chapter 4.
+[35]
 File: Chapter_4/Figures/Method_separation.pdf Graphic file (type pdf)
 <Chapter_4/Figures/Method_separation.pdf>
- [32]
+ [36]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 76.
+(hyperref)                removing `subscript' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `\nu' on input line 77.
 
-[33]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 77.
+
+[37] [38]
 File: Chapter_4/Figures/Method_TIRcomparison.pdf Graphic file (type pdf)
 <Chapter_4/Figures/Method_TIRcomparison.pdf>
- [34] [35]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 127.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 127.
+(hyperref)                removing `math shift' on input line 129.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 127.
+(hyperref)                removing `subscript' on input line 129.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 127.
+(hyperref)                removing `\nu' on input line 129.
 
-[36]) [37]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 129.
+
+[39]) [40]
 \openout2 = `Chapter_5/Result.aux'.
 
- (./Chapter_5/Result.tex [38
-
-
-
-]
+ (./Chapter_5/Result.tex
 Chapter 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1104,43 +1163,50 @@ File: Chapter_5/Figures/Result_comparehist.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_comparehist.pdf>
 File: Chapter_5/Figures/Result_comparealpha.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_comparealpha.pdf>
-[39] [40]
+[41
+
+
+
+] [42]
 File: Chapter_5/Figures/Result_sfrratio.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_sfrratio.pdf>
+
+
+LaTeX Warning: Float too large for page by 18.8827pt on input line 72.
+
 File: Chapter_5/Figures/Result_sfrratios.pdf Graphic file (type pdf)
 <Chapter_5/Figures/Result_sfrratios.pdf>
-) [41] [42] [43]
+[43] [44] [45]) [46]
 \openout2 = `Chapter_6/Discussion.aux'.
 
- (./Chapter_6/Discussion.tex [44
-
-
-
-]
+ (./Chapter_6/Discussion.tex
 Chapter 6.
 File: Chapter_6/Figures/CalistroRivera2017_Figure7.png Graphic file (type bmp)
 <Chapter_6/Figures/CalistroRivera2017_Figure7.png>
 File: Chapter_6/Figures/Chyzy2018_Figure4.png Graphic file (type bmp)
 <Chapter_6/Figures/Chyzy2018_Figure4.png>
-[45] [46] [47]
+[47
+
+
+
+] [48] [49] [50]
 File: Chapter_6/Figures/Discuss_comparehist.pdf Graphic file (type pdf)
 <Chapter_6/Figures/Discuss_comparehist.pdf>
- [48]
 File: Chapter_6/Figures/Discuss_compareq.pdf Graphic file (type pdf)
 <Chapter_6/Figures/Discuss_compareq.pdf>
- [49] [50]) [51]
+ [51] [52]) [53]
 \openout2 = `Chapter_7/Conclusion.aux'.
 
- (./Chapter_7/Conclusion.tex [52
+ (./Chapter_7/Conclusion.tex [54
 
 
 
 ]
 Chapter 7.
-) [53] (./main.bbl [54
+[55]) [56] (./main.bbl [57
 
 
-] [55] [56] [57]) [58]
+] [58] [59]) [60]
 Appendix A.
 File: Figures/AppendixB_galaxyimages.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyimages.pdf>
@@ -1154,13 +1220,18 @@ File: Figures/AppendixB_galaxyimages_suspicious.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyimages_suspicious.pdf>
 File: Figures/AppendixB_galaxyImages_noMatch.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyImages_noMatch.pdf>
-[59
+[61
 
-] [60] [61] [62] [63] [64]
+] [62] [63] [64] [65] [66] [67] [68
+
+]
 Appendix B.
-[65
+[69]
+Overfull \hbox (27.48418pt too wide) in paragraph at lines 307--308
+ [][] 
+ []
 
-] [66]
+[70]
 Appendix C.
 File: Figures/AppendixC_qfitting1.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting1.pdf>
@@ -1176,37 +1247,34 @@ File: Figures/AppendixC_qfitting6.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting6.pdf>
 File: Figures/AppendixC_qfitting7.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting7.pdf>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
-[67
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 376.
+[71
 
 
 
-] [68] [69] [70] [71] [72] [73] [74]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
+] [72] [73] [74] [75] [76] [77] [78]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 376.
  (./main.aux (./Acknowledgments/acknowledgements.aux) (./Chapter_1/Intro.aux) (./Chapter_2/Theory.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_5/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 372.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 376.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 376.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DFDE09C8F6BDAC13FA06A93697B99A9D;2619.
+(rerunfilecheck)             Checksum: 0CB969F9F89F6BF49A25148FF1C1AEA4;2621.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 376.
  ) 
 Here is how much of TeX's memory you used:
- 19809 strings out of 493223
- 349631 string characters out of 6144414
- 466557 words of memory out of 5000000
- 23513 multiletter control sequences out of 15000+600000
- 551214 words of font info for 101 fonts, out of 8000000 for 9000
+ 19815 strings out of 493223
+ 349722 string characters out of 6144414
+ 466699 words of memory out of 5000000
+ 23519 multiletter control sequences out of 15000+600000
+ 551816 words of font info for 103 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 36i,14n,48p,458b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,48p,438b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (86 pages, 297492 bytes).
+Output written on main.dvi (90 pages, 302468 bytes).

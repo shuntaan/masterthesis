@@ -43,7 +43,7 @@
 \usepackage{fancyhdr}
 \usepackage[labelfont=bf]{caption}
 % For electronic submission use:
-\usepackage[inner=2.5cm,outer=2.5cm,top=2cm=bottom=2cm]{geometry}
+\usepackage[inner=2.5cm,outer=2.5cm,top=3.5cm=bottom=2cm]{geometry}
 % For printing use:
 %\usepackage[inner=4cm,outer=2cm,top=2cm=bottom=2cm]{geometry}
 \usepackage{tocbibind}
@@ -99,6 +99,7 @@
 
 \begin{document}
 
+\newgeometry{inner=2.5cm,outer=2.5cm,top=2cm=bottom=2cm}
 %	\layout
 	\begin{titlepage}
 		\centering
@@ -114,7 +115,7 @@
         \vspace{6cm}
         Shunraro YOSHIDA (ID:\@261801444)\\
 		%B.Sc. in FieldA; B.Sc. in FieldB; M.Sc in FieldC \\
-		March 2020\\
+		22 January, 2020\\
         \vspace{0.5cm}
         The laboratory of Galaxy Evolution ($\Omega$ lab.)\\
         Division of Particle and Astrophysical Science, Graduate School of Science\\
@@ -136,8 +137,10 @@
 	\vfill
 
 %	\include{Declaration/declaration}
+\restoregeometry
 
 
+\newgeometry{inner=2.5cm,outer=2.5cm,top=1.5cm=bottom=2cm}
 	\begin{abstract}
         Star formation rate (SFR) is one of the most fundamental quantities of a galaxy.
         Recombination lines, far-ultraviolet, and infrared (IR) luminosities, for example, are commonly used observational indicators of the SFR (e.g., Kennicutt \& Evans 2012).
@@ -162,6 +165,7 @@
         In conclusion, we propose to use the individual spectral energy distribution for calculating the radio SFR with less uncertainty.
         This study provides a powerful tool for future radio surveys, like the Square Kilometre Array (SKA).
 	\end{abstract}
+    \restoregeometry
 
 	\include{Acknowledgments/acknowledgements}
 
@@ -176,7 +180,7 @@
 	\include{Chapter_1/Intro}
     \include{Chapter_2/Theory}
 	\include{Chapter_3/Data}
-	\include{Chapter_4/Method}
+    \include{Chapter_4/Method}
 	\include{Chapter_5/Result}
 	\include{Chapter_6/Discussion}
     \include{Chapter_7/Conclusion}
@@ -311,7 +315,7 @@ HRS &      &              &              &           &  [arcmin] &  [Mpc] &     
 \chapter{Fitting results}\label{chap:fittingresults}
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=.85\linewidth]{Figures/AppendixC_qfitting1.pdf}
+    \includegraphics[width=.8\linewidth]{Figures/AppendixC_qfitting1.pdf}
     \caption[Fitting results for 18 samples (1)]{\label{fig:fittingresults1}
         These figures show the fitting result.
         Red points show fluxes at each MWA frequency, and a yellow point shows the flux at $1500\MHz$ \citep{Boselli2015}.
@@ -323,7 +327,7 @@ HRS &      &              &              &           &  [arcmin] &  [Mpc] &     
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=.85\linewidth]{Figures/AppendixC_qfitting2.pdf}
+    \includegraphics[width=.8\linewidth]{Figures/AppendixC_qfitting2.pdf}
     \caption[Fitting results for 18 samples (2)]{\label{fig:fittingresults2}
         Continuous.
     }
@@ -331,7 +335,7 @@ HRS &      &              &              &           &  [arcmin] &  [Mpc] &     
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=.85\linewidth]{Figures/AppendixC_qfitting3.pdf}
+    \includegraphics[width=.8\linewidth]{Figures/AppendixC_qfitting3.pdf}
     \caption[Fitting results for 18 samples (3)]{\label{fig:fittingresults3}
         Continuous.
     }
@@ -339,7 +343,7 @@ HRS &      &              &              &           &  [arcmin] &  [Mpc] &     
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=.85\linewidth]{Figures/AppendixC_qfitting4.pdf}
+    \includegraphics[width=.8\linewidth]{Figures/AppendixC_qfitting4.pdf}
     \caption[Fitting results for 18 samples (4)]{\label{fig:fittingresults4}
         Continuous.
     }
@@ -347,7 +351,7 @@ HRS &      &              &              &           &  [arcmin] &  [Mpc] &     
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=.85\linewidth]{Figures/AppendixC_qfitting5.pdf}
+    \includegraphics[width=.8\linewidth]{Figures/AppendixC_qfitting5.pdf}
     \caption[Fitting results for 18 samples (5)]{\label{fig:fittingresults5}
         Continuous.
     }
@@ -355,7 +359,7 @@ HRS &      &              &              &           &  [arcmin] &  [Mpc] &     
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=.85\linewidth]{Figures/AppendixC_qfitting6.pdf}
+    \includegraphics[width=.8\linewidth]{Figures/AppendixC_qfitting6.pdf}
     \caption[Fitting results for 18 samples (6)]{\label{fig:fittingresults6}
         Continuous.
     }
@@ -363,7 +367,7 @@ HRS &      &              &              &           &  [arcmin] &  [Mpc] &     
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=.85\linewidth]{Figures/AppendixC_qfitting7.pdf}
+    \includegraphics[width=.8\linewidth]{Figures/AppendixC_qfitting7.pdf}
     \caption[Fitting results for 18 samples (7)]{\label{fig:fittingresults7}
         Continuous.
     }
