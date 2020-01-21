@@ -7,11 +7,11 @@ Section~\ref{sec:radiosfruncertainty} shows the comparison of the radio SFR cali
 Section~\ref{sec:galaxypropertiesfortheradiosfr} describes how galaxy properties affect the SFR estimation.
 Here, we focus on the \nh~deficient and the active galactic nuclei in a galaxy.
 Section~\ref{sec:nondetectedgalaxiesbythegleamsurvey} describes HRS galaxies whose radio counterparts are not detected by the GLEAM survey.
-In this section, I also mention the possibility of their radio source detection by the updated GLEAM survey.
+In this section, we also mention the possibility of their radio source detection by the updated GLEAM survey.
 
 \end{chapabstract}
 
-\section{Comparing the calibration with previous results}\label{sec:comparingthecalibration}
+\section{Comparing the Calibration with Previous Results}\label{sec:comparingthecalibration}
 
 Here, we compare our results in Section~\ref{sec:GammaDistribution} with previous research.
 From our samples, we obtain the mean $\gamma=-0.63 \pm 0.07$ with MWA frequencies and $1500\MHz$.
@@ -20,25 +20,27 @@ From our samples, we obtain the mean $\gamma=-0.63 \pm 0.07$ with MWA frequencie
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=.7\linewidth]{Chapter_6/Figures/CalistroRivera2017_Figure7.png}
-    \caption[Adapted from \citet{CalistroRivera2017a}]{\label{fig:CalistroRivera2017_figure7}
-        This figure shows the spectral index corresponding to $\gamma$ in this paper.
+    \caption[The histogram of the spectral index in \citet{CalistroRivera2017a}]{\label{fig:CalistroRivera2017_figure7}
+        The histogram of the spectral index corresponding to $\gamma$ in this paper.
         They calculate it between $150\MHz$ (LOFAR;~\citealt{Williams2016}) and $1.4\GHz$ (Westerbork Synthesis Radio Telescope, WSRT;~\citealt{DeVries2002}).
         Red and orange histograms show the samples detected and non-detected by WSRT\@.
         To estimate the flux of non-detected samples, they extract aperture fluxes from the source location known by LOFAR on the radio map (forced photometry technique).
         The black solid line displays the Gaussian fitting function.
-        They put the average $\mu$ and standard deviation $\sigma$ from the fitting on the upper right in the figure.
+        They put the average $\mu$ and standard deviation $\sigma$ from the fitting on the upper right in the figure
+        (Adapted from \citet{CalistroRivera2017a}).
     }
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=.8\linewidth]{Chapter_6/Figures/Chyzy2018_Figure4.png}
-    \caption[Adapted from \citet{Chyzy2018}]{\label{fig:Chyzy2018_figure4}
-        This figure shows the spectral index corresponding to $\gamma$ in this paper.
+    \caption[The histogram of the spectral index in \citet{Chyzy2018}]{\label{fig:Chyzy2018_figure4}
+        The histogram of the spectral index corresponding to $\gamma$ in this paper.
         Red and blue histograms show the spectral index corresponding to $\gamma$ in this paper calculated fluxes from $1.3\GHz$ to $5\GHz$ and $150\MHz$ to $1.4\GHz$, respectively.
         They show histogram in violet where they are overlapping.
         From the definition, we should compare our result with the blue one.
-        They calculate it between $150\MHz$ (The Multifrequency Snapshot Sky Survey, MSSS;~\citealt{Heald2015}) and $1.4\GHz$ (the NRAO VLA Sky Survey, NVSS;~\citealt{Condon1998}).
+        They calculate it between $150\MHz$ (The Multifrequency Snapshot Sky Survey, MSSS;~\citealt{Heald2015}) and $1.4\GHz$ (the NRAO VLA Sky Survey, NVSS;~\citealt{Condon1998})
+        (Adapted from \citet{Chyzy2018}).
     }
 \end{figure}
 
@@ -51,7 +53,7 @@ Indeed, the frequency dependence of the low-frequency emission and its relation 
 
 
 
-\section{Radio SFR uncertainty}\label{sec:radiosfruncertainty}
+\section{Uncertainty of Radio SFR}\label{sec:radiosfruncertainty}
 
 In Section~\ref{sec:sfrfromlowradio}, we show the consistency of our SFR calibrations using the low-frequency emission.
 For calculating the more accurate radio SFR, we need its spectral energy distribution for each galaxy, as we have already shown in Section~\ref{sec:sfrfromlowradio}.
@@ -70,10 +72,10 @@ For estimating SFR accurately, we need the radio spectral with multi-band observ
 
 
 
-\section{Galaxy properties for the radio SFR}\label{sec:galaxypropertiesfortheradiosfr}
+\section{Galaxy Properties for the Radio SFR}\label{sec:galaxypropertiesfortheradiosfr}
 
-In this section, I discuss how the galaxy property affect the results mentioned in previous sections.
-Here, I focus on the central engine and the environment of a galaxy.
+In this section, we discuss how the galaxy property affect the results mentioned in previous sections.
+Here, we focus on the central engine and the environment of a galaxy.
 The central engine of a galaxy driven by the supermassive black hole and the accretion is located at the center of a galaxy, and it is known to emit strong radio emission.
 Although we have eliminated galaxies which have strong radio emission against their star formation activity in Section~\ref{sec:reducegalaxysamples}, there are still some galaxies in our sample, which might have an active galactic nuclei identified by the optical line emissions.
 These kinds of galaxies that might have a strong radio emission are called Seyfert or LINER galaxies.
@@ -104,12 +106,16 @@ The relation between a galaxy environment and low-frequency emissions are still 
 However, there is a possible scenario to distort the magnetic field and affect the strength of the synchrotron radiation due to the frozen-in of the magnetic field with the stripped \nh~gas \citep{Murphy2009}.
 
 Firstly, we show the result of a spectral index distribution (Figure~\ref{fig:comparehist}) with the labeling.
+In Figure~\ref{fig:comparehist_h1def}, we cannot see the significant difference between normal galaxies and the others in the left figure.
+But in the right one, we can see the \nh-deficient galaxies tend to have a scattered spectral index.
+This suggests that the galaxy environment might affect the energy distribution of high-energy electrons, which directly related to the spectral index.
+Unfortunately, in our sample, we do not find the significant difference for Seyfert or LINER galaxies, but cannot reject the possibility that these AGNs vary the spectral index.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\linewidth]{Chapter_6/Figures/Discuss_comparehist.pdf}
     \caption[Histograms of $\gamma$ from the fitting (labeled)]{\label{fig:comparehist_h1def}
-        This figure shows the spectral index distribution obtained from the two kinds of fitting as same as in Figure~\ref{fig:comparehist}.
+        The spectral index distribution obtained from the two kinds of fitting as same as in Figure~\ref{fig:comparehist}.
         Here, we make a histogram with color labeling based on the galaxy properties mentioned in Section~\ref{sec:galaxypropertiesfortheradiosfr}.
         The blue histogram shows the normal galaxies; red one shows the HI deficient galaxies (\nh-def $> 0.4$), and the pink shows the Seyfert or LINER galaxies with \nh-deficient.
         Our sample does not have the galaxy, which is Seyfert or LINER without \nh-deficient.
@@ -117,10 +123,6 @@ Firstly, we show the result of a spectral index distribution (Figure~\ref{fig:co
     }
 \end{figure}
 
-In Figure~\ref{fig:comparehist_h1def}, we cannot see the significant difference between normal galaxies and the others in the left figure.
-But in the right one, we can see the \nh-deficient galaxies tend to have a scattered spectral index.
-This suggests that the galaxy environment might affect the energy distribution of high-energy electrons, which directly related to the spectral index.
-Unfortunately, in our sample, we do not find the significant difference for Seyfert or LINER galaxies, but cannot reject the possibility that these AGNs vary the spectral index.
 
 Secondly, we show the $\qn$ value plots with the label.
 This $\qn$ value plot helps us to understand how the galaxy property affects the SFR ratio in Figure~\ref{fig:sfrratio}.
@@ -130,7 +132,8 @@ As we have mentioned in Section~\ref{sec:sfrfromlowradio}, the $\qn$ value varia
 	\centering
 	\includegraphics[width=\linewidth]{Chapter_6/Figures/Discuss_compareq.pdf}
     \caption[$\qn$ plots for each galaxy with labels]{\label{fig:comparehist_q}
-        This figure shows that $q_{\nu}$ value distribution at MWA frequencies and $1500\MHz$. The solid black line is the extrapolate line from the median value of $\q{1500\MHz}$ to the MWA frequencies with the median spectral index $\gamma$.
+        The $q_{\nu}$ value distribution at MWA frequencies and $1500\MHz$.
+        The solid black line is the extrapolate line from the median value of $\q{1500\MHz}$ to the MWA frequencies with the median spectral index $\gamma$.
         For calculating $\mr{SFR}_{\mr{Radio},\,\nu}$, we have used this extrapolation. The dotted black line is the border for showing the outliers below this line.
         The plots below this line arise from only two galaxies, and we can say these are the outliers.
         In this figure, we can see the most plots distributing around the solid black line, which shows the extrapolated median value from $\q{1500\MHz}$.
@@ -145,9 +148,9 @@ We cannot conclude how much $\qn$ value is safe for the SFR estimation from the 
 In future studies, we should clarify the distribution of this plot and find the borderline for safer SFR estimation.
 
 
-\section{Non-detected galaxies by the GLEAM survey}\label{sec:nondetectedgalaxiesbythegleamsurvey}
+\section{Non-detected Galaxies by the GLEAM Survey}\label{sec:nondetectedgalaxiesbythegleamsurvey}
 
-Here, I mention galaxies that have not been observed by the GLEAM survey.
+Here, we mention galaxies that have not been observed by the GLEAM survey.
 In this study, we have found 39 HRS galaxies have a potential radio counterpart in the GLEAM survey in Section~\ref{sec:crossmatching}.
 For 283 HRS galaxies, we confirm 44 galaxies are out of the observational region by the GLEAM survey, and HRS 183 (M87, Virgo A) is peeled because of its too strong radio emission.
 For other 107 galaxies that have a high-quality radio flux at $1500\MHz$, we roughly compare the extrapolated flux at $200\MHz$ using the mean $\gamma = -0.63$ obtained in this study, with the rms noise described in \citet{Hurley-Walker2017a}.
@@ -158,8 +161,7 @@ Here, we assume $\gamma = -0.63$ for the extrapolation.
 However, if these galaxies have a flatter spectral, the flux of these galaxies at $200\MHz$ is smaller than the expected value and the detection limit.
 
 In the GLEAM-X survey, which is the follow-up observation of the GLEAM survey, more than 50 HRS galaxies will be detected even their spectral index is $\gamma = \pm 0$ because of the roughly ten times higher sensitivity of the coming up survey.
-This survey also has a $\sim 10$ times higher angular resolution, so that we will be able to improve our study, especially the effect of compact regions in star-forming galaxies.:w
-
+This survey also has a $\sim 10$ times higher angular resolution, so that we will be able to improve our study, especially the effect of compact regions in star-forming galaxies.
 
 
 
