@@ -26,16 +26,16 @@ From our samples, we obtain the mean $\gamma=-0.63 \pm 0.07$ with MWA frequencie
         Red and orange histograms show the samples detected and non-detected by WSRT\@.
         To estimate the flux of non-detected samples, they extract aperture fluxes from the source location known by LOFAR on the radio map (forced photometry technique).
         The black solid line displays the Gaussian fitting function.
-        They put the average $mu$ and standard deviation $\sigma$ from the fitting on the upper right in the figure.
+        They put the average $\mu$ and standard deviation $\sigma$ from the fitting on the upper right in the figure.
     }
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=.6\linewidth]{Chapter_6/Figures/Chyzy2018_Figure4.png}
+	\includegraphics[width=.8\linewidth]{Chapter_6/Figures/Chyzy2018_Figure4.png}
     \caption[Adapted from \citet{Chyzy2018}]{\label{fig:Chyzy2018_figure4}
         This figure shows the spectral index corresponding to $\gamma$ in this paper.
-        Red and blue histograms show the spectral index corresponding to $gamma$ in this paper calculated fluxes from $1.3\GHz$ to $5\GHz$ and $150\MHz$ to $1.4\GHz$, respectively.
+        Red and blue histograms show the spectral index corresponding to $\gamma$ in this paper calculated fluxes from $1.3\GHz$ to $5\GHz$ and $150\MHz$ to $1.4\GHz$, respectively.
         They show histogram in violet where they are overlapping.
         From the definition, we should compare our result with the blue one.
         They calculate it between $150\MHz$ (The Multifrequency Snapshot Sky Survey, MSSS;~\citealt{Heald2015}) and $1.4\GHz$ (the NRAO VLA Sky Survey, NVSS;~\citealt{Condon1998}).
@@ -55,18 +55,18 @@ Indeed, the frequency dependence of the low-frequency emission and its relation 
 
 In Section~\ref{sec:sfrfromlowradio}, we show the consistency of our SFR calibrations using the low-frequency emission.
 For calculating the more accurate radio SFR, we need its spectral energy distribution for each galaxy, as we have already shown in Section~\ref{sec:sfrfromlowradio}.
-Since star-forming galaxies have a wide variety of $\qn$ at low frequencies ($\sim 0.53\,\mr{dex}$ in Figure~14, 15; \citealt{CalistroRivera2017a}), and still we do not know the physical details, the radio SFR calibration has considerable uncertainty.
+Since star-forming galaxies have a wide variety of $\qn$ at low frequencies ($\sim 0.53\,\mr{dex}$ in Figure~14, 15; \citealt{CalistroRivera2017a}) and still we do not know the physical details, the radio SFR calibration has considerable uncertainty.
 Substituting averaged $\gamma$ and $\q{1500\MHz}$ obtained from our sample galaxies into Equation~\ref{eq:sfrfromradio} yields the following equation:
 
 \begin{equation}\label{eq:sfrradio_calibration}
     \mr{SFR}_{\mr{Radio},\,150\MHz} = \brp{1.03\pm0.27} \times 10^{-29} \times \brp{\frac{L_{\mr{Radio},\,150\MHz}}{\mr{erg}\,\mr{s}^{-1}}}
 \end{equation}
-where we substitute the median values of $\gamma=-0.63$, $\q{1500\MHz}=2.48$ and $\nu=150\MHz$ into Equation~\ref{eq:sfrfromradio}.
+where we substitute the median values of $\gamma=-0.63$, $\q{1500\MHz}=2.48$ from our samples and $\nu=150\MHz$ into Equation~\ref{eq:sfrfromradio}.
 
-\citet{CalistroRivera2017a} have obtained the coefficient of $0.76 \pm 0.08$ at $z = 0$ (Equation~11) from their calibration.
+\citet{CalistroRivera2017a} have obtained the coefficient of $0.76 \pm 0.08$ for nearby galaxies ($z = 0$) from their calibration.
 
 We should keep our mind that the SFR calibration has non-negligible uncertainty, possibly caused by the galaxy selection and the variety of $\qn$ at low frequencies.
-We need the radio spectral with multi-band observation for estimating SFR accurately.
+For estimating SFR accurately, we need the radio spectral with multi-band observation.
 
 
 
@@ -75,15 +75,16 @@ We need the radio spectral with multi-band observation for estimating SFR accura
 In this section, I discuss how the galaxy property affect the results mentioned in previous sections.
 Here, I focus on the central engine and the environment of a galaxy.
 The central engine of a galaxy driven by the supermassive black hole and the accretion is located at the center of a galaxy, and it is known to emit strong radio emission.
-Although we have eliminated galaxies which have strong radio emission without star formation activity in Section~\ref{sec:reducegalaxysamples}, there are still some galaxies in our sample, which might have strong radio emissions compared to the radiation arisen from the star formation.
-These kinds of galaxies that have a strong radio emission in spite of the star-forming are called Seyfert or LINER galaxies based on the strength of optical emission lines, and it is possible to affect our results due to their strong emissions.
-In this study, we investigate this property using the BPT diagram mentioned in Section~\ref{sec:GammaDistribution} and find four galaxies (HRS 144, 163 and 220) in our sample that have sharp optical emission lines.
-In the BPT diagram, HRS 144 and 163 are found to be Seyfert galaxies, and HRS and 220 are LINER galaxies.
+Although we have eliminated galaxies which have strong radio emission against their star formation activity in Section~\ref{sec:reducegalaxysamples}, there are still some galaxies in our sample, which might have an active galactic nuclei identified by the optical line emissions.
+These kinds of galaxies that might have a strong radio emission are called Seyfert or LINER galaxies.
+And they possibly affect our results due to their strong emissions.
+In this study, we investigate this property using the BPT diagram mentioned in Section~\ref{sec:GammaDistribution} and find three galaxies (HRS 144, 163 and 220) in our sample that have sharp optical emission lines.
+In the BPT diagram, HRS 144 and 163 are found to be Seyfert galaxies, and HRS 220 is LINER galaxy.
 
 After that, we also examine the galaxy environment of each galaxy.
-\citet{Boselli2014} have already calculated the \nh-deficiency for all HRS galaxies based on the calculation in \citet{Boselli2009}.
-\nh~deficient galaxy is defined as a galaxy whose the \nh~mass is much smaller than the expected one based on the morphology and the size of a galaxy \citep{Haynes1984}.
-The definition of \nh~deficiency is as follows:
+\citet{Boselli2014} have already calculated the \nh-deficiency (\nh-def) for all HRS galaxies.
+\nh-deficient galaxy is defined as a galaxy whose the \nh~mass is much smaller than the expected one based on the morphology and the size of a galaxy \citep{Haynes1984, Boselli2009}.
+The definition of \nh-deficiency is as follows:
 
 \begin{equation}\label{eq:definitionofHIdeficiency}
     \text{\nh-def} = \log\brp{M\msb{\nh,\,expected}} - \log\brp{M\msb{\nh,\,observed}}
@@ -95,12 +96,12 @@ where $\log\brp{M\msb{\nh,\,expected}}$ is defined in \citet{Haynes1984}:
 \end{equation}
 where $c$ and $d$ are weak functions of the galaxy morphology, $\mr{diam}$ is the linear diameter of the galaxy and $h=H_0 / 100$.
 
-Here, we regard a galaxy whose \nh~deficiency is more than 0.4 as a \nh~deficient galaxy and the other case as a normal galaxy, which is the same criteria in \citet{Ciesla2016}.
-\nh~deficiency is known to represent not only the amount of the \nh~mass but also a galaxy environment.
-This is because \nh~deficiency is caused by the tidal stripping or ram pressure, which happens in the dense region (e.g., the center of a cluster).
-Therefore, we can roughly assume that \nh~deficient galaxies are located in the dense areas, and normal galaxies are the field galaxies.
+Here, we regard a galaxy whose \nh-deficiency is more than 0.4 as a \nh-deficient galaxy and the other case as a normal galaxy, which is the same criteria in \citet{Ciesla2016}.
+\nh-deficiency is known to represent not only the amount of the \nh~mass but also a galaxy environment.
+This is because \nh-deficiency might be attributed to the tidal stripping or ram pressure, which happens in the dense region (e.g., the center of a cluster).
+Therefore, we can roughly assume that \nh-deficient galaxies are located in the dense areas, and normal galaxies are the field galaxies.
 The relation between a galaxy environment and low-frequency emissions are still not fully understood.
-Still, it is a possible scenario to distort the magnetic field and affect the strength of the synchrotron radiation due to the frozen-in of the magnetic field with the stripped \nh~gas.
+However, there is a possible scenario to distort the magnetic field and affect the strength of the synchrotron radiation due to the frozen-in of the magnetic field with the stripped \nh~gas \citep{Murphy2009}.
 
 Firstly, we show the result of a spectral index distribution (Figure~\ref{fig:comparehist}) with the labeling.
 
@@ -111,13 +112,13 @@ Firstly, we show the result of a spectral index distribution (Figure~\ref{fig:co
         This figure shows the spectral index distribution obtained from the two kinds of fitting as same as in Figure~\ref{fig:comparehist}.
         Here, we make a histogram with color labeling based on the galaxy properties mentioned in Section~\ref{sec:galaxypropertiesfortheradiosfr}.
         The blue histogram shows the normal galaxies; red one shows the HI deficient galaxies (\nh-def $> 0.4$), and the pink shows the Seyfert or LINER galaxies with \nh-deficient.
-        Our sample does not have the galaxy, which is Seyfert or LINER without \nh~deficient.
+        Our sample does not have the galaxy, which is Seyfert or LINER without \nh-deficient.
         Although the left figure does not show the significant difference between normal galaxies and the others, the right figure shows the \nh~deficient galaxies tend to have a scatter spectral index compared to the normal galaxies.
     }
 \end{figure}
 
 In Figure~\ref{fig:comparehist_h1def}, we cannot see the significant difference between normal galaxies and the others in the left figure.
-But in the right one, we can see the \nh~deficient galaxies tend to have a scattered spectral index.
+But in the right one, we can see the \nh-deficient galaxies tend to have a scattered spectral index.
 This suggests that the galaxy environment might affect the energy distribution of high-energy electrons, which directly related to the spectral index.
 Unfortunately, in our sample, we do not find the significant difference for Seyfert or LINER galaxies, but cannot reject the possibility that these AGNs vary the spectral index.
 
@@ -148,15 +149,17 @@ In future studies, we should clarify the distribution of this plot and find the 
 
 Here, I mention galaxies that have not been observed by the GLEAM survey.
 In this study, we have found 39 HRS galaxies have a potential radio counterpart in the GLEAM survey in Section~\ref{sec:crossmatching}.
-Out of other 283 HRS galaxies, we confirm 44 galaxies are out of the observational region by the GLEAM survey, and HRS 183 (M87, Virgo A) is peeled because of the too strong radio emission.
-For other 107 galaxies that have a high-quality radio flux at $1500\MHz$, we roughly compare the extrapolated flux at $200\MHz$ using the mean $\gamma = -0.63$ obtained in this study with the rms noise described in \citet{Hurley-Walker2017a}.
+For 283 HRS galaxies, we confirm 44 galaxies are out of the observational region by the GLEAM survey, and HRS 183 (M87, Virgo A) is peeled because of its too strong radio emission.
+For other 107 galaxies that have a high-quality radio flux at $1500\MHz$, we roughly compare the extrapolated flux at $200\MHz$ using the mean $\gamma = -0.63$ obtained in this study, with the rms noise described in \citet{Hurley-Walker2017a}.
 This estimation shows that at least 34 galaxies should have been observed by the GLEAM survey.
 
 One possible reason for the non-detection of these galaxies is a flatter radio spectral.
 Here, we assume $\gamma = -0.63$ for the extrapolation.
-However, the flux of these galaxies at $200\MHz$ is smaller than the expected value and the detection limit if these galaxies have a flatter spectral.
+However, if these galaxies have a flatter spectral, the flux of these galaxies at $200\MHz$ is smaller than the expected value and the detection limit.
 
 In the GLEAM-X survey, which is the follow-up observation of the GLEAM survey, more than 50 HRS galaxies will be detected even their spectral index is $\gamma = \pm 0$ because of the roughly ten times higher sensitivity of the coming up survey.
+This survey also has a $\sim 10$ times higher angular resolution, so that we will be able to improve our study, especially the effect of compact regions in star-forming galaxies.:w
+
 
 
 

@@ -11,11 +11,11 @@
 \BOOKMARK [2][-]{subsection.2.2.1}{Synchrotron Spectra of Optically Thin Radio Sources}{section.2.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.2}{Synchrotron Self-Absorption}{section.2.2}% 12
 \BOOKMARK [0][-]{chapter.3}{Data}{}% 13
-\BOOKMARK [1][-]{section.3.1}{Herschel Reference Survey \(HRS\)}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.2}{GLEAM survey}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.1}{Herschel Reference Survey \(HRS\) catalog}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{The GaLactic Extragalactic All-sky MWA \(GLEAM\) survey catalog}{chapter.3}% 15
 \BOOKMARK [0][-]{chapter.4}{Methods}{}% 16
 \BOOKMARK [1][-]{section.4.1}{Cross Matching}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{Reduce galaxy samples for the reliable analysis}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{Select galaxy samples for a reliable analysis}{chapter.4}% 18
 \BOOKMARK [1][-]{section.4.3}{Calculating the q parameter}{chapter.4}% 19
 \BOOKMARK [1][-]{section.4.4}{Total IR luminosity}{chapter.4}% 20
 \BOOKMARK [1][-]{section.4.5}{Fitting to q parameters}{chapter.4}% 21

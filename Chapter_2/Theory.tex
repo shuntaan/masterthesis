@@ -3,7 +3,7 @@
 
     In this chapter, I describe physical mechanisms of radio emissions related to our study.
     At low frequencies, we observe free-free\footnote{\url{https://www.cv.nrao.edu/~sransom/web/Ch4.html}} (Bremsstrahlung) and synchrotron\footnote{\url{https://www.cv.nrao.edu/~sransom/web/Ch5.html}} radiations.
-    Both emissions are the continuum emission.
+    Both radiations are the continuum emission.
     While the free-free radiation is usually dominant from a galaxy at $30 \sim 200\GHz$, the synchrotron radiation is dominant less than $30\GHz$ (Figure~\ref{fig:Condon1992_figure1}).\\ \vspace{0.2cm}
 \begin{figure}[htbp]
 	\centering
@@ -12,7 +12,7 @@
         (Reprint from \citet{Condon1992a}, Figure~1)\\
         This figure shows the spectral energy distribution of M82.
         The dotted line shows the dust thermal emission which is dominant at higher than $200\GHz$.
-        The dashed line shows the free-free radiation from the \ih~regions around massive stars,which is dominant at $30 \sim 200\GHz$.
+        The dashed line shows the free-free radiation from the \ih~regions around massive stars, which is dominant at $30 \sim 200\GHz$.
         The dot-dash line shows the synchrotron radiation emitted by the high energy electrons, which is dominant at less than $30\GHz$.
     }
 \end{figure}
@@ -24,12 +24,12 @@
 \section{Free-free radiation}\label{sec:freefreeradiation}
 
 The free electrons produce free-free radiation by scattering off ions.
-In star-forming galaxies, the radiation source of this emission is the \ih~region where young massive (OB) stars ionized most of the hydrogen atoms.
+In star-forming galaxies, the radiation source is the \ih~region where young massive (OB) stars ionized most of the hydrogen atoms.
 In this section, we consider the radiation mechanism of free-free radiation.
-Here, we consider only electrons emit the radiation because an electron is much more accelerated than an ion due to the difference of their mass (an electron is 1840 times lighter than a proton).
+Here, I consider only electrons emit the radiation because an electron is much more accelerated than an ion due to the difference of their mass (an electron is 1840 times lighter than a proton).
 
 Firstly, I consider the simplest case that a single electron passes by the ion and emits the radiation.
-Note that the path of the electron does not change after the interaction because the energy of radio emission is much smaller than the mean electron energy in a plasma.
+Note that the path of the electron does not change after the interaction because the energy of radio emission is much smaller than the mean electron energy in a plasma:
 
 \begin{equation}\label{eq:essential_radio4n12}
     \frac{E\msb{10\GHz}}{\bra{E_e}} = \frac{h \times 10^{10}\,\mr{Hz}}{3kT / 2} = \frac{6.63 \times 10^{-27} \mr{erg\,s} \times 10^{10}\,\mr{Hz}}{1.5 \cdot 1.38 \times 10^{-16}\,\mr{erg\,K^{-1}} \cdot 10^4\,\mr{K}} = 3.3 \times 10^{-5}
@@ -52,8 +52,8 @@ Then, we can write the equation of motion for parallel and perpendicular to the 
 \end{align}
 where $b$ is the impact parameter and $\cos\psi = \frac{b}{r}$.
 
-These accelerations show different shapes of the pulse (Figure\ref{fig:nrao_radio4n3}).
-Since the parallel acceleration produces some infrared radiation with the angular frequency $\omega \sim \tau^{-1} = \frac{v}{b}$ ($tau$ is a collision time), its contribution is negligible at radio frequency.
+These accelerations show different shapes of the pulse (Figure~\ref{fig:nrao_radio4n3}).
+Since the parallel acceleration produces some infrared radiation with the angular frequency $\omega \sim \tau^{-1} = \frac{v}{b}$ ($\tau$ is the collision time), its contribution is negligible at radio frequency.
 
 \begin{figure}[htbp]
 \centering
@@ -64,7 +64,7 @@ Since the parallel acceleration produces some infrared radiation with the angula
     }
 \end{figure}
 
-Therefore, the power of free-free radiation from the acceleration of the electron perpendicular to its velocity is:
+Therefore, the power of free-free radiation from the acceleration perpendicular to the electron's velocity is:
 
 \begin{equation}\label{eq:essential_radio4n17}
     P=\frac{2}{3} \frac{e^{2} \dot{v}_{\perp}^{2}}{c^{3}}=\frac{2 e^{2}}{3 c^{3}} \frac{Z^{2} e^{4}}{m_{\mr{e}}^{2}}\brp{\frac{\cos ^{3} \psi}{b^{2}}}^{2}
@@ -74,10 +74,10 @@ where we insert $\dot{v}_{\perp}$ into the Larmor's formula $\brp{P = \frac{2}{3
 We can get the total energy of $W$ by the pulse as follows:
 
 \begin{equation}\label{eq:essential_radio4n18}
-    W = \int^{\infty}_{-\infty} P \mr{d}t
+    W = \int^{\infty}_{-\infty} P\,\mr{d}t
 \end{equation}
 
-As I noted above, the electrons' velocity is constant so that we can change of variables:
+As I have noted above, the electron's velocity does not change so that we can change of variables:
 
 \begin{equation}\label{eq:essential_radio4n19}
     v = \frac{\rd x}{\rd t}\ \ \ \mr{and}\ \ \ \tan\psi = \frac{x}{b}
@@ -86,7 +86,7 @@ As I noted above, the electrons' velocity is constant so that we can change of v
 then,
 
 \begin{equation}\label{eq:essential_radio4n20}
-    v=\frac{b\,\rd\brp{\tan \psi}}{\rd t}=\frac{b\,\sec ^{2} \psi\,\rd \psi}{\rd t}=\frac{b\,\rd \psi}{\cos ^{2}\psi\,\rd t}
+    v=\frac{b\,\rd\brp{\tan \psi}}{\rd t} = \frac{b\,\rd \psi}{\cos ^{2}\psi\,\rd t}
 \end{equation}
 
 and
@@ -107,9 +107,9 @@ The pulse energy $W$ shows the total energy emitted by a single electron interac
 Secondly, I consider the strength and spectral of free-free radiation from \ih~region with several simple assumptions.
 Here, I assume the local thermodynamic equilibrium (LTE) in the \ih~region.
 In LTE, electrons have a much higher speed than ions because of the difference of their mass, although the average kinetic energy of electrons and ions are equal.
-Therefore, we can think ions do not move by the interactions.
+Therefore, it is reasonable to think ions do not move by the interactions.
 
-When I consider the cylindrical shell around the ion (Figure~\ref{fig:nrao_radio4n5}), I can calculate the number of electrons passing any ion per unit time between $b$ and $b + \rd b$ under the velocity range of $\rd v$:
+When I consider the cylindrical shell around the ion (Figure~\ref{fig:nrao_radio4n5}), I can calculate the number of electrons passing the ion per unit time between $b$ and $b + \rd b$ under the velocity range of $\rd v$:
 
 \begin{figure}[htbp]
 	\centering
@@ -141,7 +141,7 @@ Substituting $W\msb{\nu}\brp{v,\,b}$ and Equation~\ref{eq:essential_radio4n28} i
 
 \begin{align}
     4 \pi j_{\nu} &= \int_{b=0}^{\infty} \int_{v=0}^{\infty} \brp{\frac{\pi^2 Z^2 e^6}{2 c^3 m\msb{e}^2 b^2 v^2}} 2 \pi b\,\rd b\,n\msb{e} n\msb{i}\,v\,f(v) \rd v \label{eq:essential_radio4n30}\\
-                  &=\frac{\pi^{3} Z^{2} e^{6} n\msb{e} n\msb{i}}{c^{3} m\msb{e}^{2}} \brp{\frac{2m\msb{e}}{\pi k T}}^{1/2}\int_{b=0}^{\infty} \frac{d b}{b}\label{eq:essential_radio4n31}
+                  &=\frac{\pi^{3} Z^{2} e^{6} n\msb{e} n\msb{i}}{c^{3} m\msb{e}^{2}} \brp{\frac{2m\msb{e}}{\pi k T}}^{1/2}\int_{b=0}^{\infty} \frac{\rd b}{b}\label{eq:essential_radio4n31}
 \end{align}
 where I use the Maxwellian distribution:
 
@@ -157,7 +157,7 @@ To estimate $v_{\min}$, let's consider the change in momentum during the single 
                       &= \frac{Z e^{2}}{b v} \int_{-\pi / 2}^{\pi / 2} \cos \psi\,\rd \psi=\frac{2 Z e^{2}}{b v} \\
                       &= \frac{2Ze^2}{bv} \brp{< 2m\msb{e}v}
 \end{align}
-where the maximum momentum transfer $m\msb{e} \Delta v$ is twice the initial momentum $m\msb{v}$.
+where the maximum momentum transfer $m\msb{e} \Delta v$ is twice the initial momentum $m\msb{v}$. \\
 
 Therefore, the minimum impact parameter $b_{\min}$ is
 
@@ -165,7 +165,7 @@ Therefore, the minimum impact parameter $b_{\min}$ is
     b_{\min} = \frac{Ze^2}{m\msb{e}v^2}
 \end{equation}
 
-To estimate the maximum impact parameter $b_{\max}$, let's consider $\nu_{\max}$ and get $b_{\max} = \frac{v}{2\pi \nu}$ because the pulse power is not significant at frequency $\nu$ above $b_{\max}$.
+To estimate the maximum impact parameter $b_{\max}$, let's consider $\nu_{\max}$ and get $b_{\max} = \frac{v}{2\pi \nu}$ because the pulse power is not significant at frequency $\nu$ above $\nu_{\max}$.
 In some textbooks, they consider $b_{\max}$ with the Debye length, which shows the characteristic scale of the electric shielding.
 However, this length scale is much larger than $b_{\max}$ obtained here, and it is inappropriate for the calculation in the typical \ih~region.
 
@@ -175,7 +175,7 @@ These limits ($b_{\min}$, $b_{\max}$) yield
     \frac{b_{\max }}{b_{\min }} \sim \brp{\frac{3 k T}{m\msb{e}}}^{1 / 2}\brp{2 \pi \nu}^{-1}\brp{\frac{3 k T}{Z e^{2}}} \sim \brp{\frac{3 k T}{m\msb{e}}}^{3 / 2} \frac{m\msb{e}}{2 \pi Z e^{2} \nu} \sim 10^5
 \end{equation}
 
-However, this value varies logarithmically in Equation~\ref{eq:essential_radio4n31}, and it has small uncertainty.
+However, this value varies logarithmically in Equation~\ref{eq:essential_radio4n51}.
 Therefore, these limits have little effect on the calculation.
 
 Since the \ih~region is in LTE, it is possible to consider Kirchhoff's low and absorption coefficient $\kappa$ in the Rayleigh-Jeans limit:
@@ -187,7 +187,7 @@ where $B_{\nu}\brp{T}$ is the blackbody brightness.
 
 The absorption coefficient $\kappa$ is proportional to $\nu^{-2}$ (To be precise, it is proportional to $\nu^{-2.1}$ due to the frequency dependence of $b_{\max}$).
 
-Now I can calculate the total opacity $\tau$ of \ih~region if I assume the simple cylindrical shape with a uniform density for the \ih~region (Figure~\ref{fig:nrao_radio4n7})
+Now I can calculate the total opacity $\tau$ of \ih~region if I assume the simple cylindrical shape with a uniform density for the \ih~region (Figure~\ref{fig:nrao_radio4n7}):
 
 \begin{figure}[htbp]
 	\centering
@@ -200,7 +200,7 @@ Now I can calculate the total opacity $\tau$ of \ih~region if I assume the simpl
 \end{figure}
 
 \begin{equation}\label{eq:essential_radio4n53}
-\tau=-\int\msb{los} \kappa \rd s \propto \int \frac{n\msb{e} n\msb{i}}{\nu^{2.1} T^{3/2}} \rd s \sim \int \frac{n\msb{e}^2}{\nu^{2.1} T^{3/2}} \rd s
+\tau=-\int\msb{los} \kappa\,\rd s \propto \int \frac{n\msb{e} n\msb{i}}{\nu^{2.1} T^{3/2}} \rd s \sim \int \frac{n\msb{e}^2}{\nu^{2.1} T^{3/2}} \rd s
 \end{equation}
 where $s$ is the depth of \ih~region parallel to the line of sight.
 
@@ -208,20 +208,20 @@ At low frequencies enough that $\tau \gg 1$, the \ih~region becomes opaque, and 
 In this case, the brightness temperature approaches the electron temperature $\brp{T\sim10^4\,\mr{K}}$ and its flux density $S$ is in the Rayleigh-Jeans limit $\brp{S \propto \nu^2}$.
 On the other hand, at frequency $\tau \ll 1$, the \ih~region is transparent and $S \propto \frac{2kT\nu^2}{c^2}\tau\brp{\nu} \propto \nu^{-0.1}$.
 
-I show the spect of free-free radiation of the \ih~region in Figure~\ref{fig:nrao_radio4n8}.
+I show the spectrum of free-free radiation in the \ih~region in Figure~\ref{fig:nrao_radio4n8}.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=.7\linewidth]{Chapter_2/Figures/NRAO_radio4n8.png}
     \caption[The spectrum of free-free radiation]{\label{fig:nrao_radio4n8}
-        This figure shows the radio spectrum of free-free emission.
+        This figure shows the radio spectrum of free-free radiation.
         At low frequencies, we can see the blackbody with the slope $\leq 2$.
-        The assumption of the uniform cylinder gives the slope $~2$, but the non uniform \ih~region emits free-free radiation with the slope less than 2.
+        The assumption of the uniform cylinder gives the slope $~2$, but the nonuniform \ih~region emits free-free radiation with the slope less than 2.
         At frequencies higher than the frequency of $\tau=1$, the slope is nearly flat $\brp{-0.1}$.
     }
 \end{figure}
 
-At low frequencies, the spectral index $\alpha$ on the log-log plot is useful to describe the radiation mechanism.
+At low frequencies, the spectral index $\alpha$ on the log-log plot is useful to describe the density condition.
 The definition of $\alpha$ is below:
 
 \begin{equation}\label{eq:essential_radio4n55}
@@ -241,7 +241,7 @@ The definition of EM is
 Then, we can write the optical depth $\tau$ in
 
 \begin{equation}\label{eq:essential_radio4n58}
-    \tau \sim 3.014 \times 10^{-2}\brp{\frac{T}{\mr{K}}}^{-3/2}\brp{\frac{\nu}{\mr{GHz}}}^{-2}\brp{\frac{\mr{EM}}{\mr{pc} \cdot \mr{cm}^{-6}}}\\bra{g\msb{ff}}
+    \tau \sim 3.014 \times 10^{-2}\brp{\frac{T}{\mr{K}}}^{-3/2}\brp{\frac{\nu}{\mr{GHz}}}^{-2}\brp{\frac{\mr{EM}}{\mr{pc} \cdot \mr{cm}^{-6}}}\bra{g\msb{ff}}
 \end{equation}
 where $\bra{g\msb{ff}}$ is the free-free Gaunt factor:
 
@@ -255,7 +255,7 @@ where $\bra{g\msb{ff}}$ is the free-free Gaunt factor:
     \tau \sim 3.28 \times 10^{-7}\brp{\frac{T}{10^4 \mr{K}}}^{-1.35}\brp{\frac{\nu}{\mr{GHz}}}^{-2.1}\brp{\frac{\mr{EM}}{\mr{pc} \cdot \mr{cm}^{-6}}}
 \end{equation}
 
-When we observe the break frequency $\nu$, then we can calculate EM with the electron temperature $\brp{\sim10^4\,\mr{K}}$.
+When we observe the break frequency $\nu$ $\brp{\tau \sim 1}$, then we can calculate EM with the electron temperature $\brp{\sim10^4\,\mr{K}}$.
 And also, we can calculate the gas density in the \ih~region if we know its size (depth).
 
 
@@ -266,7 +266,7 @@ And also, we can calculate the gas density in the \ih~region if we know its size
 
 Synchrotron radiation is a continuum emission which is usually dominant at less than $30\GHz$ in star-forming galaxies.
 The interaction of high energy (relativistic) electrons accelerated by the supernova remnant or the galactic nuclei with the galactic magnetic field causes the radiation.
-Since high energy electrons have a power-law energy distribution, we usually call the radiation ``non-thermal synchrotron radiation''.
+Since high energy electrons have a power-law energy distribution (not Maxwellian), we usually call the radiation ``non-thermal synchrotron radiation''.
 If electrons have a much smaller velocity than the light, they emit the cyclotron radiation with the cyclotron frequency $\omega = \frac{eB}{m\msb{e}c}$ in cgs unit ($e$ is a charge, $B$ is the strength of the magnetic field, $m\msb{e}$ is a mass of an electron and $c$ is the speed of light).
 In the normal star-forming galaxies ($B\sim10\mu G$), the electron gyro frequency is $30\,\mr{Hz}$ and we cannot observe it because it is much smaller frequency than the plasma frequency.
 
@@ -281,8 +281,8 @@ Then, I can write down the radiated power with Larmor's equation in the electron
 \end{equation}
 where $e'=e$ because the electric charge is a relativistic invariant.
 
-If an electron passes on $x$-axis in the magnetic field, its acceleration is only $y$ and $z$-axis because of the Lorentz force.
-Applying the chain rule to the acceleration by the magnetic field $a_{\perp} = \brp{a^2_y + a^2_z}^(1/2)$ in the rest frame of an observer yields
+If an electron passes on $x$-axis in the magnetic field, its acceleration is only $y$ and $z$-axis because of the definition of Lorentz force.
+Applying the chain rule to the acceleration by the magnetic field $a_{\perp} = \brp{a^2_y + a^2_z}^{1/2}$ in the rest frame of an observer yields
 
 %Equation(5.25)
 \begin{equation}\label{eq:essential_radio5n25}
@@ -310,7 +310,7 @@ The chain rule derives
 \begin{equation}\label{eq:essential_radio5n28}
     P \equiv \frac{\rd E}{\rd t}=\frac{\rd E}{\rd t^{\prime}} \frac{\rd t^{\prime}}{\rd t}=\frac{\rd E}{\rd E^{\prime}} \frac{\rd E^{\prime}}{\rd t^{\prime}} \frac{\rd t^{\prime}}{\rd t}=\gamma P^{\prime} \gamma^{-1}=P^{\prime}
 \end{equation}
-The radiated power is also the relativistic invariant.
+where the radiated power is also the relativistic invariant.
 
 Consequently,
 
@@ -320,7 +320,7 @@ Consequently,
 \end{equation}
 
 To calculate $a_{\perp}$, $a_{\perp} = \frac{\rd v_{\perp}}{\rd t} = \omega_B v_{\perp}$.
-Since electrons to emit synchrotron radiation are relativistic, the angular frequency $\omega_{B}$ is $\omega_B = \frac{eB}{\brp{\gamma m\msb{e}}c}$.
+Since electrons emitting synchrotron radiation are relativistic, the angular frequency $\omega_{B}$ is $\omega_B = \frac{eB}{\brp{\gamma m\msb{e}}c}$.
 Then,
 
 %Equation(5.31)
@@ -342,12 +342,12 @@ For simplicity, this equation often is written in
 \begin{equation}\label{eq:essential_radio5n37}
     P=2 \sigma_{\mathrm{T}} \beta^{2} \gamma^{2} c U_{B} \sin ^{2} \alpha
 \end{equation}
-where $\sigma\msb{T}$ is the Thomson cross-section of an electron, $\beta=\frac{v}{c}$ and $U_B$ is the magnetic energy density $\brp{U_B} = \frac{B^2}{8\pi}$.
+where $\sigma\msb{T}$ is the Thomson cross-section of an electron, $\beta=\frac{v}{c}$ and $U_B$ is the magnetic energy density $\brp{U_B = \frac{B^2}{8\pi}}$.
 
 Therefore, the synchrotron power radiated by a single electron depends on $\gamma$, $U_B$ and $\alpha$ ($\beta\sim1$ if $\gamma \gg 1$)
 
 The relativistic electrons can have lifetimes of thousands to millions of years before losing their energy via synchrotron radiation or other physical processes.
-During their lifetimes, electrons scattering with the galactic magnetic field and charged particles repeatedly.
+During their lifetimes, electrons scatter with the galactic magnetic field and charged particles repeatedly.
 
 In this case, the distribution of the pitch angle $\alpha$ becomes random and isotropic, and we can derive the averaged synchrotron power $\bra{P}$ per electron over all possible $\alpha$:
 
@@ -428,7 +428,7 @@ Therefore, observers see synchrotron radiation from the electron in a narrow bea
 	\includegraphics[width=.7\linewidth]{Chapter_2/Figures/NRAO_radio5n3.png}
     \caption[The schematic picture of relativistic aberration]{\label{fig:nrao_radio5n3}
         This figure shows the beaming effect which is a narrow angle for the radiation towards the observer.
-        The dotted curve shows the original dipole power pattern of Larmor radiation and the solid line shows the case of $\gamma = 5$
+        The dotted curve shows the original dipole power pattern of Larmor radiation and the solid line shows the case of $\gamma = 5$.
     }
 \end{figure}
 
@@ -462,7 +462,7 @@ Replacing the total magnitude field by its perpendicular component $B_{\perp} = 
 \end{equation}
 where $\alpha$ is the pitch angle of the electron.
 
-Thus the synchrotron pulse is spiky with the halfwidth $\frac{\Delta t\msb{p}}{2} < 10^{-10}\,s$ and the time period is $\frac{\gamma}{\gamma\msb{G}} > 10^2\,s$ (Figure~\ref{fig:nrao_radio5n5}).
+Thus the synchrotron pulse is spiky with the halfwidth $\frac{\Delta t\msb{p}}{2} < 10^{-10}\,s$ and the time period is $\frac{\gamma}{\nu\msb{G} \brp{=\omega\msb{G} / 2\pi}} > 10^2\,s$ if $\gamma \sim 10^4$ and $B \sim 10\,\mr{\mu G}$ (Figure~\ref{fig:nrao_radio5n5}).
 
 %Figure5.5
 \begin{figure}[htbp]
@@ -507,22 +507,22 @@ The spectrum shape of a single electron is shown in Figure~\ref{fig:nrao_radio5n
     }
 \end{figure}
 
-Indeed, the property by a single electron smears out when we consider an ensemble of electrons due to a wide variety of energies and pitch angles.
+Indeed, the property by a single electron smears out when we consider an ensemble of electrons due to a wide variety of their energies and pitch angles.
 
 
 \subsection{Synchrotron Spectra of Optically Thin Radio Sources}\label{subsec:synchrotronspectra_opticallythin}
 Here I consider the situation where a synchrotron source is optically thin ($\tau \ll 1$).
-In this case, the spectrum of synchrotron radiation is a superposition of the spectra from individual distribution, and its flux density cannot rise faster than $\nu^{1/3}$ at any frequency $\nu$.
+In this case, the spectrum of synchrotron radiation is a superposition of the spectra from individual distribution, and its flux density cannot rise faster than $\nu^{1/3}$ at any frequency $\nu$ (Figure~\ref{fig:nrao_radio5n6}).
 We usually obtain the spectral index $\alpha\sim-0.75$ ($+$ sign convection) from the observation for most astrophysical sources of synchrotron radiation.
-The energy distribution of high energy electrons is roughly a power-law from the theory of Fermi acceleration
+The energy distribution of high energy electrons is roughly a power-law from the theory of Fermi acceleration:
 
 %Equation(5.70)
 \begin{equation}\label{eq:essential_radio5n70}
     n(E) \rd E \propto E^{-\delta} \rd E
 \end{equation}
-where $m\brp{E}\rd E$ is the number of electrons whose energy is between $E$ and $E+\rd E$.
+where $n\brp{E}\rd E$ is the number of electrons whose energy is between $E$ and $E+\rd E$.
 
-Here, I assume each electron emits the averaged power $\bra{P}$ (Equation~\ref{eq:essential_radio5n38}) with any energy $E$
+Here, I assume each electron emits the averaged power $\bra{P}$ (Equation~\ref{eq:essential_radio5n38}) with any energy $E$:
 
 %Equation(5.71)
 \begin{equation}\label{eq:essential_radio5n71}
@@ -570,13 +570,13 @@ In our galaxy, we observe $\alpha\sim-0.75$ around $1\GHz$ and then $\delta \sim
 
 \subsection{Synchrotron Self-Absorption}\label{synchrotronselfabsorption}
 
-The brightness temperature of synchrotron sources cannot exceed an absolute value at low frequencies, although most radio sources have the emission coefficient $j_{\nu} \propto \nu^{\alpha}$ (mostly in the case of optically thin: $\alpha\sim-0.75$).
+The brightness temperature of synchrotron sources cannot exceed an absolute value at low frequencies, although most radio sources have the emission coefficient $j_{\nu} \propto \nu^{\alpha}$ (mostly in the case of optically thin: $\alpha\sim-0.75$ in $+$ sign convection).
 If electrons in LTE and they have the Maxwellian energy distribution, they are thermal sources and their brightness temperatures equal to the electron's kinetic energy.
 
-Here, I describe in the case where electrons are optically thick $\brp{\tau \ll 1}$.
-In this case, synchrotron self-absorption happens and spectral index changes into $\alpha = \frac{5}{2}$.
+Here, I describe in the case where electrons are optically thick $\brp{\tau \gg 1}$.
+In this case, synchrotron self-absorption happens and the spectral index changes into $\alpha = \frac{5}{2}$.
 
-Firstly, I assume the critical frequency where most of the electrons with energy $E = \gamma m\msb{e} c^2$ emit the synchrotron radiation
+Firstly, I assume the critical frequency where most of the electrons with energy $E = \gamma m\msb{e} c^2$ emit the synchrotron radiation:
 
 %Equation(5.80)
 \begin{equation}\label{eq:essential_radio5n80}
