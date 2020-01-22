@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  22 JAN 2020 10:29
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  22 JAN 2020 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1043,7 +1043,7 @@ File: Chapter_2/Figures/NRAO_radio4n3.png Graphic file (type bmp)
 File: Chapter_2/Figures/NRAO_radio4n5.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio4n5.png>
 
-Overfull \hbox (7.57193pt too wide) in paragraph at lines 133--135
+Overfull \hbox (7.57193pt too wide) in paragraph at lines 134--136
 \OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 f []$ \OT1/cmr/m/n/12 is the nor-mal-ized speed dis-tri-bu-tion of elec-trons (In LTE, $\OML/cmm/m/it/12 f []$ \OT1/cmr/m/n/12 is the Maxwellian
  []
 
@@ -1058,21 +1058,25 @@ File: Chapter_2/Figures/NRAO_radio5n3.png Graphic file (type bmp)
  [21]
 File: Chapter_2/Figures/NRAO_radio5n4.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n4.png>
- [22]
 File: Chapter_2/Figures/NRAO_radio5n5.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n5.png>
+ [22]
 File: Chapter_2/Figures/NRAO_radio5n6.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n6.png>
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 527.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 532.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 527.
- [23] [24] [25] [26]
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 532.
+ [23] [24] [25]
+Overfull \hbox (7.27539pt too wide) in paragraph at lines 640--642
+\OT1/cmr/m/n/12 Therefore, the self-absorbed syn-chrotron source has a spec-tral in-dex $\OML/cmm/m/it/12 ^^K \OMS/cmsy/m/n/12 ^^X \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 2$ $[]$,
+ []
+
 File: Chapter_2/Figures/NRAO_radio5n7.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n7.png>
 File: Chapter_2/Figures/NRAO_radio5n8.png Graphic file (type bmp)
 <Chapter_2/Figures/NRAO_radio5n8.png>
-) [27] [28]
+) [26] [27] [28]
 \openout2 = `Chapter_3/Data.aux'.
 
  (./Chapter_3/Data.tex
@@ -1279,12 +1283,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
  ) 
 Here is how much of TeX's memory you used:
- 19917 strings out of 493223
- 351322 string characters out of 6144414
- 468983 words of memory out of 5000000
- 23617 multiletter control sequences out of 15000+600000
+ 19918 strings out of 493223
+ 351346 string characters out of 6144414
+ 469035 words of memory out of 5000000
+ 23618 multiletter control sequences out of 15000+600000
  551816 words of font info for 103 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 36i,14n,50p,438b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,48p,438b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (92 pages, 315392 bytes).
+Output written on main.dvi (92 pages, 315868 bytes).

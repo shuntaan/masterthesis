@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {2.1}Free-free Radiation}{9}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Synchrotron Radiation}{18}{section.2.2}% 
 \contentsline {subsection}{\numberline {2.2.1}Synchrotron spectra of optically thin radio sources}{23}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Synchrotron self-absorption}{26}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}Synchrotron self-absorption}{25}{subsection.2.2.2}% 
 \contentsline {chapter}{\numberline {3}Data}{29}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Herschel Reference Survey (HRS) Catalog}{29}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}The GaLactic Extragalactic All-sky MWA (GLEAM) Survey Catalog}{32}{section.3.2}% 

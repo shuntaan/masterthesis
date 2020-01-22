@@ -14,7 +14,7 @@ In this Section, we introduce the method to calculate the $\qn$ parameter, which
 The definition of this parameter here is given on the following equation \citep[e.g.,][]{Helou1985, Bell2003, CalistroRivera2017a}:
 
 \begin{equation}\label{eq:q_def}
-    \qn \equiv \log\brp{\frac{L\msb{8-1000\,\mu m}\ /\ 3.75 \times 10^{12}}{{\rm erg\,s^{-1}\,Hz^{-1}}}} - \log\brp{\frac{L_{\mr{Radio},\,\nu}}{{\rm erg\,s^{-1}\,Hz^{-1}}}}
+    \qn \equiv \log\brp{\frac{L\msb{8-1000\,\mu m}}{3.75 \times 10^{12}\,\brb{{\rm erg\,s^{-1}\,Hz^{-1}}}}} - \log\brp{\frac{L_{\mr{Radio},\,\nu}}{\brb{{\rm erg\,s^{-1}\,Hz^{-1}}}}}
 \end{equation}
 where $L\msb{8-1000\,\mu m}$ is the total rest-frame infrared luminosity among $8 \mbox{--} 1000\,\mr{\mu m}$ and $3.75\times10^{12}\,\mr{Hz}$ is equivalent to the frequency of $80\,\mr{\mu m}$ for correcting the dimension.
 
@@ -90,8 +90,8 @@ In this Section, we describe how to derive SFR from low-frequency radio emission
 Here, we estimate the radio SFR, combining Equation~\ref{eq:q_def} with the following equations:
 
 \begin{align}
-    \mr{SFR}\msb{IR} &= 3.88 \times 10^{-44}\brp{\frac{L\msb{8-1000\,\mu m}}{\mr{erg}\,s^{-1}}}\label{eq:sfrir},\\
-    q_{\nu\,\mr{MHz}} &= \q{1500\MHz} + \log{\brp{\frac{\nu\,\mr{MHz}}{1500\,\mr{MHz}}}}^{\gamma}\label{eq:q_nuto1500}.
+    \mr{SFR}\msb{IR} &= 3.88 \times 10^{-44}\brp{\frac{L\msb{8-1000\,\mu m}}{\brb{\mr{erg\,s^{-1}}}}}\label{eq:sfrir},\\
+    q_{\nu\,\mr{MHz}} &= \q{1500\MHz} + \log{\brp{\frac{\nu\,\brb{\mr{MHz}}}{1500\,\brb{\mr{MHz}}}}}^{\gamma}\label{eq:q_nuto1500}.
 \end{align}
 
 Equation~\ref{eq:sfrir} calculates SFR from the total IR emission in \citet{Murphy2011}, and Equation~\ref{eq:q_nuto1500} shows the difference of the $\qn$ between a certain wavelength $\nu$ and $1500\MHz$.
@@ -99,7 +99,7 @@ Equation~\ref{eq:sfrir} calculates SFR from the total IR emission in \citet{Murp
 Substituting equation~\ref{eq:q_def} and~\ref{eq:q_nuto1500} into equation~\ref{eq:sfrir} yields the following equation to estimate SFR from the radio emission at $\nu\MHz$:
 
 \begin{equation}\label{eq:sfrfromradio}
-    \mr{SFR}_{\mr{Radio},\,\nu} = \brp{1.46\times10^{-31}} 10^{q\msb{1500\MHz}} {\brp{\frac{\nu\,\MHz}{1500\MHz}}}^{-\gamma} L_{\mr{Radio},\,\nu}.
+    \mr{SFR}_{\mr{Radio},\,\nu} = \brp{1.46\times10^{-31}} 10^{q\msb{1500\MHz}} {\brp{\frac{\nu\,\brb{\mr{MHz}}}{1500\,\brb{\mr{MHz}}}}}^{-\gamma} L_{\mr{Radio},\,\nu}.
 \end{equation}
 
 In Section~\ref{sec:sfrfromlowradio}, we show the results of calculating SFR from the low-frequency radio using this equation and comparing it with the SFR from other indicators.
