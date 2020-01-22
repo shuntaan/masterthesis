@@ -322,6 +322,8 @@ INPUT Chapter_6/Figures/CalistroRivera2017_Figure7.png
 INPUT extractbb -B cropbox -O Chapter_6/Figures/CalistroRivera2017_Figure7.png
 INPUT Chapter_6/Figures/Chyzy2018_Figure4.png
 INPUT extractbb -B cropbox -O Chapter_6/Figures/Chyzy2018_Figure4.png
+INPUT Chapter_6/Figures/Discuss_bpt.pdf
+INPUT extractbb -B cropbox -O Chapter_6/Figures/Discuss_bpt.pdf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT Chapter_6/Figures/Discuss_comparehist.pdf

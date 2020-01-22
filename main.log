@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  22 JAN 2020 02:13
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.10.30)  22 JAN 2020 10:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1195,23 +1195,26 @@ File: Chapter_6/Figures/Chyzy2018_Figure4.png Graphic file (type bmp)
 
 
 ] [48] [49] [50]
+File: Chapter_6/Figures/Discuss_bpt.pdf Graphic file (type pdf)
+<Chapter_6/Figures/Discuss_bpt.pdf>
+ [51]
 File: Chapter_6/Figures/Discuss_comparehist.pdf Graphic file (type pdf)
 <Chapter_6/Figures/Discuss_comparehist.pdf>
 File: Chapter_6/Figures/Discuss_compareq.pdf Graphic file (type pdf)
 <Chapter_6/Figures/Discuss_compareq.pdf>
- [51] [52] [53]) [54]
+ [52] [53] [54]) [55]
 \openout2 = `Chapter_7/Conclusion.aux'.
 
- (./Chapter_7/Conclusion.tex
+ (./Chapter_7/Conclusion.tex [56
+
+
+
+]
 Chapter 7.
-[55
+[57]) [58] (./main.bbl [59
 
 
-
-]) [56] (./main.bbl [57
-
-
-] [58] [59]) [60]
+] [60] [61]) [62]
 Appendix A.
 
 Overfull \hbox (3.54976pt too wide) in paragraph at lines 202--202
@@ -1230,18 +1233,18 @@ File: Figures/AppendixB_galaxyimages_suspicious.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyimages_suspicious.pdf>
 File: Figures/AppendixB_galaxyImages_noMatch.pdf Graphic file (type pdf)
 <Figures/AppendixB_galaxyImages_noMatch.pdf>
-[61
+[63
 
-] [62] [63] [64] [65] [66] [67] [68
+] [64] [65] [66] [67] [68] [69] [70
 
 ]
 Appendix B.
-[69]
+[71]
 Overfull \hbox (0.62367pt too wide) in paragraph at lines 307--308
  [][] 
  []
 
-[70]
+[72]
 Appendix C.
 File: Figures/AppendixC_qfitting1.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting1.pdf>
@@ -1258,17 +1261,17 @@ File: Figures/AppendixC_qfitting6.pdf Graphic file (type pdf)
 File: Figures/AppendixC_qfitting7.pdf Graphic file (type pdf)
 <Figures/AppendixC_qfitting7.pdf>
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
-[71
+[73
 
 
 
-] [72] [73] [74] [75] [76] [77] [78]
+] [74] [75] [76] [77] [78] [79] [80]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
  (./main.aux (./Acknowledgments/acknowledgements.aux) (./Chapter_1/Intro.aux) (./Chapter_2/Theory.aux) (./Chapter_3/Data.aux) (./Chapter_4/Method.aux) (./Chapter_5/Result.aux) (./Chapter_6/Discussion.aux) (./Chapter_7/Conclusion.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 377.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A139DDC6FF0D7EBB9BBFF711523A50A8;2728.
+(rerunfilecheck)             Checksum: 3E32ADD2A9705D5FC4FD8E6AB2AD99EB;2728.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1276,12 +1279,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
  ) 
 Here is how much of TeX's memory you used:
- 19913 strings out of 493223
- 351211 string characters out of 6144414
- 468916 words of memory out of 5000000
- 23614 multiletter control sequences out of 15000+600000
+ 19917 strings out of 493223
+ 351322 string characters out of 6144414
+ 468983 words of memory out of 5000000
+ 23617 multiletter control sequences out of 15000+600000
  551816 words of font info for 103 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 36i,14n,48p,438b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,50p,438b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (90 pages, 308000 bytes).
+Output written on main.dvi (92 pages, 315384 bytes).

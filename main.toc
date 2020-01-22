@@ -27,13 +27,13 @@
 \contentsline {section}{\numberline {6.1}Comparing the Calibration with Previous Results}{47}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Uncertainty of Radio SFR}{50}{section.6.2}% 
 \contentsline {section}{\numberline {6.3}Galaxy Properties for the Radio SFR}{50}{section.6.3}% 
-\contentsline {section}{\numberline {6.4}Non-detected Galaxies by the GLEAM Survey}{52}{section.6.4}% 
-\contentsline {chapter}{\numberline {7}Summary and Future Prospects}{55}{chapter.7}% 
-\contentsline {chapter}{Bibliography}{57}{chapter*.34}% 
-\contentsline {chapter}{Appendix \numberline {A}Galaxy images}{61}{Appendix.1.A}% 
-\contentsline {section}{\numberline {A.1}Matched Samples (18 Samples Used for the Analysis)}{61}{section.1.A.1}% 
-\contentsline {section}{\numberline {A.2}Matched Samples (Not Used for the Analysis)}{61}{section.1.A.2}% 
-\contentsline {section}{\numberline {A.3}Suspicious Matching Samples}{61}{section.1.A.3}% 
-\contentsline {section}{\numberline {A.4}Not Matching Samples}{61}{section.1.A.4}% 
-\contentsline {chapter}{Appendix \numberline {B}Galaxy Samples for the Analysis}{69}{Appendix.1.B}% 
-\contentsline {chapter}{Appendix \numberline {C}Fitting Results}{71}{Appendix.1.C}% 
+\contentsline {section}{\numberline {6.4}Non-detected Galaxies by the GLEAM Survey}{53}{section.6.4}% 
+\contentsline {chapter}{\numberline {7}Summary and Future Prospects}{57}{chapter.7}% 
+\contentsline {chapter}{Bibliography}{59}{chapter*.35}% 
+\contentsline {chapter}{Appendix \numberline {A}Galaxy images}{63}{Appendix.1.A}% 
+\contentsline {section}{\numberline {A.1}Matched Samples (18 Samples Used for the Analysis)}{63}{section.1.A.1}% 
+\contentsline {section}{\numberline {A.2}Matched Samples (Not Used for the Analysis)}{63}{section.1.A.2}% 
+\contentsline {section}{\numberline {A.3}Suspicious Matching Samples}{63}{section.1.A.3}% 
+\contentsline {section}{\numberline {A.4}Not Matching Samples}{63}{section.1.A.4}% 
+\contentsline {chapter}{Appendix \numberline {B}Galaxy Samples for the Analysis}{71}{Appendix.1.B}% 
+\contentsline {chapter}{Appendix \numberline {C}Fitting Results}{73}{Appendix.1.C}% 
