@@ -1,0 +1,91 @@
+\documentclass[12pt,a4paper,twoside,openright,titlepage,draft]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{layout}
+\usepackage{lscape}
+\usepackage{xfrac}
+\usepackage{tabularx}
+\usepackage{rotating}
+\usepackage{layout}
+\usepackage{longtable}
+%\usepackage{todonotes}
+\usepackage{booktabs}   % Showing the table from pandas
+\usepackage{lscape}     % Enable rotating
+\usepackage[colorlinks=true,
+							citecolor=black,
+							linkcolor=black,
+							urlcolor=red,
+							linktocpage=true,
+							hyperfootnotes=false,
+                            dvipdfmx]{hyperref}
+
+\usepackage[square,sort,numbers,authoryear]{natbib}
+%\usepackage{chapterbib}
+\setlength\bibhang{.3in}
+
+
+\usepackage{lineno}
+\usepackage{setspace}
+\onehalfspacing%
+\usepackage{microtype}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[labelfont=bf]{caption}
+% For electronic submission use:
+\usepackage[inner=2.5truecm,outer=2.5truecm,top=1.3truecm=bottom=0truecm]{geometry}
+% For printing use:
+%\usepackage[inner=4cm,outer=2cm,top=2cm=bottom=2cm]{geometry}
+\usepackage{tocbibind}
+
+
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\thechapter. #1 }}{}}
+
+\fancyhf{}
+\fancyhead[RO]{\bfseries\rightmark}
+\fancyhead[LE]{\bfseries\leftmark}
+\fancyfoot[C]{\thepage}
+\pagestyle{empty}
+
+\newcommand\frontmatter{\pagenumbering{roman}}
+\newcommand\mainmatter{\cleardoublepage\pagenumbering{arabic}}
+\bibpunct{(}{)}{;}{a}{}{,}
+
+\begin{document}
+\begin{center}
+{\Large \textbf{Estimation of galaxy star formation rate from \\ low radio frequency observations}}\\
+\vspace{0.2cm}
+{\large \textbf{Shuntaro YOSHIDA} (ID:\@261801444)}\\
+\end{center}
+
+Star formation rate (SFR) is one of the most fundamental quantities of a galaxy.
+Recombination lines, far-ultraviolet, and infrared (IR) luminosities, for example, are commonly used observational indicators of the SFR (e.g., Kennicutt \& Evans 2012).
+In addition, some references (e.g., Condon 1992) have suggested the use of low-frequency emission (at GHz or lower) as a possibly better-performing SFR indicator compared to the traditional indicators, since it is insensitive to dust extinction.
+Such an indicator is desirable for deepening the understanding of galaxy evolution because the effect of dust might be the biggest source of uncertainty for the SFR estimation at high-$z$.
+%Since the low-frequency emission is insensitive to the dust extinction and will be observed even from distant galaxies by the telescope with higher sensitivity and angular resolution, we anticipate its usefulness.
+% An indicator that is unaffected by dust will be reliable for deepening the understanding of galaxy evolution.
+However, we still do not understand the galaxy spectral energy distribution at low frequencies due to the lack of observational data up to now.
+Low-frequency emission is often approximated as a power-law, and recent spatially resolved radio observations show that the spectral index shows a large variety depending on the location in a galaxy (Kapi\'{n}ska et al., 2017; For et al., 2018).
+This suggests that the radio emission from star-forming galaxies may not have a simple frequency dependence.
+Therefore, we must investigate how the relation between radio emission and star-formation (SF) activity varies across the low frequencies.
+
+In this study, we investigate the frequency dependence of the global low-frequency radio and IR luminosity relation, as measures of SF activity in nearby star-forming galaxies.
+We select galaxies from the Herschel Reference Survey (HRS) catalog (Boselli et al., 2010), which is assumed to be representative of local galaxies.
+We identify 18 star-forming galaxies with high-quality radio data from the GaLactic Extragalactic All-sky MWA (GLEAM) survey catalog (Hurley-Walker et al., 2017).
+The radio sources compiled by the catalog have 20 narrow bands at $72\mbox{--}231\,\mathrm{MHz}$, which allows for a more accurate examination of the frequency dependence.
+
+Firstly, we find that a single power-law fitting is valid for modeling the relation of radio with IR luminosities from MWA frequencies to $1.5\,\mathrm{GHz}$.
+The result suggests that the variation of the spectral index on the local spatial scales do not affect the global relation significantly.
+Secondly, we find that SFR calculated from the low-frequency radio emission is consistent with SFRs obtained from IR luminosities.
+We calculated the SFR in two ways: 1) use the fitting result of each galaxy as the calibration for the indicator, and 2) use the averaged quantities for calibration from all sampled galaxies.
+%Another one is calculating SFR by applying the same calibration equation using the averaged parameters to all sample galaxies.
+While the former method gives us more consistent results with a scatter of $\sim20\%$, the latter results in two times more scatter than the former.
+Larger scatter in the latter method would be attributed to the intrinsic uncertainty of the calibration.
+In conclusion, we propose to use the individual spectral energy distribution for calculating the radio SFR with less uncertainty.
+This study provides a powerful tool for future radio surveys, like the Square Kilometre Array (SKA).
+
+\end{document}
